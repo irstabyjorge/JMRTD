@@ -1,0 +1,4285 @@
+{
+  "commit": "7d97c21f5d483ef44f165e96fecf8ddffeff3980",
+  "commits": [
+    {
+      "author_email_sha256": "2ec9846aa81c35983fbe8f05ca33e064fdac37cd1a375bb7a60646bcb0575826",
+      "author_name_declared": "JORGE FRANCISCO PAREDES",
+      "authored_at_declared": "2026-11-13T10:58:02-08:00",
+      "sha": "7d97c21f5d483ef44f165e96fecf8ddffeff3980",
+      "subject": "Fix Python escape sequences in IP SHIELD workflow"
+    },
+    {
+      "author_email_sha256": "2ec9846aa81c35983fbe8f05ca33e064fdac37cd1a375bb7a60646bcb0575826",
+      "author_name_declared": "JORGE FRANCISCO PAREDES",
+      "authored_at_declared": "2026-11-13T10:54:59-08:00",
+      "sha": "f0d3e319dac317f483c0a6e36c8c3650e700d6dd",
+      "subject": "Document AEGIS IP SHIELD provenance workflow"
+    },
+    {
+      "author_email_sha256": "2ec9846aa81c35983fbe8f05ca33e064fdac37cd1a375bb7a60646bcb0575826",
+      "author_name_declared": "JORGE FRANCISCO PAREDES",
+      "authored_at_declared": "2026-11-13T10:54:32-08:00",
+      "sha": "8b6f5e7852de54c93563a4c781060b3a51a3da92",
+      "subject": "Add AEGIS IP SHIELD provenance workflow"
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2015-04-09T08:10:27Z",
+      "sha": "59442057761513ea808dfd9fd8077c7e8995be55",
+      "subject": "- Version 0.5.2."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2015-03-26T10:52:40Z",
+      "sha": "4496674eb3b40e9f8cd0641084a3974e7067115d",
+      "subject": "- Small changes."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2015-03-18T14:21:57Z",
+      "sha": "9ca44019684203758658491d458495285971b993",
+      "subject": "- Bug #24."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2015-03-05T19:38:29Z",
+      "sha": "611f20afe336d1bcf843582737eb1014142398ac",
+      "subject": "- Removed certstore providers. - Version 0.5.1."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2015-03-04T16:00:18Z",
+      "sha": "a7cb7235d74187da3b026b9372e033c52732dd53",
+      "subject": "- Updating build.xml. - Deprecating javax.naming classes. - Javadoc fixes. - Made logging consistent, removed printStackTraces."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2015-03-04T15:09:22Z",
+      "sha": "b551230f8c9cbe38388916b3ff9df550ee92a454",
+      "subject": "- Small changes."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2015-02-11T08:02:09Z",
+      "sha": "b9065d2e6ed7ff5698e4a5d8c4239ef4b6df4c0c",
+      "subject": "- Small changes."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2015-02-01T10:33:07Z",
+      "sha": "1439c45a8be824e9bac5f496c8cc92f1b9e4fb12",
+      "subject": ""
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2015-01-31T14:45:04Z",
+      "sha": "f6362a13a45b149b7ce972b9ebb71b4170de4d0c",
+      "subject": "- Simplification and shift in focus of top level API."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2015-01-12T20:54:05Z",
+      "sha": "f25e9bc6f607ef77b2ec0625bc539cb34925e1c7",
+      "subject": "- Small changes."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2015-01-04T10:52:27Z",
+      "sha": "793f4990f676c30e5d9e261f7bd746e652c4d561",
+      "subject": "- Small changes."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2014-12-16T08:20:25Z",
+      "sha": "3f8ff0c61f3213e1b9da72d43f0817ceb3bcddd2",
+      "subject": "- Restructuring to facilitate AES wrapper because of PACE."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2014-12-04T21:10:16Z",
+      "sha": "2691eac7a6c261f57c94bae596a30447daaa569e",
+      "subject": "- Small changes."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2014-11-29T11:50:22Z",
+      "sha": "8e20f8d41f7febc1efeaf8babc65cdfb9ad3c8aa",
+      "subject": "- passporthostapi -> jmrtd also rename in .project."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2014-11-29T11:43:44Z",
+      "sha": "8a73ec8870a8c5d547551c4556407e563956f110",
+      "subject": "- Renamed passporthostapi to jmrtd."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2014-11-29T11:42:15Z",
+      "sha": "f0e9417328dce26602dd95a4a94189fdb23f3a32",
+      "subject": "- 0.5.1-SNAPSHOT started."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2014-11-17T09:49:21Z",
+      "sha": "92aec6df9475afb77ec49f030ae2d27b98142591",
+      "subject": "- Version 0.5.0."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2014-11-15T20:42:56Z",
+      "sha": "4de2467c005daf7572de2503e41994858a104b96",
+      "subject": "- Pompompom."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2014-11-14T12:46:26Z",
+      "sha": "e40cb838dc9aa71decb242fe76c2891761afbca7",
+      "subject": "- Refactoring EAC results. - pom.xml - Changes in SCUBA."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2014-10-27T21:43:45Z",
+      "sha": "3f4cb67a53fedffb671dbab40b213489b536793e",
+      "subject": "- MRZInfo default to '0' instead of '<' for composite check digit."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2014-10-24T20:06:38Z",
+      "sha": "7ac76fdc7eeb1d0928829d64f57f0a6993d8d2cf",
+      "subject": "- See Ticket 23 on SF. Was overwriting feature points array with null array."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2014-10-12T08:20:39Z",
+      "sha": "6dae7e4f59e861ef72e5a5b6c593439c43f79e41",
+      "subject": "- Small changes."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2014-10-12T08:19:39Z",
+      "sha": "6aa31f009296f81fa6a5ae2b3d76e891043fd5ce",
+      "subject": "- Renaming SCUBA packages."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2014-10-12T08:17:29Z",
+      "sha": "542a53609191590f4414321efbf3517c31e33c27",
+      "subject": "- Small changes."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2014-10-02T12:54:37Z",
+      "sha": "a545ecc387f4f68d110defe4b7c4d25a861f733e",
+      "subject": "- Optional empty templates in DG3, DG4 without random. - Small changes. - Switching off PACE for now."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2014-09-13T17:42:26Z",
+      "sha": "15b17db2b1caabefad02e31a1bf66a3865829f84",
+      "subject": "- Properties"
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2014-09-13T17:24:22Z",
+      "sha": "89592750e541e6601a61ce92aa6f5cd2e488cb8a",
+      "subject": ""
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2014-09-13T14:50:18Z",
+      "sha": "20099e39a7d9c60e32cd7ed0a88e0948380e3331",
+      "subject": "- FaceImageInfo constructor was not setting all params. - Struggling with PACE with 256-bit AES authentication tokens."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2014-09-11T13:06:18Z",
+      "sha": "e01bf0b4ae851eb743a0853a5f5d2e441b1ec259",
+      "subject": "- Small changes."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2014-09-10T13:57:27Z",
+      "sha": "3cd52945a4d937eb45cc2b4e2f9e9769bbeb4f7f",
+      "subject": "- Restructuring PACE ECDH GM."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2014-09-05T15:13:10Z",
+      "sha": "28d14b4b16380e0ae131c81fab26c497846c4cb2",
+      "subject": ""
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2014-09-05T14:36:25Z",
+      "sha": "121b6ee5b03d3fe4d7ed2fc245986d16180788b2",
+      "subject": "- Moving abandoned projects out of the way."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2014-05-05T22:55:32Z",
+      "sha": "d3d2c8665c6d6b783adf187231d3493e57430837",
+      "subject": "- SAC / PACE feature detection."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2014-04-18T14:40:59Z",
+      "sha": "dde1570f2fd141d9620284e798bb29ba9216b20b",
+      "subject": "- Small changes."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2014-04-15T18:10:26Z",
+      "sha": "73581f2900d37808cd2642ed6070818a99c5bd96",
+      "subject": ""
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2014-04-15T18:05:57Z",
+      "sha": "a3cbe66831e61852628dc23834e03483b207aa1d",
+      "subject": "- Support AA with ECDSA public key."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2014-03-24T20:48:41Z",
+      "sha": "fa0e985d474e831b1a426dfed38b4d0374d20263",
+      "subject": ""
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2014-03-24T12:55:26Z",
+      "sha": "b13949c623e6e1abcbf3e98a8d5269df05ffdfc1",
+      "subject": "- Small changes."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2014-03-22T22:28:30Z",
+      "sha": "d86ef5f88c4366e2003609097432dde728bd2852",
+      "subject": "- Small changes."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2014-03-22T16:08:02Z",
+      "sha": "4607611b65ba2d145f815226d481af8a219048cd",
+      "subject": "- AA security info in DG14."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2014-03-22T16:07:15Z",
+      "sha": "43d73eef9b1db5b2d481fcf89f67eeafdcec5e47",
+      "subject": "- AA security info in DG14."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2014-03-21T08:49:00Z",
+      "sha": "29345219a3745009f198bab9df5b5a36f658409a",
+      "subject": "- New German CSCA masterlist."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2014-03-21T07:41:28Z",
+      "sha": "ecd40d7aa895e9ed1dc6587aa7b179108409ad15",
+      "subject": "- DG15 interpretation with EC public key."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2014-03-18T13:35:08Z",
+      "sha": "e800f5f7deff7a7939e04b7e0cd8e844313f46e9",
+      "subject": "- Reorganized tests."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2014-03-17T20:23:35Z",
+      "sha": "6e37bf8d71806cd94fd7e913474d2b2c1a556ab4",
+      "subject": "- AA, DS, CS, HT verifications fine grained available in JMRTD. - DSCS and HT verification in async tasks in MRTDManager."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2014-03-13T08:23:22Z",
+      "sha": "026cf74fa0a6ddcba6eb3c8fef681cb23eeadebe",
+      "subject": "- Small changes."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2014-02-04T09:34:52Z",
+      "sha": "679880364ee3767cbd8cc4f7db9f829b4a310fb7",
+      "subject": "- Small changes."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2014-01-30T23:26:55Z",
+      "sha": "4f07401d252f583f0f48b30eedd6c66203726da2",
+      "subject": "- DG14 encoding testing. - Started to implement some TR3105 LDS tests (just for SecurityInfos in DG14 for now). - DataGroup getLength() was not reporting correct length on constructed objects."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2014-01-26T19:05:55Z",
+      "sha": "59d514fcd1fd2143db6a4e134e76f2a2755a2506",
+      "subject": "- Small changes, protecting SODFile in passport from service."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2014-01-15T13:59:45Z",
+      "sha": "dbd700da20bdcc414449ab522d18b0c103056bcb",
+      "subject": "- Small changes."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2014-01-05T01:09:39Z",
+      "sha": "f27b2c55bcd4c7c4d38fb0428d9730c281bbce5d",
+      "subject": "- Inputstreambuffer hacking..."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2013-12-30T10:54:18Z",
+      "sha": "0fd425485e66f57054e35d139ecc0601fcf189d6",
+      "subject": "- Small changes."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2013-12-09T07:53:42Z",
+      "sha": "66230da205dd8f1739eafec180b3c06a98ffbc97",
+      "subject": "- Allow codestreams without jp2 header in JJ2000 decoder (as previously). - More verificationStatus notification experiments."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2013-12-02T22:05:38Z",
+      "sha": "ea36d467b64246dc939906695cee70ce0f35a4fc",
+      "subject": "- VerificationStatusChange notification."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2013-10-23T19:26:39Z",
+      "sha": "b5469c970f3064c7030f822b251d6e55e52b695f",
+      "subject": "- Fixed a bug in CardFileInputStream when underlying input stream throws exception."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2013-09-10T20:50:23Z",
+      "sha": "fa277b97cfc9349244c46040c05200ddf8ecd6ec",
+      "subject": "- Pretty printing LDS version and Unicode version in EF.COM."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2013-09-09T19:17:58Z",
+      "sha": "4b2b5278627ec05cc78f151e9d190718b10e4514",
+      "subject": "- Small changes. - UnicodeCountry as (preferred) alternative for ISOCountry."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2013-08-16T06:56:13Z",
+      "sha": "2e0337d03acadab36fa9d35a00da2f352eb52893",
+      "subject": "- Initial support for SAC/PACE. - Refrain from throwing exception when record lengths in FaceImageInfo seem inconsistent with length in FaceInfo (and similar for Finger, Iris). - Small changes."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2013-08-06T14:37:09Z",
+      "sha": "a53161d8ae65f6d58459bde8f2284ad879fc3619",
+      "subject": "- Small changes."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2013-08-05T09:10:56Z",
+      "sha": "ad25f5b2a447593577779dfd1c518932a2aed48b",
+      "subject": "- Small changes."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2013-08-05T09:10:41Z",
+      "sha": "acfe8878063d07dfcea89f722b67cbbeeeb000cd",
+      "subject": "- Support bitrate in metadata and writeparams for JJ2000 ImageIO bridge. - Other ImageIO small changes."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2013-07-10T19:46:28Z",
+      "sha": "9539a968d320b782cd03b6c764f62d6517c76a4b",
+      "subject": "- CSCA based on BSI masterlist"
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2013-07-10T19:45:46Z",
+      "sha": "b7c7e78a48f2753b329dfed881a5c4e693e7b481",
+      "subject": "- Small changes."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2013-07-07T19:50:19Z",
+      "sha": "ef7e7daef048c368bbde41a51cda65aa7c28c1c8",
+      "subject": "- Small changes."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2013-07-02T12:30:53Z",
+      "sha": "84e2a407693d1d71fe46579752ea315c4a678319",
+      "subject": "- Make support for unknown color space more robust."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2013-07-01T08:37:49Z",
+      "sha": "47dba25875492a4d7c3d74a37b77c3d8eeaa7c6d",
+      "subject": "- Small changes."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2013-06-28T07:21:29Z",
+      "sha": "f8dfa4a0474b31a973ecb2ea7ff39840fcf6857a",
+      "subject": "- Small changes."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2013-06-14T14:11:22Z",
+      "sha": "20a8f5149f33fd84d3a07c61a19c91068c953281",
+      "subject": "- Version as used by NFC Passport Reader v1.0 (in Play)"
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2013-06-14T14:10:39Z",
+      "sha": "5ff4c0c8ae3128612baa892a56404741ab1b9f70",
+      "subject": "- Small changes."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2013-06-11T21:57:28Z",
+      "sha": "aae5ddc97a828be467cc64c8ae859ae95bec8126",
+      "subject": "- Nationality (i.e. Dutch instead of The Netherlands) in Country, ISOCountry, TestCountry, ICAOCountry. - Some minor fixes related to PKIX cert chain construction."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2013-06-11T09:09:12Z",
+      "sha": "ee3575cef418cbf1fb3173535c36e62d3d84b0f9",
+      "subject": "- Throw IOException in get file methods in LDS."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2013-06-08T20:46:40Z",
+      "sha": "74dbcee820897f34aa8f9fac17ed589e79ce9984",
+      "subject": "- More status info on hashes comparison in VerificationStatus."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2013-06-05T11:51:20Z",
+      "sha": "be412ccb5d1f407b67364e560f116574e3b27dcf",
+      "subject": "- More info in VerificationStatus. - Findbugs"
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2013-05-31T21:04:32Z",
+      "sha": "7fe82f8fd3b813cee89a16681ab96922e3c3d1c6",
+      "subject": "- Refactored FeatureStatus out of VerificationStatus."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2013-05-31T10:10:17Z",
+      "sha": "741875c75aa9265633d62784d58ca9d902e332f5",
+      "subject": "- Verdict strings."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2013-05-27T21:46:41Z",
+      "sha": "5de2040164921c6d75fb8276ad0d82ff81fc09c5",
+      "subject": "- Signed/unsigned grayscale JPEG2000 issue."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2013-05-22T21:23:07Z",
+      "sha": "e94561a51f615713cdd23826c3cf6d0178e876b6",
+      "subject": "- JJ2000 byte[] int[] issue (bug 18, thanks for reporting!) - BAC patch for pre-calculated BAC keys (bug 19, thanks for reporting!) - Verification status for hashes set to Succeeded when all hashes check out."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2013-05-16T23:14:02Z",
+      "sha": "919e6aa826247bcdcad96eb041711465bf4c6677",
+      "subject": "- Encoding issues for pre-read files (specifically DG14) in LDS, caused DG14 hash mismatch. - Small changes."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2013-05-14T13:42:36Z",
+      "sha": "19d198192f3b6d1fc5034c46ef16e90d0a3617f4",
+      "subject": "- Refined verification status to also include hash validation details (no longer in DS, but has own HT indicator). - Removed BACStore from hostapi (replaced with List<BACKeySpec>). - Small changes."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2013-04-29T08:05:29Z",
+      "sha": "a7700cfee05f95f8e7d3fd49d56158cc58cb64ce",
+      "subject": "- SCUBA license consistently to LGPL in own code (was GPL in some src file comments). - Small changes in other comments."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2013-04-28T22:29:48Z",
+      "sha": "9caf4bcaca1410f681863cfb6b0070dbdb302c7d",
+      "subject": "- Small changes."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2013-03-12T09:48:32Z",
+      "sha": "dd548c2a6f5d017ea89785f9c707b12409f23388",
+      "subject": "- More progessive experimentation with Android."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2013-03-11T14:03:38Z",
+      "sha": "48d9b86cf74046ade347623a66c7c509de0a8797",
+      "subject": "- Small changes in JJ2000Decoder."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2013-02-27T16:36:26Z",
+      "sha": "ae57d6de65a33b889da7bd39e02c3059b5aa8153",
+      "subject": "- More progressive stuff (we're progressing, slowly...)"
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2013-02-25T20:49:16Z",
+      "sha": "58c7058a0438b4c1cfb6b22d2b680e0d5d3d9c00",
+      "subject": "- More image reading stuff."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2013-02-25T07:44:26Z",
+      "sha": "0067a0b16b204e2cdae3ca905d206b5ba9a079cb",
+      "subject": "- Still working on progressive rendering of jpeg2K..."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2013-02-19T22:03:36Z",
+      "sha": "a9fe71388d477987c32c56e2d7ec7a475fe187bf",
+      "subject": "- Checking in some changes, mostly related to progressive loading of binary blobs."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2013-01-09T21:31:19Z",
+      "sha": "8dfca17d6c5f22eed0f171b5cd31804f01aa0499",
+      "subject": "- Debugging SplittableInputStream"
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2013-01-03T21:51:52Z",
+      "sha": "1dacd0106559a9e2e3b63117e3719910b951f53e",
+      "subject": "- Added encoding ISO-8859-1 to javac in ant script because of (c) Apple."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2013-01-02T21:13:52Z",
+      "sha": "a2e4cb4b4827ab00355a84af3b14dd3952662fa7",
+      "subject": "- Some more EAC debugging."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2012-12-20T21:53:38Z",
+      "sha": "d625e28d5b095cbf010dd10d5ce47be508923592",
+      "subject": ""
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2012-12-19T20:59:26Z",
+      "sha": "1e5ea5f6089191b4ea20d43fe9bd34b296d78143",
+      "subject": "- Cert experiments."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2012-11-23T21:45:34Z",
+      "sha": "2470f7635f025ee892d96cebd3518ec018d26679",
+      "subject": ""
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2012-11-18T21:47:58Z",
+      "sha": "379f8190eef75aff784674574898611c2eafb84c",
+      "subject": "- And tests for InputStreamBuffer."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2012-11-18T21:45:31Z",
+      "sha": "5fd91d30b1236091de829cc919c5256f893f74b6",
+      "subject": "- Moved InputStreamBuffer and FragmentBuffer to io package. - Preparing MRTDFileSystem and/or LDS to use these."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2012-11-14T08:20:46Z",
+      "sha": "6ee5b5e66a4412977d43178d785db37231ab4176",
+      "subject": "- Moved more LDS functionality from Passport.java to LDS.java - Some more EAC testing."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2012-11-09T21:55:31Z",
+      "sha": "8cc7e5ea73966ab638d6f8282a057502fad7a260",
+      "subject": "- Small changes."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2012-11-09T19:36:03Z",
+      "sha": "6456d14ef76c00c5e48dcb4939a2cda51a0bb282",
+      "subject": "- More EAC keyId debugging..."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2012-11-09T16:17:16Z",
+      "sha": "92ba55c78f20d2378d87e6e3144c6f6ae91e58b2",
+      "subject": "- Changed type of keyId to BigInteger (was int) in Chip Authentication related classes."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2012-11-09T13:33:30Z",
+      "sha": "c38d4896fb8e2f9d59323c9e9b940be35aeccebe",
+      "subject": "- DG11 and DG12 LDS 1.7 compatibility, with regard use of A0 for 5F0F resp 5F1A. - Small changes. - Unit tests update."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2012-11-09T08:24:54Z",
+      "sha": "a9d13a2364cf51115fbd99f209d8c70a506f39fe",
+      "subject": "- Leading zero bug in androidclient for dates with year < 10."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2012-11-07T16:19:21Z",
+      "sha": "9c01c85db668d21408841bc81fdd8aab26483335",
+      "subject": "- Cleanup of central threaded InputStream reader in host API (Passport class). Host API is Thread free now. - Introduced InputStreamBuffer class for creation of reusable InputStreams for LDS. Will hopefully make it easier to re-introduce progressive rendering of images. - Renamed progress related methods in JMRTD and SCUBA inputstream classes."
+    },
+    {
+      "author_email_sha256": "b0c238f86f5f867153982cf0925b9ea2033711602ac6150f0ac83c1d79fb6f49",
+      "author_name_declared": "martijno",
+      "authored_at_declared": "2012-11-06T11:54:45Z",
+      "sha": "9ab40e718c8cc469cc6274401294fa222dc2e161",
+      "subject": "- Introduced classical trunk, tags, branches structure."
+    }
+  ],
+  "file_count_recorded": 586,
+  "file_inventory_truncated_at_25000": false,
+  "files": [
+    {
+      "git_blob_oid": "496523ebf8a2f8179732701a82e626efb6977e8c",
+      "mode": "100644",
+      "path": ".github/workflows/aegis-ip-shield.yml",
+      "sha256": "6b128bd094d276f1cbe06adb086ac00a7489b6131663092ec8ffe077d54ac56b"
+    },
+    {
+      "git_blob_oid": "551d8588e4ccaca6141d3afe9029517ea3ab3887",
+      "mode": "100644",
+      "path": "README",
+      "sha256": "d0db2218d92e17814b47b6d0246b69b14aaf534d918cc639965d5baccd4ae1e7"
+    },
+    {
+      "git_blob_oid": "b2c8776911adbb142da0f5b48f49e7778dfda08e",
+      "mode": "100644",
+      "path": "abandoned/README",
+      "sha256": "1bade8d0b0fe2b8827f466b36eb7be130fa52f54994e776a6d3dfcbe8532aac2"
+    },
+    {
+      "git_blob_oid": "00db3e955e08c94a7a09512c9d236c006d955804",
+      "mode": "100644",
+      "path": "abandoned/androidclient/.classpath",
+      "sha256": "75e7477db179d5b6b8a6d7f03370c61de6ca57aa29792052b0c34c3a05eefed9"
+    },
+    {
+      "git_blob_oid": "dac6eedbfad607b3c6f01c3de73b441e4c5306f8",
+      "mode": "100644",
+      "path": "abandoned/androidclient/.project",
+      "sha256": "7bec071b4b50f7a4dd93e1b19860b98af05799b8817ee8f7ac241bb73d3564f4"
+    },
+    {
+      "git_blob_oid": "da5d06089e64b2509d1a5fe9370f3774ce3f5251",
+      "mode": "100644",
+      "path": "abandoned/androidclient/.settings/org.eclipse.jdt.core.prefs",
+      "sha256": "310098d3b1451963993847fa80e6eb415f13a63f75913d0cb8fe26213b500cef"
+    },
+    {
+      "git_blob_oid": "b0e8ddbd7a7ae38abb464f7840abc2a77beae932",
+      "mode": "100644",
+      "path": "abandoned/androidclient/AndroidManifest.xml",
+      "sha256": "f3db7a5a9189d102a0729e9866ac2077a7d7a88f11a42b8630595d5d7e4c63d7"
+    },
+    {
+      "git_blob_oid": "ed83f601abee37d02c8740895a1aaaea769f5960",
+      "mode": "100644",
+      "path": "abandoned/androidclient/README",
+      "sha256": "578680a85a3f87db1df3e8864fdee909789204182293feb9c838ff401401f76c"
+    },
+    {
+      "git_blob_oid": "c36bd7918fd6a8521e6aa8043c05ed184474a570",
+      "mode": "100644",
+      "path": "abandoned/androidclient/build_jar_deps.xml",
+      "sha256": "659ae46330be3b8b9a8171c57694c5706e8d5c788ec913f364523ace6ef41a85"
+    },
+    {
+      "git_blob_oid": "71a04268191e8079a2f5459f02b0d03117ef0ad4",
+      "mode": "100644",
+      "path": "abandoned/androidclient/local_build_jar_deps.xml",
+      "sha256": "57b3809f6ca1c9a5f5f35848fabc1082d63f284651731284139c4fb0db6ba786"
+    },
+    {
+      "git_blob_oid": "4dc32b10298dd18b543839383b0693568e392939",
+      "mode": "100644",
+      "path": "abandoned/androidclient/proguard.cfg",
+      "sha256": "0b0b2cff212552db57fcf072202c48a53601a2bd30fd7e35c9e09491adce849c"
+    },
+    {
+      "git_blob_oid": "d6659d538343cfd0d8968918e6741d5300a3ba6a",
+      "mode": "100644",
+      "path": "abandoned/androidclient/project.properties",
+      "sha256": "8a7a017f5eeb0bf9588fc2ff57ba2710aaefd36e9c0895ac5a7816acb465e413"
+    },
+    {
+      "git_blob_oid": "ba23e24aac2cbd7ccbd415001b34592f139c7a9c",
+      "mode": "100644",
+      "path": "abandoned/androidclient/res/drawable-hdpi/ic_jmrtd.png",
+      "sha256": "498a8f01a97319df9bb06b539272ee767bde51efa1d829e38ac0903fb92807fb"
+    },
+    {
+      "git_blob_oid": "19f67e4a23b4b79a61b13f014984b29037da75d0",
+      "mode": "100644",
+      "path": "abandoned/androidclient/res/drawable-ldpi/ic_jmrtd.png",
+      "sha256": "6a5a1173d7f3cfd34ee965bc961e9a82611cd287d1bc86b3be8cf9fee709577e"
+    },
+    {
+      "git_blob_oid": "c054d141e3974d30d73e2c47465c6c46bede2ea2",
+      "mode": "100644",
+      "path": "abandoned/androidclient/res/drawable-mdpi/default_user.png",
+      "sha256": "5da6a97cab6a32683c0aa7a735e0a7f5f18107d200b483868579cf3fc120e21b"
+    },
+    {
+      "git_blob_oid": "664b82a29bea50747861db0309e421af26b1ce5c",
+      "mode": "100644",
+      "path": "abandoned/androidclient/res/drawable-mdpi/ic_jmrtd.png",
+      "sha256": "87f332b6d8fedf9fb6b82d386a61e48d05132bedfc1c89c2cb2ad873ac6f0968"
+    },
+    {
+      "git_blob_oid": "2028540f4a7cd059521b9178d37e62534e8b89b3",
+      "mode": "100644",
+      "path": "abandoned/androidclient/res/drawable-xhdpi/ic_jmrtd.png",
+      "sha256": "fe07932d4250d0fdd78818a5a06fb4b02df06a84ee82e8a3810e1a82f8e72e0e"
+    },
+    {
+      "git_blob_oid": "03911bbda1ecb7112f1b0951d3d45cb9219daa7f",
+      "mode": "100644",
+      "path": "abandoned/androidclient/res/layout/bac_editor.xml",
+      "sha256": "f6b93930a4b27b808bb92317920234617119ce9337631970b3fbd6e50af0546d"
+    },
+    {
+      "git_blob_oid": "ee7dbad834866d2da0399aea2b083d19e16486b7",
+      "mode": "100644",
+      "path": "abandoned/androidclient/res/layout/bacs.xml",
+      "sha256": "9f2157868fe23aed5fe289a4b1872efd7b587eb1bd9fb8d44fd87c3c7177ad46"
+    },
+    {
+      "git_blob_oid": "ddccddff5326995278e0619d862b555438837902",
+      "mode": "100644",
+      "path": "abandoned/androidclient/res/layout/pp_display.xml",
+      "sha256": "e9bee66d39a2d997951a26eade46aaa66a0683d9264f1340ae012223734b0f35"
+    },
+    {
+      "git_blob_oid": "7eece259be65bf872fa1d3e05e3b208b44dfdd94",
+      "mode": "100644",
+      "path": "abandoned/androidclient/res/menu/options.xml",
+      "sha256": "88da26f2f095d0b5a638697bf104a655e6e647a0ecfbf49e5f0950e4c9d286fd"
+    },
+    {
+      "git_blob_oid": "825fd9937f108d8946addf39389f5e74c3f078de",
+      "mode": "100644",
+      "path": "abandoned/androidclient/res/values/strings.xml",
+      "sha256": "a8e3307c66b9e3318dc6067344d944a0d87b1881ab69e7d2858a7c832a167973"
+    },
+    {
+      "git_blob_oid": "8179744b2c8c9f4d981a32d43324459ac99530eb",
+      "mode": "100644",
+      "path": "abandoned/androidclient/res/values/styles.xml",
+      "sha256": "aef901d361bdcd39f8416d8f64caf1d08526c9f5dcb5cd8bd283289e4b05b5e9"
+    },
+    {
+      "git_blob_oid": "9bfe551088f669998d3ef15f0065406fbc83da28",
+      "mode": "100644",
+      "path": "abandoned/androidclient/res/xml/nfc_tech_filter.xml",
+      "sha256": "a0da76e2f993ab90d823926ae7bf53b58de39f785e00df70b4d9bec0a49c97e8"
+    },
+    {
+      "git_blob_oid": "40fa47b75446e2d3ac4ce24f92c7ad1c010b063f",
+      "mode": "100644",
+      "path": "abandoned/androidclient/src/org/jmrtd/android/BACSpecDO.java",
+      "sha256": "e296ead5b8dff0851439265f05592dfea8fc26e6b121cfb0646ed650fb02145f"
+    },
+    {
+      "git_blob_oid": "50d654596a5b022ca8dc4f85d8e005c497a405bb",
+      "mode": "100644",
+      "path": "abandoned/androidclient/src/org/jmrtd/android/BACSpecDOStore.java",
+      "sha256": "937202c2d746273f09063315e35be668d4434c5ad9d3f9305e08db517cac0be0"
+    },
+    {
+      "git_blob_oid": "a77ea44b07666af675375b5c02b787ed7742456d",
+      "mode": "100644",
+      "path": "abandoned/androidclient/src/org/jmrtd/android/BacEditorAct.java",
+      "sha256": "c88b4679d31d8366338adf5d93eb692cd075b342a22c81492494eb1295c30359"
+    },
+    {
+      "git_blob_oid": "27aa77217459aab969d7911e541aa87200948f96",
+      "mode": "100644",
+      "path": "abandoned/androidclient/src/org/jmrtd/android/BacsAct.java",
+      "sha256": "bcd3cfe15d9d52b3583e5d57b11fc7b598aee79a08b1a874e954cf28150c87f5"
+    },
+    {
+      "git_blob_oid": "1b8cedc819aa9ea04ecefaba6f77992c5f35ab63",
+      "mode": "100644",
+      "path": "abandoned/androidclient/src/org/jmrtd/android/ImageUtil.java",
+      "sha256": "2c017a35be11cc008474425f6ab20e13cdc43619565bb87567028f4a4fedcf2f"
+    },
+    {
+      "git_blob_oid": "a9f77cc58e7848e4c76818ed18d1d2f3ea87c6d4",
+      "mode": "100644",
+      "path": "abandoned/androidclient/src/org/jmrtd/android/PPDisplayAct.java",
+      "sha256": "71a012bfb90cb527ab42409d8b367a4bad014fffafb604bd85d27f35efc21051"
+    },
+    {
+      "git_blob_oid": "bae8f99603785e65b524feb9e9a124b92b713e8f",
+      "mode": "100644",
+      "path": "abandoned/authep/doc/AuthEP Demo Deployment.doc",
+      "sha256": "6dd94f7cd1ba7fdd993e924b0b80f9b126a19baaa716ce7772eb6a92d89c4044"
+    },
+    {
+      "git_blob_oid": "cbc368868be6f68dacd2665c2b93a12f844c76d5",
+      "mode": "100755",
+      "path": "abandoned/authep/doc/AuthEP Technical Description.doc",
+      "sha256": "1a3ec3ef3a5263f3f049c1604e02822888a09e15bd35bc4fd67586d7e568b153"
+    },
+    {
+      "git_blob_oid": "2f6a9cc0d3109239327d7531d26890d33edccecf",
+      "mode": "100644",
+      "path": "abandoned/authep/doc/AuthEPInstallComponents/.java.policy",
+      "sha256": "cef04be419304c0fd0c0a9913fbeedfc1dceca79a783204eac86c97598e56f53"
+    },
+    {
+      "git_blob_oid": "7c79dd9faf0b9c79893648788e61788233ad514a",
+      "mode": "100644",
+      "path": "abandoned/authep/doc/AuthEPInstallComponents/adsutil.vbs",
+      "sha256": "884ccf7d21a05455cd1ecb6bfee605ea4f9dad5eb94318c97d6c9065ae385e3a"
+    },
+    {
+      "git_blob_oid": "8a8e6741eb0c2bda96c77935dab356942ef3bcf6",
+      "mode": "100644",
+      "path": "abandoned/authep/doc/AuthEPInstallComponents/cert.cmd",
+      "sha256": "a75184ca261b5e6bbbd574606a906aef2bcb291e7c2fc511b5d73d22597322f7"
+    },
+    {
+      "git_blob_oid": "46c6941c0d0881d205135a7b7c2392b3eddac041",
+      "mode": "100644",
+      "path": "abandoned/authep/doc/AuthEPInstallComponents/certificateconsole.msc",
+      "sha256": "bca953b1daf9f7bbccfb591474e43b783056e4b28188f7d2a52c18ec9475b524"
+    },
+    {
+      "git_blob_oid": "c6c1f98a39a2a98c23cc0aa14caaf8e0dacaa498",
+      "mode": "100644",
+      "path": "abandoned/authep/doc/AuthEPInstallComponents/create-dir.bat",
+      "sha256": "adb0cb0a843c6ec9b58f4cd0f5dd59f7ac94b3c6af9cb4895594c6d051b4ff21"
+    },
+    {
+      "git_blob_oid": "c87d3b95e7ad1777ed80b4a8340580f07021d4a9",
+      "mode": "100644",
+      "path": "abandoned/authep/doc/AuthEPInstallComponents/https-setup.bat",
+      "sha256": "814693d5f62135f50ca4615e04f14b53765341956dd4c99d080999ffceab022f"
+    },
+    {
+      "git_blob_oid": "d170c79317935cbdfd8e1a588a0babae32ed5b29",
+      "mode": "100644",
+      "path": "abandoned/authep/doc/AuthEPInstallComponents/install-authep-client.cmd",
+      "sha256": "efc8df1e289e5a44888d1c5e1ef5c9be07c09115c5e0de5b7013d1ac89465951"
+    },
+    {
+      "git_blob_oid": "128594504ecd4bb17b5c80434405fc7e8482fa1b",
+      "mode": "100644",
+      "path": "abandoned/authep/doc/AuthEPInstallComponents/install-authep-server.cmd",
+      "sha256": "2ae48d3fcd5b2a8382d328a9ed0319451eec6a12d5ee30d4b8fa88711357302e"
+    },
+    {
+      "git_blob_oid": "d506c999c21cc8736c8781ea76577a9fc400d297",
+      "mode": "100644",
+      "path": "abandoned/authep/doc/AuthEPInstallComponents/nl.cer",
+      "sha256": "f6873b130219f823ca65f2fedd6f3c3a32144a9fdba4f988d1c8d01bde32e864"
+    },
+    {
+      "git_blob_oid": "12742d9cc58eaae43a80d2bb567535594f5d120f",
+      "mode": "100644",
+      "path": "abandoned/authep/doc/AuthEPInstallComponents/www.authep.nl-client.cer",
+      "sha256": "8f7be9c974903a7e7706421ac2aaec1c7ec7011579d12d7369bce7ee5fd2d7d1"
+    },
+    {
+      "git_blob_oid": "cffaafccbf30b9368bd2cb860c63e200c961867e",
+      "mode": "100644",
+      "path": "abandoned/authep/doc/AuthEPInstallComponents/www.authep.nl-server.pfx",
+      "sha256": "29603de9256d6766d5ca13f96237661556a386b6d3035fb9ec6361d4111474d9"
+    },
+    {
+      "git_blob_oid": "50110674c0fb19d439a65e82dd889de3a9e21336",
+      "mode": "100755",
+      "path": "abandoned/authep/doc/CardSpace+AuthEPHack.vsd",
+      "sha256": "99c50a62e5d4513655c6b73569b25cdb7450ef42e8f85574f733b997c4340d51"
+    },
+    {
+      "git_blob_oid": "627313e849690cc344e058f4c13a49b8fea232e0",
+      "mode": "100755",
+      "path": "abandoned/authep/doc/RP-Compact.jpg",
+      "sha256": "b94a21792ca03ccc97078aced79b94e7c45b88d1ac862394ac192faa2912a9f5"
+    },
+    {
+      "git_blob_oid": "39fbeeca557a5704a1e9a2a3c5f5b29e4c04c968",
+      "mode": "100644",
+      "path": "abandoned/authep/doc/SequenceDiagram-IDP-Client.vsd",
+      "sha256": "b5b1c32cf37baeb4182d33ed4df8e96f8f1d2360efbcf99b31e61986ca50ab91"
+    },
+    {
+      "git_blob_oid": "2162d319971ceca1957cca6de324b45872d3dc3e",
+      "mode": "100644",
+      "path": "abandoned/authep/software/Client/AuthEPInterfacer/.classpath",
+      "sha256": "639703752bc645a4ae6ea29949b6d5b7f4fac3a01bd5b1620fe4d97b96b365cf"
+    },
+    {
+      "git_blob_oid": "c28b06d3e07a5a4a63decbbc6a1a9b4b7719f022",
+      "mode": "100644",
+      "path": "abandoned/authep/software/Client/AuthEPInterfacer/.project",
+      "sha256": "7a6a28888ace065220d818ceb6641364762600de7620db008080dd8d980cd55f"
+    },
+    {
+      "git_blob_oid": "94746142353785785e21fb9320fc1c4d2ce754d8",
+      "mode": "100644",
+      "path": "abandoned/authep/software/Client/AuthEPInterfacer/build.xml",
+      "sha256": "9dffbc4a5a94e1aeb3aebc31d06ba658b66231a6c0ab5863d7cd100726d65c5c"
+    },
+    {
+      "git_blob_oid": "3df781fe199142558a3421b0eaeba7d294cd8625",
+      "mode": "100644",
+      "path": "abandoned/authep/software/Client/AuthEPInterfacer/build/nl/telin/authep/DebugConsole.class",
+      "sha256": "dcf18c45f3d14aae58d8c5585253f629e78ff7fc69ddc0b62b38f522b3228ee5"
+    },
+    {
+      "git_blob_oid": "46fc93348b07dc4c69a2a70fb2f1c0d81ab25d45",
+      "mode": "100644",
+      "path": "abandoned/authep/software/Client/AuthEPInterfacer/build/nl/telin/authep/DebugFrame.class",
+      "sha256": "6bf3148249bdf5f7456a0d83bf57b5f7d5692929969fe1f62291cda7e87c089d"
+    },
+    {
+      "git_blob_oid": "f8aebcc66f33530d0bbe0a93f117b0d3d50f6adf",
+      "mode": "100644",
+      "path": "abandoned/authep/software/Client/AuthEPInterfacer/build/nl/telin/authep/ILogger.class",
+      "sha256": "d8f5c9fcc26d6f631e76cf64e6f6e6b83d6188454a00b7eee30c70d2698f209f"
+    },
+    {
+      "git_blob_oid": "b327d2d031f231a5bc876bac88a735f6b9f84058",
+      "mode": "100644",
+      "path": "abandoned/authep/software/Client/AuthEPInterfacer/build/nl/telin/authep/Interfacer.class",
+      "sha256": "afb141e2cab647915714581cc0bc402814fa33b29e6c448dfb28d077004064be"
+    },
+    {
+      "git_blob_oid": "16e0e1408da7601de1ae392b6da3652857c6c358",
+      "mode": "100644",
+      "path": "abandoned/authep/software/Client/AuthEPInterfacer/build/nl/telin/authep/InterfacerApplet.class",
+      "sha256": "bfe7e9a08273c8d059ab25a159579403b9d7dea103cade6eccda21b49542d9e5"
+    },
+    {
+      "git_blob_oid": "2cf1b396b6632d9236d17aa4fae97cafad4ddc4d",
+      "mode": "100644",
+      "path": "abandoned/authep/software/Client/AuthEPInterfacer/build/nl/telin/authep/NetworkLink.class",
+      "sha256": "10f42a8e30adb5948663b6386a3575f48f215c930479368c9f14b1f0605cb91c"
+    },
+    {
+      "git_blob_oid": "3d5efed09248d0982cb7e16465ae26998bc0039b",
+      "mode": "100644",
+      "path": "abandoned/authep/software/Client/AuthEPInterfacer/build/nl/telin/authep/NetworkListener.class",
+      "sha256": "e511ebd2f27544c9cc023bb4c1195672745844fbf451f7bd931c54dcbe0e32de"
+    },
+    {
+      "git_blob_oid": "8fd2b025464ca7ff025ff73dfd9035f4a7c0a70e",
+      "mode": "100644",
+      "path": "abandoned/authep/software/Client/AuthEPInterfacer/build/nl/telin/authep/NetworkProtocol.class",
+      "sha256": "974419aeee0184dcc957a60867878071faf70d28da4ec4a1c7c05526cb4d3147"
+    },
+    {
+      "git_blob_oid": "918ceb4209c56e7e5f95ed64eb6a345ee73c97b5",
+      "mode": "100644",
+      "path": "abandoned/authep/software/Client/AuthEPInterfacer/build/nl/telin/authep/PassportLink.class",
+      "sha256": "28d244b7a64bd4286a4def01dba12bfd8205279e6c4e72a362b93eb3edc6a623"
+    },
+    {
+      "git_blob_oid": "6bdbe4636495235b895bbfe1462e7acad25b7650",
+      "mode": "100644",
+      "path": "abandoned/authep/software/Client/AuthEPInterfacer/dist/authepinterfacer.jar",
+      "sha256": "b47b31051905c00c7e21e15f7b701356292c337e62318d76f84615f5b675d247"
+    },
+    {
+      "git_blob_oid": "6ffc1581f1ede4229c3d379e670039102c4f2247",
+      "mode": "100644",
+      "path": "abandoned/authep/software/Client/AuthEPInterfacer/dist/run.bat",
+      "sha256": "5f7cc8350fe0c9b475c6ccfb4126cf52a1a3e1ad1b3f8c9b93243af794dcc8ab"
+    },
+    {
+      "git_blob_oid": "6ffc1581f1ede4229c3d379e670039102c4f2247",
+      "mode": "100644",
+      "path": "abandoned/authep/software/Client/AuthEPInterfacer/run.bat",
+      "sha256": "5f7cc8350fe0c9b475c6ccfb4126cf52a1a3e1ad1b3f8c9b93243af794dcc8ab"
+    },
+    {
+      "git_blob_oid": "43bed20b507ed9d33f664f2295a087fba2d9d736",
+      "mode": "100644",
+      "path": "abandoned/authep/software/Client/AuthEPInterfacer/src/nl/telin/authep/DebugConsole.java",
+      "sha256": "d2ec300e7f13359ef271fb34dd9d9dcb593657d3189a629b3faa51d6f0dc87ef"
+    },
+    {
+      "git_blob_oid": "e4700cf398e690ba99a2e23a23bcf10356e26a96",
+      "mode": "100644",
+      "path": "abandoned/authep/software/Client/AuthEPInterfacer/src/nl/telin/authep/DebugFrame.java",
+      "sha256": "521e969761cf80d8d25583cdc2564d6b2bb9205f77d85d7e577bbbf6e75ab655"
+    },
+    {
+      "git_blob_oid": "0c3bbccbfa28e5f3788b661f7899ae820afecec8",
+      "mode": "100644",
+      "path": "abandoned/authep/software/Client/AuthEPInterfacer/src/nl/telin/authep/ILogger.java",
+      "sha256": "867c67a6814fc9a67364cb84dabb25053319c438ec0f0bde4a5761a7e69439c4"
+    },
+    {
+      "git_blob_oid": "f2ef3e42d1b977c9e827982a189ebce9462f945a",
+      "mode": "100644",
+      "path": "abandoned/authep/software/Client/AuthEPInterfacer/src/nl/telin/authep/Interfacer.java",
+      "sha256": "3a2002ca9a73f1d26c198af6d62da29cfa4268546d86c4ccb82b5918149746c8"
+    },
+    {
+      "git_blob_oid": "6c426440d1785a4bfaced28e29e6ff5d31808e46",
+      "mode": "100644",
+      "path": "abandoned/authep/software/Client/AuthEPInterfacer/src/nl/telin/authep/InterfacerApplet.java",
+      "sha256": "9253d163d4749d49a4100c7fe521433a851f310dbf5af79bf748c830119847b3"
+    },
+    {
+      "git_blob_oid": "27ccc7264b92d2d4452d3f024751f648dd2e5d57",
+      "mode": "100644",
+      "path": "abandoned/authep/software/Client/AuthEPInterfacer/src/nl/telin/authep/NetworkLink.java",
+      "sha256": "8a69037aa5503433b0e8af37cfaebf5df64ca73f175d185de77fd0c569f16e70"
+    },
+    {
+      "git_blob_oid": "7edfdec029a31d31f114e8f46c5b6d88887fd25c",
+      "mode": "100644",
+      "path": "abandoned/authep/software/Client/AuthEPInterfacer/src/nl/telin/authep/NetworkListener.java",
+      "sha256": "17fcf4a42c316717d141876e6ed1d2b1b463d50fe1b5fbe2eba956734e75a561"
+    },
+    {
+      "git_blob_oid": "ac78356a48fef4c091ad6b281f89439f3ef05694",
+      "mode": "100644",
+      "path": "abandoned/authep/software/Client/AuthEPInterfacer/src/nl/telin/authep/NetworkProtocol.java",
+      "sha256": "927046847c36917bae454e3e0af5f62c0b8045a0f54800de051072f1c383ca3e"
+    },
+    {
+      "git_blob_oid": "5a5bd40ff884a7baf6d2c0df9daaa81fd61fb10f",
+      "mode": "100644",
+      "path": "abandoned/authep/software/Client/AuthEPInterfacer/src/nl/telin/authep/PassportLink.java",
+      "sha256": "11690b7fe6f4b462adf1265718d26fa5e1ef997050a5b07934efe84947f2cb3a"
+    },
+    {
+      "git_blob_oid": "000c63f9035daa8fab5760b0c97e052963694847",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/AuthEP.sln",
+      "sha256": "fa519450a3866eb3861f8414a7661a0927c4b174b2d41e3f1585a4cc326257f8"
+    },
+    {
+      "git_blob_oid": "3cf117e37db65d1a07b7461062f2329006014c92",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/AuthEPLib/AuthEPLib.csproj",
+      "sha256": "4e917176b6aca065111890d5545affa294592cdcf32a29760478c3a4818ca1c6"
+    },
+    {
+      "git_blob_oid": "3c4017ecc6be04b78bdc832adb74563a73971fd1",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/AuthEPLib/CardWriter/DefaultValues.cs",
+      "sha256": "91c1a26c61eb27a675c96c63aee85c788feb359334efe87176de0490cf1e838f"
+    },
+    {
+      "git_blob_oid": "b9265440a0db715d0bfdd18eda13174077ec32bc",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/AuthEPLib/CardWriter/IniReader.cs",
+      "sha256": "0459c45cd18c6b90bea7bf3e096221c2f1245dc7a8cd230f69eb7a41255eb3e4"
+    },
+    {
+      "git_blob_oid": "72040c915e15767cf2cfced1e043a559f7afa30b",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/AuthEPLib/CardWriter/ManagedCardWriter.cs",
+      "sha256": "c23f9f482d16e24d176f33b8b47be35eaa8a663d77c6690ef140f8257cd3c7db"
+    },
+    {
+      "git_blob_oid": "ea26a4b34b42fd42a125f957ae960f9ef91c8c21",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/AuthEPLib/CardWriter/ManagedInformationCard.cs",
+      "sha256": "0aaf67590fc3a4e711741267bbc0cdafd387cf31d971808eb318c15fcdf7b541"
+    },
+    {
+      "git_blob_oid": "63fcd84710e5c08cffcb1dfd33006e015db9af71",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/AuthEPLib/CardWriter/xmlNames.cs",
+      "sha256": "541bcccadab7a97e757af5a35ab0fa009359c5a0de52db424911787b1a5beadd"
+    },
+    {
+      "git_blob_oid": "c24df190b2c8d0b75b5537c44f73f0892921dace",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/AuthEPLib/Country.cs",
+      "sha256": "416ccc83ff30a6d8619b3af05aa57d19edfbbf96f09b5842c820bc30449f255e"
+    },
+    {
+      "git_blob_oid": "8437aa3ce65fef6d2bdcf5b214f64336a30abe88",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/AuthEPLib/InformationCards/InformationCardException.cs",
+      "sha256": "e131c431a953b375a4995e4a84b8fa6d9f0ded1e0852905ef5e3b89aa9cf7232"
+    },
+    {
+      "git_blob_oid": "e8b0b2a0200eb4b536f89553b477fb650dca7943",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/AuthEPLib/InformationCards/InformationCardMembershipHelper.cs",
+      "sha256": "de6e8f8e842fdf07132f99608302689df956a035bc2ef4bfd1a5a1c83abb8461"
+    },
+    {
+      "git_blob_oid": "ad255778526f6ca7734ebd32fb283aec93cc04eb",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/AuthEPLib/InformationCards/Token.cs",
+      "sha256": "97d79e75181b7cb76d357c3245a35bbe383ff3e69687f2c943adcee5a6056c83"
+    },
+    {
+      "git_blob_oid": "dfc7f0992a464cbdc945c3bafa76b799aba6ad35",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/AuthEPLib/InformationCards/TokenUtility.cs",
+      "sha256": "4dfed26a990a2dc2c691b5c9ac64eb11066a366bcc5e985d99f7dc60f55c7956"
+    },
+    {
+      "git_blob_oid": "92c08c390cdc7e130064775ec2b96fd605f454b7",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/AuthEPLib/InformationCards/VerificationCode.cs",
+      "sha256": "cd01e2047647951346d8dcf228212b2a9c88dad00b4ee09ba0af21b619a3da2b"
+    },
+    {
+      "git_blob_oid": "fa8814a948857885056df22505f43da71e4ec0c3",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/AuthEPLib/InformationCards/XmlEncDecryptor.cs",
+      "sha256": "a98525ce18c047f7a6648935eb2b9e865c6c275836d6b6b2da39425fc800900b"
+    },
+    {
+      "git_blob_oid": "a5562dd3afe99fa7784ac511dd19edcd486de826",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/AuthEPLib/Properties/AssemblyInfo.cs",
+      "sha256": "24e56fbf44e088bd2a25740efe2e17a279e71a671acac0a37d434ce6be393f89"
+    },
+    {
+      "git_blob_oid": "0a92ece86ddce0563da1a571a58c62140583117f",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/AuthEPLib/Verification.cs",
+      "sha256": "e961e32a45ce27cf4a5975bb4df308730efb0ecd24975abaa265640051d76a63"
+    },
+    {
+      "git_blob_oid": "169edac2b77df0466cbb72bb86b07d847faabffe",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/AuthEPLib/jmrtd/BERTLVInputStream.cs",
+      "sha256": "c3394c7a429095306ac39825d1722e73962fc28b9539c2d12cf011b54cb3f9b8"
+    },
+    {
+      "git_blob_oid": "b779127b742fe897c86c7535589558c0c0055bce",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/AuthEPLib/jmrtd/DG15File.cs",
+      "sha256": "2e60aeb529e0a20a03a7687bd8422d0a472e41c905c0012e6c8d76e1a67c86f9"
+    },
+    {
+      "git_blob_oid": "da23f5aef95d0b231469b7ec7906d85dbe3c7dbf",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/AuthEPLib/jmrtd/DG1File.cs",
+      "sha256": "21616ac809ec3bc315a56d9e71afe72b7c3424ca19652a010a3c36a854776042"
+    },
+    {
+      "git_blob_oid": "96ddd810216803b21c1618e979966ead1fb0872e",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/AuthEPLib/jmrtd/IDGFile.cs",
+      "sha256": "f1fd56ebd901a35776eb4bb88c518a69cd4d23b43d7f9c1d4970dcee038cd506"
+    },
+    {
+      "git_blob_oid": "7315adca0436a8a0d8bfc9b568fc62ab591ee055",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/AuthEPLib/jmrtd/MRZInfo.cs",
+      "sha256": "1b236a872929aef407ab014e60b515f65556a2b901e2fdd4755f7f6251938978"
+    },
+    {
+      "git_blob_oid": "a3255a8a0c739531bf3ebf64c74a08cd0b200ed1",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/AuthEPLib/jmrtd/SODFile.cs",
+      "sha256": "ced549645b5466ae5d8773e6d5e7dd1595cc0dbd432a7a2a211822a3fb99c707"
+    },
+    {
+      "git_blob_oid": "4be1342239733a4001fc88194ecc2089dc3c3179",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/AuthEPLib/jmrtd/Tags.cs",
+      "sha256": "24863fc67c8fe29a35f0ea731c425e1b51da981176f7a2087925f56564be3f05"
+    },
+    {
+      "git_blob_oid": "1a1272c20652a7bc5a86169419d41423307f2bd0",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/AuthEPLib/jmrtd/Tokenizer.cs",
+      "sha256": "146cac418e1ac94931d7af9bc788c51838879bf4ca894195e681e2f7f3bbce54"
+    },
+    {
+      "git_blob_oid": "fe1ccd2e0349283f2fed3ca11e920b03fc482d49",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/AuthEPNetworkLink/AuthEPNetworkLink.csproj",
+      "sha256": "96040e4b74024c8a0503b565e0c05d0990c5b5529f2159f4aa737cc6515c9d02"
+    },
+    {
+      "git_blob_oid": "0a75b5cba1c5971c8dcf2ad9e649570ef777e2e0",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/AuthEPNetworkLink/NetworkClient.cs",
+      "sha256": "77b3729819e0e16c86d45b0d4de22004abd10f16039eb361327d2f97218b59e6"
+    },
+    {
+      "git_blob_oid": "c742c0a68fc6cca205fd24dbc99e2c6fee262d99",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/AuthEPNetworkLink/NetworkProtocol.cs",
+      "sha256": "94ac63e7b09d2df0c0f81196be3237fe09b739a78c7cee6f42bf1305aae0e7aa"
+    },
+    {
+      "git_blob_oid": "5f8c8d34bf91711ed44c41050cf8abb078dc1211",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/AuthEPNetworkLink/Properties/AssemblyInfo.cs",
+      "sha256": "b4a1d4768541eab3bc2193f318d96d4a42db4aa6d0877e4c393ac4ffeed6c02a"
+    },
+    {
+      "git_blob_oid": "3e8c22fe3015af48e7f2988ff0a12565d45e1262",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/AuthEPNetworkTest/AuthEPNetworkTest.csproj",
+      "sha256": "bada7d9fac6c24dcc21ca9be589407e5be049b1e1819c6b54662cfef014376fa"
+    },
+    {
+      "git_blob_oid": "e8ff9fd1cc92dd8bb63d6d1e64115e5a58d1112e",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/AuthEPNetworkTest/Program.cs",
+      "sha256": "e6d47afd05c7aba2a1dddd2af8f6a061076d99eb47564a364741f72dacc1811d"
+    },
+    {
+      "git_blob_oid": "36422352170613e487e53a3cd889b6045010b9e1",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/AuthEPNetworkTest/Properties/AssemblyInfo.cs",
+      "sha256": "2fa247fc0a8e38ae23f7c639181340039d56ad4412f8b56560d7569a5b165dbc"
+    },
+    {
+      "git_blob_oid": "fa4e8de467c114c1e17e8ad638c3fb8cee479f1d",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/AuthEPSTS/AuthEPSTS.csproj",
+      "sha256": "f0c904ea7b1193fd39f3bf995f73f324baec850d8cbc8a0b87215299cbc5389d"
+    },
+    {
+      "git_blob_oid": "deddcea381f97fae03807f3cb4b648fe4094d2ca",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/AuthEPSTS/Constants.cs",
+      "sha256": "0a3c71ec3b8947d6c0523ca4812320ce96a285b03aba4ef17085a3e4d573a1e8"
+    },
+    {
+      "git_blob_oid": "75de77e42f1d63da7732ecf03d20aa4073f0e243",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/AuthEPSTS/IWsTrust.cs",
+      "sha256": "595c6350bcf6e5ba6f7f9bdf42230d32a3cea4d86992829dfbb0865d3167191d"
+    },
+    {
+      "git_blob_oid": "d8102aa05926cb54546390b05126b71a2f84f989",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/AuthEPSTS/Program.cs",
+      "sha256": "fc05bf411d15e79220bf83ae78c4432115f61ed9681cd552f7515eb4415d10c9"
+    },
+    {
+      "git_blob_oid": "e7ae5f5b97cd89733f75ed06a729aeac8de8dfbd",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/AuthEPSTS/Properties/AssemblyInfo.cs",
+      "sha256": "471e3b5d07833dbe6a92cde31a56f7e0278661b4be0f36554d498d779fcb58b9"
+    },
+    {
+      "git_blob_oid": "d28e4357b3656b9257a05a3455e321f7ac5d5b31",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/AuthEPSTS/RequestSecurityToken.cs",
+      "sha256": "026497d86a56ff5154bb7b5b1cf626bd58568858ffa36b334ff1818da0d5435d"
+    },
+    {
+      "git_blob_oid": "2c9e8fa8e3241a64bb76bccdf6651c83d0d606cc",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/AuthEPSTS/RequestSecurityTokenResponse.cs",
+      "sha256": "6ffb2d843cb0a1d25ab055f1feb91f5fb877eeaf46a52dd6396be16b21daaeb0"
+    },
+    {
+      "git_blob_oid": "e1019c854e01ca89f9494c4bc3dc72d7253fcc1f",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/AuthEPSTS/WsTrustFaultException.cs",
+      "sha256": "896ffa04a781e4904a1bb68461a669db65af77ea888629a3ee9f2ba494bdeece"
+    },
+    {
+      "git_blob_oid": "8f67ce8e59fcf6fda79ccb65ee7e4acc8ebb23f6",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/AuthEPSTS/WsTrustResponder.cs",
+      "sha256": "3cc9a2fe32b695b5ae5f07297e8dc12ddc4272b28d724b0d6e2e3716fb19fe95"
+    },
+    {
+      "git_blob_oid": "7216dd904635e53783e40676f8f60eefc429fa86",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/AuthEPSTS/app.config",
+      "sha256": "b8fe9860ba8a495a39f367e4ecf842464939fbaa9bb17c2ea938aeb77d7242cd"
+    },
+    {
+      "git_blob_oid": "d0b9362dd0eade2af12fb4f52971491f9ece9ec2",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/Doc/Help/Documentation.chm",
+      "sha256": "6d80f8d3a513cc2cfca0ec48979b69e1052007e427976b625e6976e253f4a7b0"
+    },
+    {
+      "git_blob_oid": "c5d3a5cb6eba00b33047760aee1ecdfc60a8e2d9",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/Doc/IDPDoc.shfb",
+      "sha256": "a7675814d1cf6ac5d0c6bb53cc47c2ca1fac9b213324a1238d3b71a1d8199838"
+    },
+    {
+      "git_blob_oid": "11d276ca9dbc39144d42252557eaccfe8cbbfd0c",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/IDPWebsite.sln",
+      "sha256": "8024b9236d1cee4517b06091fc3fb29c11560ba95670284476d38711effadcfa"
+    },
+    {
+      "git_blob_oid": "143721efe70808e3328674c3131f6660f71abb04",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/IDPWebsite/App_Data/AuthEPCard.ini",
+      "sha256": "b286c12be035693b9971249012eafb2dc91fac9995763ae1a72444bcd9e97afa"
+    },
+    {
+      "git_blob_oid": "63c91a94dbc3805dd45c3ce8096f8152a3c68e72",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/IDPWebsite/App_Data/card.png",
+      "sha256": "b034027b3721b42dc0fe409c70795964f4a69c322d702661661d7ad4a9f64eb1"
+    },
+    {
+      "git_blob_oid": "277b2eb294302ea12b16b58480f5b8d248f9c419",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/IDPWebsite/Applet/Applet.html",
+      "sha256": "7bfbe7e14e62b3bd678c14cb69fb4d0745c81a99a036e102add3a3aca233461d"
+    },
+    {
+      "git_blob_oid": "78e5136e7a591c936ad77b4c931c397f6ae8b5cb",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/IDPWebsite/Applet/index.html",
+      "sha256": "d24ae05466f7c676afee0b3852de57935e1bb73f25018a12c78d720281430f23"
+    },
+    {
+      "git_blob_oid": "80f0e89bbf2cddc45e288b1900bcee36d5aa8b02",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/IDPWebsite/Default.aspx",
+      "sha256": "31a98d01ce606aeffccd3a7b0a8ae785480e9316e2725b04cf878e6c4c9743a9"
+    },
+    {
+      "git_blob_oid": "4e6d293efce2572f82bff6c7455666ae82642dc5",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/IDPWebsite/Default.aspx.cs",
+      "sha256": "2ef27a7ae333c3ac083fca2951156615aaeab2a5cc0a8674e3ebc92d19b47ff1"
+    },
+    {
+      "git_blob_oid": "b53a81ea0330b691fb0a392af2fd1bf77a42cabe",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/IDPWebsite/Default.aspx.designer.cs",
+      "sha256": "00dbc379a017ba5b4bc6ce4d9786afe2ca1d38a046e66a4ece6823228b598953"
+    },
+    {
+      "git_blob_oid": "e8bebcec2a4b6d569803a3901a0fb2f464251b93",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/IDPWebsite/Default.css",
+      "sha256": "4cc5e40c2881f0e03869fbae8664135294186b8e666e17d14aef7e907be1b5ab"
+    },
+    {
+      "git_blob_oid": "d8be76afb38c29b86ec7d4950cb5a9f5185bdc8d",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/IDPWebsite/IDPWebsite.csproj",
+      "sha256": "09ec74040a8d42c38e63c744b8109c5a68fbc52072b051d958c363de33455231"
+    },
+    {
+      "git_blob_oid": "642510c4f344e83bd05d2a98e9f02703f698de92",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/IDPWebsite/Properties/AssemblyInfo.cs",
+      "sha256": "38581bdaaebf051e823f585bbdd2c304250ab21a6f742016ab6282ad415675f7"
+    },
+    {
+      "git_blob_oid": "5ee1ccbf97423ced861424551cd2722fdd1f83cc",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/IDPWebsite/Web.config",
+      "sha256": "b9749027d767f0175224e227aa43b9f0c16bf37425e34bb2e65fe7fb4b8a71b3"
+    },
+    {
+      "git_blob_oid": "5d9b5d5ba25a248d0795ca80655357418ce5edec",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/IDPWebsite/images/idplogo.png",
+      "sha256": "332f8022a66532fe757b00513b82614951448f56095486486383617f818bedf1"
+    },
+    {
+      "git_blob_oid": "451f3e296b7286b4b95bf75b15c0787573b7fb1d",
+      "mode": "100644",
+      "path": "abandoned/authep/software/IDP/IDPWebsite/images/passports.jpg",
+      "sha256": "cc3addfaff42ec9d1bbede7845c49502ff50060353d820610b5aa558edeeb062"
+    },
+    {
+      "git_blob_oid": "ac4e3136924f31c8d352e7837edd12fd6dfbacd4",
+      "mode": "100644",
+      "path": "abandoned/authep/software/RP/RP2Website.sln",
+      "sha256": "91cff13cf78bb1354508bffb1cc030839aa2c5cf50c64da7edca4687cf3d2dc0"
+    },
+    {
+      "git_blob_oid": "753b3c8568d38a06ef38032082dd6aa1fcbac7a5",
+      "mode": "100644",
+      "path": "abandoned/authep/software/RP/RP2Website/Default.aspx",
+      "sha256": "b4fa861ed8da0cbcd1a94100aa0513949ee18987dfb4436246a3318dcc75cead"
+    },
+    {
+      "git_blob_oid": "762661e7fb59cc6356f6021dab161d7ba9b13399",
+      "mode": "100644",
+      "path": "abandoned/authep/software/RP/RP2Website/Default.aspx.cs",
+      "sha256": "b3f6998e8d0be295f3a77caa4f2c74cb49d590384c054d4560c83306e89231c0"
+    },
+    {
+      "git_blob_oid": "b29131b9a972489da276011b4efae00f734df035",
+      "mode": "100644",
+      "path": "abandoned/authep/software/RP/RP2Website/Default.aspx.designer.cs",
+      "sha256": "edcd46cb7d1f4694717f9569b4f7954588aea43a54c729f99e46f29f665fb8df"
+    },
+    {
+      "git_blob_oid": "4561b059ef93c8eb1cb9058d07bad8d18544529a",
+      "mode": "100644",
+      "path": "abandoned/authep/software/RP/RP2Website/Default.css",
+      "sha256": "35570484446daf5558348794256ae1878a3fe6b110fb4af67a0a3bd0011ec0d9"
+    },
+    {
+      "git_blob_oid": "5950552cd1d25fd087a5319aded2a528b0f810b4",
+      "mode": "100644",
+      "path": "abandoned/authep/software/RP/RP2Website/Properties/AssemblyInfo.cs",
+      "sha256": "a3fbc4d27679ec7b5d088e0c824f68c3fc0a298212a51465c6dc337469b00df0"
+    },
+    {
+      "git_blob_oid": "ab31339988841236ed0e2b050b4f90ff0f1dd127",
+      "mode": "100644",
+      "path": "abandoned/authep/software/RP/RP2Website/RP2Website.csproj",
+      "sha256": "37d709feba42bad570f32e2db7973595642b6dfa784fda9fdf4055f592903abf"
+    },
+    {
+      "git_blob_oid": "390298026d868792ea9d7be179ac5fb77e7937b1",
+      "mode": "100644",
+      "path": "abandoned/authep/software/RP/RP2Website/Web.config",
+      "sha256": "c64a4e9aff950cc77a1a32362e4e6ae9f5a8622b963e6bb15fec438df7e12278"
+    },
+    {
+      "git_blob_oid": "6fc200a9cc71501653de4837a30b1f6fe639a35d",
+      "mode": "100644",
+      "path": "abandoned/authep/software/RP/RP2Website/images/belastingdienst.jpg",
+      "sha256": "43f75b98876c520ee5dfe0551a55eaebf3154456a1806182cae6b3db7deb6511"
+    },
+    {
+      "git_blob_oid": "6a73b1e61bf8d1b62274fe558745c967902272df",
+      "mode": "100644",
+      "path": "abandoned/authep/software/RP/RPWebsite.sln",
+      "sha256": "6408eb9cd59ec3206a49aef07115c38c11b0d8f00e32fbbdb7f64a3d2873cfb3"
+    },
+    {
+      "git_blob_oid": "277b2eb294302ea12b16b58480f5b8d248f9c419",
+      "mode": "100644",
+      "path": "abandoned/authep/software/RP/RPWebsite/Applet.html",
+      "sha256": "7bfbe7e14e62b3bd678c14cb69fb4d0745c81a99a036e102add3a3aca233461d"
+    },
+    {
+      "git_blob_oid": "aa6645c2499a20a765b331957f80f98ce2578bda",
+      "mode": "100644",
+      "path": "abandoned/authep/software/RP/RPWebsite/Default.aspx",
+      "sha256": "2c627c1306b7459120d69bd0dec7665573b4cd8d15222ac9dbd1fe5433975442"
+    },
+    {
+      "git_blob_oid": "0660d31c88124d3dfab967557a8eb7f532de9aca",
+      "mode": "100644",
+      "path": "abandoned/authep/software/RP/RPWebsite/Default.aspx.cs",
+      "sha256": "e929e06865cad46b1cdb8eaa0bb6f67af346e8202803743c3edef9217956bd2b"
+    },
+    {
+      "git_blob_oid": "7fb475982853c7d2f2536cf27d664db1ba3fac08",
+      "mode": "100644",
+      "path": "abandoned/authep/software/RP/RPWebsite/Default.aspx.designer.cs",
+      "sha256": "bccc8223668cb5824107a158208654269691be4d169080dfa06918276c0776b0"
+    },
+    {
+      "git_blob_oid": "4561b059ef93c8eb1cb9058d07bad8d18544529a",
+      "mode": "100644",
+      "path": "abandoned/authep/software/RP/RPWebsite/Default.css",
+      "sha256": "35570484446daf5558348794256ae1878a3fe6b110fb4af67a0a3bd0011ec0d9"
+    },
+    {
+      "git_blob_oid": "5950552cd1d25fd087a5319aded2a528b0f810b4",
+      "mode": "100644",
+      "path": "abandoned/authep/software/RP/RPWebsite/Properties/AssemblyInfo.cs",
+      "sha256": "a3fbc4d27679ec7b5d088e0c824f68c3fc0a298212a51465c6dc337469b00df0"
+    },
+    {
+      "git_blob_oid": "aab49dfa6fceaf66f98b3ffd96d9aa0ca428023b",
+      "mode": "100644",
+      "path": "abandoned/authep/software/RP/RPWebsite/RPWebsite.csproj",
+      "sha256": "692be105cdc9e90ed72411e12f62b3316010a18db760646a357b1ac3cd216669"
+    },
+    {
+      "git_blob_oid": "5ee1ccbf97423ced861424551cd2722fdd1f83cc",
+      "mode": "100644",
+      "path": "abandoned/authep/software/RP/RPWebsite/Web.config",
+      "sha256": "b9749027d767f0175224e227aa43b9f0c16bf37425e34bb2e65fe7fb4b8a71b3"
+    },
+    {
+      "git_blob_oid": "782e4ac747da359da85b43974685bb93be66336f",
+      "mode": "100644",
+      "path": "abandoned/authep/software/RP/RPWebsite/images/booze.jpg",
+      "sha256": "0dff88207c2bbc07b8915e849b6da453b92c2d2b4f9c78a28270d2c5aa550859"
+    },
+    {
+      "git_blob_oid": "4971f487d516e19246f1d7df1c579ac758c914fe",
+      "mode": "100644",
+      "path": "abandoned/fingerprintfiles/australia.png",
+      "sha256": "bd285990ed4f429549c9726be714f2295fadb845c57e7dd22cb2af798ca34c58"
+    },
+    {
+      "git_blob_oid": "dec99c899c4b00494e102f5b94aee029a8b365c1",
+      "mode": "100644",
+      "path": "abandoned/fingerprintfiles/australian.txt",
+      "sha256": "eb9150dd0fbef0a21570595aca4ef88d11e1abd6189d56bcfae37a2516073489"
+    },
+    {
+      "git_blob_oid": "66ea51435b86ac53c2dc23e08f620f40be881378",
+      "mode": "100644",
+      "path": "abandoned/fingerprintfiles/belgian.txt",
+      "sha256": "9a001dc246bbd7b490920a59058253c5d650d262e90711ff32508924ed4463e7"
+    },
+    {
+      "git_blob_oid": "c4572969dedd7e748005c1b8f4b7794c2c6b3bdf",
+      "mode": "100644",
+      "path": "abandoned/fingerprintfiles/belgium.png",
+      "sha256": "4106ffd015c4dcdea771ebccd1151daad1eb9f4e934b9917bc8fb9acea19a6bc"
+    },
+    {
+      "git_blob_oid": "1f944a64e56ec65e3de9adcd041ed06e109ab9f6",
+      "mode": "100644",
+      "path": "abandoned/fingerprintfiles/dutch id.txt",
+      "sha256": "64da9f0e09832b0104180fe49a35f20eb4484ab8f962dc04495778a04d946dea"
+    },
+    {
+      "git_blob_oid": "e2c94af344d706440a11b7b453d7d3628d55fa1c",
+      "mode": "100644",
+      "path": "abandoned/fingerprintfiles/dutch trial passport.txt",
+      "sha256": "a95e361a7bd403165b4e76cedfaa2157d6be409a95c7eebf67745a4618a65b65"
+    },
+    {
+      "git_blob_oid": "1f944a64e56ec65e3de9adcd041ed06e109ab9f6",
+      "mode": "100644",
+      "path": "abandoned/fingerprintfiles/dutch.txt",
+      "sha256": "64da9f0e09832b0104180fe49a35f20eb4484ab8f962dc04495778a04d946dea"
+    },
+    {
+      "git_blob_oid": "b5eceae055018b5f6a3df42ab4c1f1849944bd7d",
+      "mode": "100644",
+      "path": "abandoned/fingerprintfiles/france.png",
+      "sha256": "f8c55c7b4c679faf19edc10b462955961d718c7aa1d9885522ba60dc62ba395f"
+    },
+    {
+      "git_blob_oid": "1057dbada04fabd6351016462033d5b58140ac53",
+      "mode": "100644",
+      "path": "abandoned/fingerprintfiles/french.txt",
+      "sha256": "c30f8a07ab1978c72cc1ef8df29de53287af7b4ee425b14b11fd5cc1e41a178e"
+    },
+    {
+      "git_blob_oid": "e10aca3211e4bca288c62a0e79a105c044f80756",
+      "mode": "100644",
+      "path": "abandoned/fingerprintfiles/german.png",
+      "sha256": "cf686e3066483cb7e6f6bde85ab84ee25199aed828fccbcff059c9de469a2276"
+    },
+    {
+      "git_blob_oid": "86e98a70750a90a55084e0a0eb6e181bc3e32f52",
+      "mode": "100644",
+      "path": "abandoned/fingerprintfiles/german.txt",
+      "sha256": "f9fc6e0b53e9cc5d1f569805639c55f6ba0912e6091873f1fd986d4af20a87c2"
+    },
+    {
+      "git_blob_oid": "7fe392791f968e6068c5bc35cff0f8423efec4de",
+      "mode": "100644",
+      "path": "abandoned/fingerprintfiles/greece.png",
+      "sha256": "c176998a5b0f0428a134cd9b482455f534b9f019f02c3b011f0a308c1fa65081"
+    },
+    {
+      "git_blob_oid": "f797563587ccae191f203eb0ce9a6e8034985031",
+      "mode": "100644",
+      "path": "abandoned/fingerprintfiles/greek.txt",
+      "sha256": "d57bcac88f555ac30eb364ef6012bd99a9be4b413e4f23b427ed016d37285262"
+    },
+    {
+      "git_blob_oid": "a1b3b195f662c519011bc96d6fa391ff8cc49c7c",
+      "mode": "100644",
+      "path": "abandoned/fingerprintfiles/italian.txt",
+      "sha256": "a7d9ff2bd4f7ac4a10ff21cb1018a9ebd489ced0640a1a0a722ccd69fa81aa2e"
+    },
+    {
+      "git_blob_oid": "513763a093227605f1a40b38de5b5d54a265e3bd",
+      "mode": "100644",
+      "path": "abandoned/fingerprintfiles/italy.png",
+      "sha256": "72dc714d5c9261f29efd4b5fe84569fb1ff177e81e90ecdc940945034f709a72"
+    },
+    {
+      "git_blob_oid": "7e77e770f19e6ef125772b59c3a7923164184c6d",
+      "mode": "100644",
+      "path": "abandoned/fingerprintfiles/luxembourg.png",
+      "sha256": "a6955669363235b7de3674a84d731e4325e786b49c3fd315def0bf8d7d2c43be"
+    },
+    {
+      "git_blob_oid": "a6055b6313c367e585b2acb1593757107a0b3775",
+      "mode": "100644",
+      "path": "abandoned/fingerprintfiles/netherlands.png",
+      "sha256": "193e381701af57eae5fa9fb5b0bca1cf99072c5c59b6dc45abbabb323ad097a0"
+    },
+    {
+      "git_blob_oid": "891ee5250ee3c02741d7fb76023a8eef715c6b36",
+      "mode": "100644",
+      "path": "abandoned/fingerprintfiles/poland.png",
+      "sha256": "0259efca604df64ec549f8a5149e6846b105c97caa874b356aa641518cf596ab"
+    },
+    {
+      "git_blob_oid": "1a815fe041868ef80363b01577fb77c171c1a474",
+      "mode": "100644",
+      "path": "abandoned/fingerprintfiles/polish.txt",
+      "sha256": "29c367da9d5e4c4533e4d9d1dfea180f5c239ae9c757d114629803c517f97623"
+    },
+    {
+      "git_blob_oid": "65616d4cc73be188ad591f6b265f41fe67b28d61",
+      "mode": "100644",
+      "path": "abandoned/fingerprintfiles/spain.png",
+      "sha256": "af4dd402f992411e641af4c0b23873234af848c53cdfe74c2ccc2d2c19baa45b"
+    },
+    {
+      "git_blob_oid": "86e98a70750a90a55084e0a0eb6e181bc3e32f52",
+      "mode": "100644",
+      "path": "abandoned/fingerprintfiles/spanish.txt",
+      "sha256": "f9fc6e0b53e9cc5d1f569805639c55f6ba0912e6091873f1fd986d4af20a87c2"
+    },
+    {
+      "git_blob_oid": "b16f7bce67429cb406895c504c80572e30b7dd27",
+      "mode": "100644",
+      "path": "abandoned/fingerprintfiles/sweden.png",
+      "sha256": "dd5a8c3a03ffe9f47a5499dc39c25957195dd18c84d9db5d9b6b5083b5be3d96"
+    },
+    {
+      "git_blob_oid": "76b4052c51388c4acce20498c3bc67b41cc38663",
+      "mode": "100644",
+      "path": "abandoned/fingerprintfiles/swedish.txt",
+      "sha256": "a37370783307fa03c3deec2e0259bf75e75cc6a286572d42b5db12bd936292b6"
+    },
+    {
+      "git_blob_oid": "50fdb08a0724f6eb95740cc905ee49e84160db0e",
+      "mode": "100644",
+      "path": "abandoned/jnbis_imageio/.classpath",
+      "sha256": "5f7880b05b6e5d2877591c57e12f95990329295beb31af5f695f1f64447ae70a"
+    },
+    {
+      "git_blob_oid": "cbcc1b425f60eef6fff9a9d4c90e16255992c236",
+      "mode": "100644",
+      "path": "abandoned/jnbis_imageio/.project",
+      "sha256": "4205a9b86fa773577ae96e963282e6a24b6754935ec8e2f4268a7e991022fe40"
+    },
+    {
+      "git_blob_oid": "5f0140c2eec4d4adf0bb0eb0cf3cd92c06519961",
+      "mode": "100644",
+      "path": "abandoned/jnbis_imageio/build.xml",
+      "sha256": "e6b0ff4af8888e6f2d4743901a1ff6cdce156ce1cf26a6657ac2fa8eec116e7e"
+    },
+    {
+      "git_blob_oid": "a3a02a39fd50711783813f6c1d5fe8f874139b86",
+      "mode": "100644",
+      "path": "abandoned/jnbis_imageio/src/org/jmrtd/imageio/WSQImageReader.java",
+      "sha256": "52d127ee39ec5da12f7586cf6944397142356476468bae70addd2a7b310856b7"
+    },
+    {
+      "git_blob_oid": "9585b30aa6549ad63a31d68f5a52bd6936558ff3",
+      "mode": "100644",
+      "path": "abandoned/jnbis_imageio/src/org/jmrtd/imageio/WSQImageReaderSpi.java",
+      "sha256": "606e00e6796f371ec73dc53d66a5fb5fc1c5cf9c52a38891aafd8bf13d90db84"
+    },
+    {
+      "git_blob_oid": "270009570de0bb2431ebd2f70ad27a18d65e2fac",
+      "mode": "100644",
+      "path": "abandoned/jnbis_imageio/src/org/jmrtd/imageio/WSQMetadata.java",
+      "sha256": "d1c3661f63f044b32b60502539280c82666bcd22eae004a12970adb69b90504b"
+    },
+    {
+      "git_blob_oid": "d4ed86c1cbb8afa2bd6c7782048691807a130b0e",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/.classpath",
+      "sha256": "36d033c140d2ba382d5a858a0d92363e8cc5e0f853680de7d1305cb294213556"
+    },
+    {
+      "git_blob_oid": "dacb0ced87ac0e6d31b78ebf447ea20585a5557e",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/.project",
+      "sha256": "e8f9f85756f3a6dbbc44903dbb2098931ac617b94020af9ebfd275376b519cf4"
+    },
+    {
+      "git_blob_oid": "c73960e7427041f81887da8e205c5224af769e0d",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/.settings/org.eclipse.ltk.core.refactoring.prefs",
+      "sha256": "ff2e9a028560935bda9b4bb2be52f9517bf6a2bed5b8b9a669b452e2211c8a4b"
+    },
+    {
+      "git_blob_oid": "b87303c39a7b176c5077c9122d6d00c1746a8ad1",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/LICENSE",
+      "sha256": "319917f5ccd09878db6f67c9a77dee846055644ca49eb535628b9e020a87261e"
+    },
+    {
+      "git_blob_oid": "f2bb8556e34aab0ae98c3be2d076cada83064d92",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/MANIFEST.MF",
+      "sha256": "4de65d45272f8771438b4f683191de958dfca52aa197f9967fd124452fa0e75d"
+    },
+    {
+      "git_blob_oid": "c935b39254e9e5fdc26ba67bfa3d07dfd9cce373",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/README",
+      "sha256": "dc7c6e6cd0db54a64ce88cd8283a0060a70644d513d712f736fac96249454a69"
+    },
+    {
+      "git_blob_oid": "784b3ab2a246fa73ec53268a15a7a5eb649ae521",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/TODO.txt",
+      "sha256": "6a1b0b4528ddcd04c9336a2fc90b6498855f110db1fc41c082a02d6b8cd935f5"
+    },
+    {
+      "git_blob_oid": "5bae16b9ed62aecae6629b1322afae120194dbc4",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/build.xml",
+      "sha256": "093069b74e3ed96703c3d69516950a427c5c202aeeba6d8a9ae304bd239130b6"
+    },
+    {
+      "git_blob_oid": "f645a8ea4cd0564f5f12c9f83183f9c168db0df3",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/build_installer.xml",
+      "sha256": "3be1d501e3a142074d8b5a65225f0c94a450bd864cb2b8c0771e3083dadd1477"
+    },
+    {
+      "git_blob_oid": "3ebc5e464ceadbdfa5cb764b61cecc9c8f45db38",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/csca.ks",
+      "sha256": "4d942463dd63a1aad3cecb866a2f47d0943d06e8c997967c13c197e9f362315f"
+    },
+    {
+      "git_blob_oid": "fde60bc36278190db959ed68d370fd4d8f1530e6",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/fonts/OCRB.ttf",
+      "sha256": "bb21e9119ae7bb213d5aa906125f969e864867ac744dcbd53973b0ead2e27645"
+    },
+    {
+      "git_blob_oid": "053e4e119607977888c56aa55e38c9e6e37059c7",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/images/famfamfam_silk.zip",
+      "sha256": "c27d581be0b05a83c2a366a8308bc2c9f26775a5e4afc1145ef6ee6077b4111a"
+    },
+    {
+      "git_blob_oid": "870b786861b99425edecba9fc0a5a915913f49ca",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/images/flags.zip",
+      "sha256": "f762941862cfcbdc0834885da079d00dce5f8fcceefb9a172f0f97630b0d4815"
+    },
+    {
+      "git_blob_oid": "6378f780dd886facfac12ae5d2ae3e295e867e61",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/images/install-48x48.png",
+      "sha256": "f4f0adb91dd36d704eef591894638e0437a5efb4e6cca02a3dc1e90d9110a1c6"
+    },
+    {
+      "git_blob_oid": "3dacc283389dfaf957e2d91209a8716cbafd2dd5",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/images/install.ico",
+      "sha256": "7477dee2cb2f4aff090085ae774755d423d2a4fecbb867414262bfec9818f0d9"
+    },
+    {
+      "git_blob_oid": "b2be383f18d28878db00ae27fc762cd394a5a88a",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/images/jmrtd_logo-100x100.png",
+      "sha256": "800e9edcd1cf7dcd2189a3e418dd30eeb7e0ccdba4fc175d52486b54f2f1d654"
+    },
+    {
+      "git_blob_oid": "b275a9e070acd2a10f1eb9fe8ce7edd417da63c5",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/images/jmrtd_logo-16x16.ico",
+      "sha256": "0157fadbf4ea9eb5706e8757d292946b557ddced5fc72cadfaa5ad90a89dbf1c"
+    },
+    {
+      "git_blob_oid": "42861ec0bedc9f88132930f33f25d8c5cf4c9484",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/images/jmrtd_logo-16x16.png",
+      "sha256": "4024a23903804746126fd320c036151fc31059e1f977c556eecb8de888a75294"
+    },
+    {
+      "git_blob_oid": "af984ba0fc850f069bc836bb1f4f50b51722b882",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/images/jmrtd_logo-48x48.png",
+      "sha256": "93d0d9faf1db599d0d58e5fa52c6f1e7eaf7731887591892ef480ba935bc4b13"
+    },
+    {
+      "git_blob_oid": "49ebf4e579bc5235d4ca4f3aea992d43f010b84d",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/images/jmrtd_logo-64x64.png",
+      "sha256": "8a232c4fe8d6ed63d6400bd4efe8f56ea1ae7d82b0b0ebea8e5589c693d57db1"
+    },
+    {
+      "git_blob_oid": "b06e07d3d539c84c9ff0ff5e5efb62bad22dee1a",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/images/jmrtd_spiral-48x48.png",
+      "sha256": "1ac8c93b7d18d303f8d14519176e357e7fb8884f3dd898a8a927b02895dccfdd"
+    },
+    {
+      "git_blob_oid": "da1f4ce2f7bad8f2bd71052e807dd0e5642000bd",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/images/jmrtd_spiral.ico",
+      "sha256": "57ddb99644aac63edfc8763ea4a4f6596c3ab9d0c49c03708470cf481147b83c"
+    },
+    {
+      "git_blob_oid": "f1c4fb84c5dedccf62742ec8fac03fd4a3f8f5db",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/images/jmrtd_splash_izpack_installer.jpg",
+      "sha256": "16705c69afa6eeac805f9dfb31f0f72f5db1bc1a803f7d645e032e003b39ca00"
+    },
+    {
+      "git_blob_oid": "00640a56cb0fe175c96e43f1254ab6a643efa1f7",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/images/jmrtd_splash_mac_installer.jpg",
+      "sha256": "39a99c502eab57b56d89eb24c7338a0c44e1794d6ab55037bc537c1f238b081a"
+    },
+    {
+      "git_blob_oid": "60ac0f11be4fb5c2bdf10b00377f507bd6304e87",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/images/uninstall-48x48.png",
+      "sha256": "a78d273089dd1fb5f61682e7b4b1679c20f5f031299b451f00dc6d1d18e0ec3c"
+    },
+    {
+      "git_blob_oid": "26042700f270b5ef4e02d6d4927677336330e1c4",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/images/uninstall.ico",
+      "sha256": "48fd7240173619d93af0dabf8f9a6d3cf7dd67c091930e63ae22552ff14c92ae"
+    },
+    {
+      "git_blob_oid": "a6d2ff4134e4607eac6a4437231fcb2d78039386",
+      "mode": "100755",
+      "path": "abandoned/passportapplication/jmrtd.bat",
+      "sha256": "47604926c0f6d4fa984e3a353e69d66b9e10d27710d73d4a421fbf50a04c00f1"
+    },
+    {
+      "git_blob_oid": "85e0ef29a560fe3fcf20380ef346025bf6e57329",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/jmrtd.properties",
+      "sha256": "e5230cbd5736b632169a29afefa8d37e7e062e1b896666b40d02d1dcdc3fe9f2"
+    },
+    {
+      "git_blob_oid": "539eff685925f06bfc94d575eb1fe2d7fa62b5a3",
+      "mode": "100755",
+      "path": "abandoned/passportapplication/jmrtd.sh",
+      "sha256": "d88fe7c41bad11f7a0641939018a1749f1676e630a7213fee7acc580581dcf94"
+    },
+    {
+      "git_blob_oid": "c0488251e4a611f0f42e440384313fd70c983c43",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/jmrtd_installer.jsmooth",
+      "sha256": "453c3f27c8dfd8c4fda956891b8955769fc100890cb406f155c4c34e2fa8efb3"
+    },
+    {
+      "git_blob_oid": "8a153903685e64ffc6adaf4c8dab4a6bae897d73",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/jmrtd_installer.properties",
+      "sha256": "be39e9619b3f6e37bd1f6592aa7a0885822b4dbff69d4e149fe76d90be25cc0b"
+    },
+    {
+      "git_blob_oid": "c34bb62f53a7cf22f2a2e5a2e63dd59f2b3617ee",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/jmrtd_installer_shortcuts_unix.xml",
+      "sha256": "76388b8a1ba86373db699cfaca156a0474e1b07f962c536fbe956140d89884c3"
+    },
+    {
+      "git_blob_oid": "a874a6c82a405ac0f9c2314bd508e0c8f15f6ebd",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/jmrtd_installer_shortcuts_windows.xml",
+      "sha256": "f03709e0cfd4066354383fea1d4b0d20704730db14b91a90e3a0aac5b825aeeb"
+    },
+    {
+      "git_blob_oid": "fd424caa63c7dd6814d8931ca3dee6512d861aee",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/APDUTraceFrame.java",
+      "sha256": "9065631b982b14c507943f63f5c7ff7f16b85d382d632b319ed16bdad473f1bb"
+    },
+    {
+      "git_blob_oid": "63fb97477e3e121536474625a6a63e3036fca036",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/AboutDialog.java",
+      "sha256": "688e98ec2afce364a9b288b6043f7a94090db72051c63a3ed46122048d089fb6"
+    },
+    {
+      "git_blob_oid": "589f9af7afbba67937f66aca102e1c375253d5ef",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/BACEntryField.java",
+      "sha256": "164ccd88703648cb265441dc221c74f369da1f7f9e288b69e1d18c59a440df56"
+    },
+    {
+      "git_blob_oid": "15bbbce917e9b96b8c5cd9a104740f3313086d79",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/BACEntrySource.java",
+      "sha256": "37a5c459aabdc456bfa1d2afeeda1e1aa784e04d5710d141c94bff3836e83c7c"
+    },
+    {
+      "git_blob_oid": "8a23f5a9b3250e9fd25efb295c5d6fd6466b3529",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/BACStore.java",
+      "sha256": "502b2fc25d993bdaa7a3b0bb4344f43db1a3a73d72822bdeb757bd67a2a85504"
+    },
+    {
+      "git_blob_oid": "8bf6fa562ccf509095510e067c2f8ca64e241485",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/BACStorePanel.java",
+      "sha256": "f9e9077c1a2be7d272884033b59adebbcccbf69fe665c2344f011487e441c24a"
+    },
+    {
+      "git_blob_oid": "2763d798a7a24ba1c3cb130c939e8cdb59984905",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/CVCertificateFrame.java",
+      "sha256": "1a94d0159309f07ecead9621fb7bd07a7d46d361bb821d145f634f2c278b0668"
+    },
+    {
+      "git_blob_oid": "380029593ba752c4926f020572efc0d9bf15a873",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/CertificateChainFrame.java",
+      "sha256": "6ee72abf3f2c41b51ad850797e14f9c4117fc5e97b5111397aec370a51f9b64e"
+    },
+    {
+      "git_blob_oid": "d169ab84e75bcaa0ca831399955aec2d23252551",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/CertificateMasterListFrame.java",
+      "sha256": "37d4c3f1bdd6787c49e9f233cbbb488de172a23bcbc5025162f099ed612d629b"
+    },
+    {
+      "git_blob_oid": "9131b819224e424ba213ec5801a6ba2199e7a401",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/DG1EditPanel.java",
+      "sha256": "67e444871d4235f0300d41531e7c445f8ed2744a73322ef58e55f704c727a0b2"
+    },
+    {
+      "git_blob_oid": "600548bb4ec0356bb7903ebdce1afa7024f770f7",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/DocumentEditFrame.java",
+      "sha256": "4e356ef8da80fb240727845bfb975b754f328e0f762d51a2040d10e5c34cb684"
+    },
+    {
+      "git_blob_oid": "53f152ec2244d6203626068ba81b5faa78099818",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/DocumentFactory.java",
+      "sha256": "a226c0b1bac40abaaaf7df4dc8cb8865e7beb0a8f5734579edf362c9ff5ec3fb"
+    },
+    {
+      "git_blob_oid": "5f6ec86bef0de327c441d6832b8b59475a0d4948",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/DocumentViewFrame.java",
+      "sha256": "55ec8f2067212ee1d9796624cdefc6a42a82dc7626da774ba645789ed0574f7d"
+    },
+    {
+      "git_blob_oid": "141eb0e6b5234fd5a19f6f94fd1ed233fe17d1a4",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/FileBACStore.java",
+      "sha256": "23d0be171c94e8477a8dc8dff985a706cb123ea3a2aad0c8c5e5b9393a865f5a"
+    },
+    {
+      "git_blob_oid": "6b1f41958b1e5ebe21eec806ff81a78673ed4873",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/FingerPrintFrame.java",
+      "sha256": "54bc8fa9b4824e6549f303ee42f3f34453fc20ddbc811df067fb28b1463685f8"
+    },
+    {
+      "git_blob_oid": "bb17d2ddcfc41195c4c333a5cde8748a92003298",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/HolderViewPanel.java",
+      "sha256": "81910838b7263fc245184830a23b6124e951e174253063e62697e480b2da07d4"
+    },
+    {
+      "git_blob_oid": "a5742362050f6b19595d2de9d06f13739a307733",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/ImagePreviewPanel.java",
+      "sha256": "552418f97f7eb950dca5d1de3c951db974005c5444381d3c2425f1f83f0dc5b0"
+    },
+    {
+      "git_blob_oid": "792303e3a83b9fcfc672ef1aeaaa0ac17aed6b1f",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/JMRTDApp.java",
+      "sha256": "acde047d2f86885c8b731b8889d8407dc917b4c73ebc5ae3920fe1be3284628d"
+    },
+    {
+      "git_blob_oid": "fd7cd54a6a1d0523959934fecb52231b4ef3327d",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/JMRTDFrame.java",
+      "sha256": "312545e509b6f0ab7f9e5f35eb0d2445c2ba8a9bb89304e4e82d061d841ef403"
+    },
+    {
+      "git_blob_oid": "ecf0d9e37236641a5e7b7e6f39935e9ceed266c1",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/KeyFrame.java",
+      "sha256": "dc624b21abf817d9a08a0b98ec34e9d3cacbffaff53a00b87c473abbddf9f82d"
+    },
+    {
+      "git_blob_oid": "e39284b837c057fac084e49ce1d85c1e56d73a05",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/LDSTreePanel.java",
+      "sha256": "67a8cab9704be84d8df484c738b9707a5667bfb7404e1dd34a5cbee81447d071"
+    },
+    {
+      "git_blob_oid": "0087b144a8f9937df57e0dc18cc33796ff704d85",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/MRZKeyListener.java",
+      "sha256": "c9edc9394878f8fc1473c591db14b638d8d0c8b582ac8134851d009a1bb7ae10"
+    },
+    {
+      "git_blob_oid": "c59b9b554ee411040d5ec0951f5c0a9b160d12f5",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/MRZPanel.java",
+      "sha256": "ce3e3d542bc215f29e178a244f5fac40d426dfed82713c6942d9736af6b7d129"
+    },
+    {
+      "git_blob_oid": "b99fd4eed524a47f144ba8091f53ca89de44f039",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/MemoryBACStore.java",
+      "sha256": "f12ab9dbdb832dbc1df93932edd1748441598333acfc9991e86b6155d260ad08"
+    },
+    {
+      "git_blob_oid": "f54c86f8d4d8165279b14b001e5530a6d5425ac5",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/MutableBACStore.java",
+      "sha256": "26714a93a7c25014941ea7533b08bbe91eda5da45d910c17d19dce9ae87a4704"
+    },
+    {
+      "git_blob_oid": "db0bd46f0ebae9bd9af7be7e4ab1736a0cea02a4",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/PortraitFrame.java",
+      "sha256": "f4c5435294be2bfe58e58f94e0079eeaf5fb0a26e58d6eb8f38e927b5067b36d"
+    },
+    {
+      "git_blob_oid": "f3364bd1949da000f1b93b22332b3882c594b934",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/PreferencesDialog.java",
+      "sha256": "b6ffc38d2f0f60321ece8ed752aea0f1c68eab3657a8bc5b2b2ca51714d437bf"
+    },
+    {
+      "git_blob_oid": "cfed08bdb6a361910f961d98852a8cfb07980bd9",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/TerminalCertificatesDialog.java",
+      "sha256": "7f440c05b651f8d77cf10926a6d8af4c6dceec08b0c8a9aea9cd5ce2d5b1c511"
+    },
+    {
+      "git_blob_oid": "e115e098dc144fb586bc60e72ae2a643f7bd9fd9",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/UploadOptionsChooser.java",
+      "sha256": "86cbaf824ce38c4737f814b0770d7935702f35c4220dabecccbf820c8876665a"
+    },
+    {
+      "git_blob_oid": "25021f09f6a9662697c6a4af805656577b008912",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/VerificationIndicator.java",
+      "sha256": "4ab6e3251e5f71f8ea0eaeb4ed09ab1eaacd742a1f6ad4656bf016ceeeab88a8"
+    },
+    {
+      "git_blob_oid": "ba297a4553de1ced4094a1811f857f02edd2cd6c",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/swing/CertificateChainPanel.java",
+      "sha256": "f5cb68737930b425947178e79e64d8a3ee61c248cd0485aa6d0285344af0a45e"
+    },
+    {
+      "git_blob_oid": "1818382ae8546ad22eaf4582e860e299de21dea8",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/swing/CountryEntryField.java",
+      "sha256": "3e9c6399e79d5ceafae78027b0b3e70c156f99399dbd04dbf219293b8c5abf96"
+    },
+    {
+      "git_blob_oid": "79b6966c674c323fa130ecb9c3623b0058bba7f2",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/swing/CountryLabel.java",
+      "sha256": "e23ec5e72ca9b64b1f6031935c8f17cf91e13f3d2cd91f2e8576ce8ec72d4a27"
+    },
+    {
+      "git_blob_oid": "167aaae0facf050582dbc9f72617daec604c1156",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/swing/DateEntryField.java",
+      "sha256": "aaf90cd31ede1e03c7acae1cea59b62f222f1fe84c7e4661c88fb96f39facb7a"
+    },
+    {
+      "git_blob_oid": "003eaba88895e85fc4504aa7c5243b72dc9be34c",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/swing/DateLabel.java",
+      "sha256": "f7e693b803d29795ba4734c3283394541e1bbd63992fa643d42d5dadaab4dcfc"
+    },
+    {
+      "git_blob_oid": "a67aeafb05449cba8c255292c3e94a66facf0ac0",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/swing/DirectoryBrowser.java",
+      "sha256": "6a32770777dc8a4a867ed3003a6cd1c6e04ad98f40b35c76ec8658575bc1678f"
+    },
+    {
+      "git_blob_oid": "afcfb102df3736baea06348b863a57082869b8f7",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/swing/GenderEntryField.java",
+      "sha256": "f971176d1a97d855f810695c89c135847918dbb1557b27c884b90911d2896d1f"
+    },
+    {
+      "git_blob_oid": "d33ba841e0712cf8458d013ee3661e9e7a92333f",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/swing/GenderLabel.java",
+      "sha256": "be0d27c36b8f5884edbc19e1ff8ceacc5c05b455bf1fbe7650fc3066d93f5f6a"
+    },
+    {
+      "git_blob_oid": "824ab1238ea1a66c5ec14456b97dcd59e6d57f0b",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/swing/HexArrayField.java",
+      "sha256": "6804811b3b49256e369b655efd263fefc402327222247ecb922cc69677b8e458"
+    },
+    {
+      "git_blob_oid": "fdf71e542bea83f125e4166f7e1992f48749853d",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/swing/HexField.java",
+      "sha256": "7c453a931ce736a3c5fc510663b2536b55b3c5456f25edb998e4911145344037"
+    },
+    {
+      "git_blob_oid": "7e7c362433dfcc8de52cb31e6d2da72be770e612",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/swing/HexViewPanel.java",
+      "sha256": "d939d61f4ad9bae3204b8efa7da68201d33f367706a3a89f60c16226717710c8"
+    },
+    {
+      "git_blob_oid": "b5629ad93b23fcc548deaefac672762d055750b8",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/swing/ImagePanel.java",
+      "sha256": "e0b9f0cfcf4c29dd26c60713e3eaa794f7851cb8cfd1d12b08e58154b301183a"
+    },
+    {
+      "git_blob_oid": "4afd6b284e5b09db1d8b0bf07624880037238536",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/swing/KeyPanel.java",
+      "sha256": "04357863600f145f984d75329b655c67abef3bf2784526160b6cd8b954fbc9e5"
+    },
+    {
+      "git_blob_oid": "ca850358b3c88e5a72cfe8ee47a368baebfe599c",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/swing/MRZEntryField.java",
+      "sha256": "21db6c62c282efd0f0cbbcbf2f9fd091525605c7a4120771af5e3b106dba1584"
+    },
+    {
+      "git_blob_oid": "0503becf35affd9a92359942c3111f3ab4a5e594",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/swing/NumField.java",
+      "sha256": "700c91f263b8e2b1bcf72d1a7bcf54b542abf5ca752ff3ae8d6edb954fb8e165"
+    },
+    {
+      "git_blob_oid": "c39597c7a891dbe5fd7290f3c468df696309366a",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/swing/URIEntryField.java",
+      "sha256": "41ef1c086872bf94943a53aae95223c37401ff4464ea6674f169a1c01292deff"
+    },
+    {
+      "git_blob_oid": "55477ed8b14ecbd99ae0f7286e872d498e890b8d",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/swing/URIListEditor.java",
+      "sha256": "d5ffc4a9c4392e59d72206c0be4fbe9725792a3205ec4042212bdc18a338ec06"
+    },
+    {
+      "git_blob_oid": "12d26bb29b356107427fbdc046d575a070a27f1a",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/util/CertificateUtil.java",
+      "sha256": "1a1fd69606a203f043dc23b579e6094a0b06def48673648a7d2dcc19df52d3f1"
+    },
+    {
+      "git_blob_oid": "c8d4db31f693208386872874603e1e800f31f9d3",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/util/FileUtil.java",
+      "sha256": "0e04f151a0305f73a30c774dd99538f667eca129c2656c55420c65b849133360"
+    },
+    {
+      "git_blob_oid": "163b05bdb77e9597391b8d170b9e8057b2052470",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/util/FontUtil.java",
+      "sha256": "1916f1f52d4a1459d712b644e8e17db5774445f5a2db95eb7a32d3075b3b1bc8"
+    },
+    {
+      "git_blob_oid": "37323e40cd484d7a2b87dfcc8b1c7ec7d8228d35",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/util/IconUtil.java",
+      "sha256": "4bef1edb0220eabc871b18e0772864880bb9f8c809521265ab66cdd7f3ce0987"
+    },
+    {
+      "git_blob_oid": "5712fe58c27ed254691bb41934d36b0da3fdc43c",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/util/ImageUtil.java",
+      "sha256": "dbcb470071e56f17f302ad71a83e10df9c671bd48d57b4e7e2547a0d98ff5704"
+    },
+    {
+      "git_blob_oid": "83dd2d1a6a48dcbd9655913c7db8f8fb60be6e59",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/src/org/jmrtd/app/util/OSXAdapter.java",
+      "sha256": "6cea6e4b63876e335443deab732674c4191f7ff890e9e3485fd93f28940b1ffa"
+    },
+    {
+      "git_blob_oid": "85b0efc7cd50aae1f24b4d88b8f83d81f865141c",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/uninstall.bat",
+      "sha256": "47cf5a84291286a38ca11f5df122bc1497c74a809c4fc97f7fb488dbb0ca59fb"
+    },
+    {
+      "git_blob_oid": "e9c694e0d17e9c259a92d8cf1a7c94b01757c4c6",
+      "mode": "100644",
+      "path": "abandoned/passportapplication/uninstall.sh",
+      "sha256": "53d1b72e9abf49e8d64780981e6e33b0a8f3a9f42e8f1e10b9b334628c0589b2"
+    },
+    {
+      "git_blob_oid": "83aece17cf19b14334f2352788b9c533a3c20b85",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/.classpath",
+      "sha256": "4ab523475ef0b0e2f639833a71964beac9045b53fb4052ada5bfce41159b5ec9"
+    },
+    {
+      "git_blob_oid": "308eae59a0254e2ca029873e31ca0eb2048430ee",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/.project",
+      "sha256": "996ec7502321cebb642580ea5be17c179f25be9ddb181cf7f1e428142e9534c2"
+    },
+    {
+      "git_blob_oid": "4694163e6b02ea64f31dd1eebc83810f45fd5dc9",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/certs/README",
+      "sha256": "5c576ee8677cf97b345a44ccf4dd6047ce658539aa0800955fcec6d7007b2754"
+    },
+    {
+      "git_blob_oid": "360a81c139afa34a79c5df918525a626cb0b8bf1",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/certs/new/certCVCA_new.cvcert",
+      "sha256": "48b2f6cb9aefcd03a8d0d481d8999c049a7358b001c7663341205c25e703694e"
+    },
+    {
+      "git_blob_oid": "ef6dbda4183ce97051c9f129380fb3ead570a7e8",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/certs/new/certDVD_new.cvcert",
+      "sha256": "6afc29cc2359993b976092153d2caaa33511b48732a8a955e22225c2adf0810e"
+    },
+    {
+      "git_blob_oid": "991e96ca735e0c947f24b30a3addb4fa51e8388e",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/certs/new/certIS_new.cvcert",
+      "sha256": "132aac1e0e0ad0581de6ddbcc981b5c43ba28f3818d597b95bda3405733edbd1"
+    },
+    {
+      "git_blob_oid": "bce713260b6f73867f91539ee8e808605516aa31",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/certs/new/keyCVCA_new.der",
+      "sha256": "cd68d364f03062196496d5e2e8787b1e7ff37502042a7c17448388adfd9b1d08"
+    },
+    {
+      "git_blob_oid": "48e0219f1a3a718cf893d35d4c25da9259902e21",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/certs/new/keyIS_new.der",
+      "sha256": "581882e786ae5a49b40c44ae0a6245ae3967c17816a2fed8d057e179b172fb6e"
+    },
+    {
+      "git_blob_oid": "ea73b5e7be7eaae8ff689ae64626aa715a2a38b4",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/certs/orig/certCVCA_orig.cvcert",
+      "sha256": "51950c854782c209b7582fd77e07aaa64d86873ac50333e831c8fc7f13e2d66a"
+    },
+    {
+      "git_blob_oid": "3b5993434125f348bd179ed1f0031483cc0374e3",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/certs/orig/certDVD_orig.cvcert",
+      "sha256": "c0164637cc37efb99083eac1a627e6d2a24581a29de21a37f9152fd044bdce7b"
+    },
+    {
+      "git_blob_oid": "31fc5ed60ad8303a2c90484974ba9234c354c94d",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/certs/orig/certIS_orig.cvcert",
+      "sha256": "98be5fc373c944523888f725fe71955e6b295c34d4f691e6a0c04906a7c81b34"
+    },
+    {
+      "git_blob_oid": "08c79b693dffd95f320b4f863076294a0e755c36",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/certs/orig/keyCVCA_orig.der",
+      "sha256": "73729cf53af53518f5b4320a992e82c05fff5c9ccf16db16e4752b5bf3ed3336"
+    },
+    {
+      "git_blob_oid": "4cac9e58b8933c12cb33c856b10a8dfe802ef1ac",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/certs/orig/keyIS_orig.der",
+      "sha256": "9d2d2ac9d4c8936755ada20c2a7a7b62252c092926ba0cc0ccdd5cec7c759661"
+    },
+    {
+      "git_blob_oid": "f1760c7a364e409659a22852a336ad3e88cd00b2",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/doc/allclasses-frame.html",
+      "sha256": "2515c2b02f0478422652a092724032c31481643ba3b3455740eb909389087f71"
+    },
+    {
+      "git_blob_oid": "c7f7c0756a59a9dbefc91768c16ee7e7eef521a1",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/doc/allclasses-noframe.html",
+      "sha256": "8702cd1f00d707e43d58b28670191008b61c5bdb44a4f4f820ee9c06c95a4ae5"
+    },
+    {
+      "git_blob_oid": "c5d057bb22311c351a01ff83de0fa6a781f85602",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/doc/constant-values.html",
+      "sha256": "a02a63c9ae032e9fe4de42a1ef50791e332d8a2b6964d4e6bc9edad218fd9fc9"
+    },
+    {
+      "git_blob_oid": "f35280d30a51da3870a28a76b4fb5dffa47d2e33",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/doc/deprecated-list.html",
+      "sha256": "03c9bf3f17372a259619a201e571af7cb003ab27d642f4b64b56a6c068aefaaa"
+    },
+    {
+      "git_blob_oid": "0cf0acfd491a5c09302553d6d877eaac50276d8c",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/doc/help-doc.html",
+      "sha256": "966a2be50364c593f314e225b72482a940a52d5dc79a906d5f65bc4aaa68886d"
+    },
+    {
+      "git_blob_oid": "8829bbe9a9b0b2e15b45ac79f6a09d5ff21cd9f9",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/doc/index-files/index-1.html",
+      "sha256": "f18e291b4cb36cd490ebccb1c03d69992944bdb9248ed1b8deade75ab98f4c68"
+    },
+    {
+      "git_blob_oid": "664e5c9359ad2550dd555fae2e7c450737de3d75",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/doc/index-files/index-2.html",
+      "sha256": "75ea168698272379bd56256563aab980b555ae1d634c2d77f4ad2771d387622f"
+    },
+    {
+      "git_blob_oid": "fea5e4666ab0c2a150bf21e85e0a36d05c3c7ebb",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/doc/index-files/index-3.html",
+      "sha256": "21121233a63625904489eb4ed6433926991d5b59c1e2149952fa7c695be461a0"
+    },
+    {
+      "git_blob_oid": "dc8eddef3ef988058702c88381384697b4c403c6",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/doc/index-files/index-4.html",
+      "sha256": "002dbe31f0e68cb55a0b4faf00e04062094dfe60154ad7bc47f7025dfee4ff38"
+    },
+    {
+      "git_blob_oid": "769cce1bf3018ba50507ca4ca1aa43b1d36c23bd",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/doc/index-files/index-5.html",
+      "sha256": "03fd401c8875f8e56a45b06589f234702a0128afb3f76d88d2844b65bef88191"
+    },
+    {
+      "git_blob_oid": "007d4d510658d078cb51e912a76db8d23504c4de",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/doc/index-files/index-6.html",
+      "sha256": "f0f397b5f73001ce97dbf4d6d2dd669848b18b8d1df26118c53f74fcc21ab7f3"
+    },
+    {
+      "git_blob_oid": "2cf1eb4f60ef608b0ad57fdcabfd3a3d89ac4027",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/doc/index-files/index-7.html",
+      "sha256": "039c3102f4c8fc4753c39a58c2a871626b51efadd9a851970dcd4aed165deb21"
+    },
+    {
+      "git_blob_oid": "f8b2a344edda2c1f4cd640d3472e7131c5a46201",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/doc/index-files/index-8.html",
+      "sha256": "042088fe338126b2be22b0619bb54de8de4074caec295d9c1a1bc22985d550c8"
+    },
+    {
+      "git_blob_oid": "a0de2184559dc5ff7b3a29d16ab2d4872b1a9788",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/doc/index.html",
+      "sha256": "010660be839d7afe2ccf4ee873d8d13d3dbf68a824cc77f1239d5981040f8db8"
+    },
+    {
+      "git_blob_oid": "6890a294ea6da8367fedd63305684b900e6bb6e4",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/doc/org/jmrtd/test/PassportTestService.html",
+      "sha256": "409bfcddee7d217c55579e614435a730b6c9388468e7025ab179d7be460b4cc6"
+    },
+    {
+      "git_blob_oid": "b6a1d02a222204aa10af877d33765d7f7d49852d",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/doc/org/jmrtd/test/class-use/PassportTestService.html",
+      "sha256": "1b05d4644d02d3b909cd978d70fbda99aea3b48dd98f725dde5e99d4fe110225"
+    },
+    {
+      "git_blob_oid": "7c34af7bd3b0338a75f6e383a72ce65f1272bef2",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/doc/org/jmrtd/test/package-frame.html",
+      "sha256": "a4bbd9282e560bed8d35ddf4fdd4e85b78a749744bdefd03c419ce7a2242c23d"
+    },
+    {
+      "git_blob_oid": "d61bbaa0305fbfef5b4b75c9ef7b3a3c22c1a8c7",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/doc/org/jmrtd/test/package-summary.html",
+      "sha256": "78aaeaa5c08fb674ab78f14e25d6add755c4bf9789261940776323f603095f15"
+    },
+    {
+      "git_blob_oid": "90f47c45c3132a115368d822ece64ac36ec85393",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/doc/org/jmrtd/test/package-tree.html",
+      "sha256": "809473c348b73ead0b1a081dd99dda08086fb9884619a7fba92bf291f2f25a46"
+    },
+    {
+      "git_blob_oid": "d497c70a2f93f4f5831ac80a2927435f2da2dea2",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/doc/org/jmrtd/test/package-use.html",
+      "sha256": "d22f24d81bafeaa199f12e451d46c8d62def0bed46e30495440884a07d40be74"
+    },
+    {
+      "git_blob_oid": "392eed47e3c42f7a31ca35a134181e6212fd7064",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/doc/overview-tree.html",
+      "sha256": "4352607c14d7b466cc6482363e8678a4258b23d7818ecd1e8d4a45f225cec0ec"
+    },
+    {
+      "git_blob_oid": "16b03bada4efc6c9e3f63774acfdae82597f1785",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/doc/package-list",
+      "sha256": "0f33c5639e380d32e97e0f79a63da1f28bb1039a75365b6e256efdaf898eca46"
+    },
+    {
+      "git_blob_oid": "c814867a13deb0ca7ea2156c6ca1d5a03372af7e",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/doc/resources/inherit.gif",
+      "sha256": "0213f3dca0cb17d6dfc4449c62833d8ba7153dfed5532002b9690fdfba7d75e0"
+    },
+    {
+      "git_blob_oid": "6ea9e5161615fcf6cdb0d194d913139c26fa417a",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/doc/stylesheet.css",
+      "sha256": "ae6a227968324b5f8ef6e0aaa284dd53088714dddc91d0d874b81aa92e557134"
+    },
+    {
+      "git_blob_oid": "16dff4f838dad66ab21caca3fa40dab994d38b62",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/samples/bsi2008/Datagroup1.bin",
+      "sha256": "51b6fc0ef1946f3a86d2a4c9557c5d8ecff13113b4131089c5c48bf7291ffdf5"
+    },
+    {
+      "git_blob_oid": "2c5c07b848b65f9d4d7f5f15b6c83f73553af892",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/samples/bsi2008/Datagroup14.bin",
+      "sha256": "b7d6a9672ca824a8c1242852ddda89e8b93c01ed18bc19ad256b2b7b234ffd99"
+    },
+    {
+      "git_blob_oid": "7fc0f13ce198044efea5a0870339ad3006036f3c",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/samples/bsi2008/Datagroup15.bin",
+      "sha256": "f8dafb9e20b5f27557012d4926836db498743c1747f892bef41293f2f10fe163"
+    },
+    {
+      "git_blob_oid": "10dcc419315f838250a8d36411be048e94dec72b",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/samples/bsi2008/Datagroup2.bin",
+      "sha256": "a9a1b09dfd598087ab3fce4ae2ec65b1a1525bd258bfc27df4419f8a65e54745"
+    },
+    {
+      "git_blob_oid": "4da76b3d7d74d282c0f38a79235ed6080fb28fc7",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/samples/bsi2008/Datagroup3.bin",
+      "sha256": "403e4d17c26ebc832411898161d8fd5d99c58ee865cb3759b529aa782c7ede00"
+    },
+    {
+      "git_blob_oid": "fc39d10b0f53914eb2bab3f8aeda281aed8ce8a9",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/samples/bsi2008/Datagroup4.bin",
+      "sha256": "4c7a0f0ddaa473123834f1b0713ed9453d1d1d58bce447fb1736d40a0761c17b"
+    },
+    {
+      "git_blob_oid": "286ebf873aa5c8df69407a8bbb863717ecdc8192",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/samples/bsi2008/EF_COM.bin",
+      "sha256": "1d424d54a5f55bd227df8a259db3f02ea0f148be703d2c8629629db36e890bcb"
+    },
+    {
+      "git_blob_oid": "48c44c7aba7019cf83382b22bd1fdee257eed0a6",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/samples/bsi2008/EF_SOD.bin",
+      "sha256": "3d920b7e589fbd656a684ff50ed90ffd231aeb6b380031f9d87fb771147ae423"
+    },
+    {
+      "git_blob_oid": "e38b7953ffeaf49db2a706208e676c18abb00735",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/samples/doc9303/spec_sample_encoded_dg14.bin",
+      "sha256": "e92ac4e1791d7c5aa0c3f68e92ee7447529300e13ba9d273aa883d0769d4da2f"
+    },
+    {
+      "git_blob_oid": "7a3c56c477b9360d0eaa40ac83f904c03a0417bd",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/samples/ef_sod/NZ2013_EF_SOD.BIN",
+      "sha256": "600001542ad1ab50470e1c46a4ec419dc9598eea21711b94c0aa5750c02749cd"
+    },
+    {
+      "git_blob_oid": "cacb5594f63faf2d791990428f20d9580108d42a",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/samples/lds/bsi2008.zip",
+      "sha256": "f3be7bd6c856569b7dd51f6489adc1901ecf0672182b6bf3090d9e779544f499"
+    },
+    {
+      "git_blob_oid": "79cdc1791f38e9e8f967a8012ed2c795f1c22ebf",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/samples/lds/loes2006.zip",
+      "sha256": "e98f1e79ac80fffc11e1abff841c8384e22a732cb2c1a1e221759dee878a4899"
+    },
+    {
+      "git_blob_oid": "d4efd8e3cf09997b0a9d9896adcad141d8301781",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/samples/loes2006/ef0101.bin",
+      "sha256": "9c2432bc26cf6b250839dedc658f2bf72fa3adad32ec9656395f53c8d7aa13ed"
+    },
+    {
+      "git_blob_oid": "91156b6117a2038400e831ccbfbe6af8faec96eb",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/samples/loes2006/ef0102.bin",
+      "sha256": "d419c73f496341fbd4f52961cc806867e17578615074da6289a667ee741a2d9b"
+    },
+    {
+      "git_blob_oid": "dddc51d9f5fbccf6d5b0b28372b6ead1f0a98d6e",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/samples/loes2006/ef010F.bin",
+      "sha256": "cb54d8b2ef0a2eba98f69c1162ab6308386343a4efe66b5ac8037e240bfe051d"
+    },
+    {
+      "git_blob_oid": "10e9300874cd546ed1307b792048f50280dd9f2d",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/samples/loes2006/ef011D.bin",
+      "sha256": "911afa57a07ed9727a943246549db1f160217156ba03a829193cf72af8096f8f"
+    },
+    {
+      "git_blob_oid": "d0e340f583d2e49172cc12c3ed09c6853f598a6c",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/samples/loes2006/ef011E.bin",
+      "sha256": "00def484d131011e1041e574b9ec0d068ebeb9ada00a07407ad373d5d7e8cae3"
+    },
+    {
+      "git_blob_oid": "f2288217aa3ea87f63bce9c7c0545566a1ee0585",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/samples/wsq/fp.wsq",
+      "sha256": "5850eea06329d718c9bac497b5e5979cc8f5cc61b386df65e23af13cf1263671"
+    },
+    {
+      "git_blob_oid": "ac6c6c6f5a2c74f0448d4cfd8a7e8eb555e9085b",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/samples/wsq/sample_image.wsq",
+      "sha256": "280acd9e9e320298d4f70f8bd79441f69bf75586e52cf4a92a5c5358de7cc95c"
+    },
+    {
+      "git_blob_oid": "31801ecbbd5ed6b12896840fa8b74719acde0840",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/src/org/jmrtd/atrselect/SelectPassport.java",
+      "sha256": "d2c9f88e4cc4769d6e686d7ba75e3fc72236661f74589de5889040aea8247201"
+    },
+    {
+      "git_blob_oid": "df38d73e3e7cb29cd9b2518cc94c060727967988",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/src/org/jmrtd/io/test/FragmentBufferTest.java",
+      "sha256": "eae0c5b5232e858b04251f25c7878df1cfe644f947674ba15bf067a9c0aad16c"
+    },
+    {
+      "git_blob_oid": "9fa539beba0c8b2b6fb4d044d7e4e0f679eb6d3a",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/src/org/jmrtd/io/test/InputStreamBufferTest.java",
+      "sha256": "c9234aaea0ed34fbd6485faff7cdca90653b34a5899a6d8ce5d8183facfc3d19"
+    },
+    {
+      "git_blob_oid": "19dd870e25303977a0589a3936a42cc79d879e38",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/src/org/jmrtd/io/test/SplittableInputStreamTest.java",
+      "sha256": "78b32dfa301ed35739328ae17eecdf572564226f68aa159db765ba020362fd43"
+    },
+    {
+      "git_blob_oid": "6b105e62cf824f64bef8d76d631e1cd39a4eba4e",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/src/org/jmrtd/test/MBTadapter.java",
+      "sha256": "10332f048433e4a181f5919b1b1e62f286b5e9fbab8d1b4a5f7ef9a74ff2a11a"
+    },
+    {
+      "git_blob_oid": "c2d2f1c27c29f8f5994dae50bad72c23d04764c0",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/src/org/jmrtd/test/PassportBACTester.java",
+      "sha256": "5d74b0dfa21d829222b9b9169fa00a38fd2f99bd71585636c4e16aeabcebdf1b"
+    },
+    {
+      "git_blob_oid": "dfa5ff251e657f55103be80fa40a363e1a0d14d5",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/src/org/jmrtd/test/PassportCertificateGenerator.java",
+      "sha256": "b6b9a1dd4d108462d55e49a4a2164a4cce9fd6643af6ce6d8033fa44bf4554af"
+    },
+    {
+      "git_blob_oid": "21f6d750d83c0197cdaa332577ee1d9fa02c2213",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/src/org/jmrtd/test/PassportEACAbsenceTester.java",
+      "sha256": "bb70cd6f671e82358908665dcf8897f5e65b1310a3f6cf3b0c3a44ef0173ba78"
+    },
+    {
+      "git_blob_oid": "1ca0594c306fe6a3790e068ff528abecba4f5716",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/src/org/jmrtd/test/PassportEACTester.java",
+      "sha256": "2154803d4c40bb931c8dd1cb195b7df76877abf3dd2a24d63e99583d19becfa2"
+    },
+    {
+      "git_blob_oid": "4d99269d1f96c06bec18048f8390d5d7f2ec30b2",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/src/org/jmrtd/test/PassportTestService.java",
+      "sha256": "c9ae99712d43f994faa1303bd09a27609a0fb840d27b909b0d070574d8efacce"
+    },
+    {
+      "git_blob_oid": "e40bce2091f8625f36a9c732337dc5524c3aeb62",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/src/org/jmrtd/test/PassportTesterBase.java",
+      "sha256": "0d7dd3ca92432a704e3194d3b293f3ad5d82d01dac22f7d48daf74d90ae8eb89"
+    },
+    {
+      "git_blob_oid": "3d0d65989a5dc0c5b50de1b89f63878d2462e4ca",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/src/org/jmrtd/test/PassportTesterExample.java",
+      "sha256": "931d1117446e632f6f860f4b2e6fe7af3c1e9a1711e506dd748fe13b46e24077"
+    },
+    {
+      "git_blob_oid": "bbc89944b7a1af939750f3e136f8d4acecf6a8f4",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/src/org/jmrtd/test/StatusWordTests.java",
+      "sha256": "697706bf60da02b83184db1ca8e1f0c538ad89d9d3f42e5d96ac5ebe2e09fa23"
+    },
+    {
+      "git_blob_oid": "5a40640fdd560b1dc309226d101105ea45d467ea",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/src/org/jmrtd/test/api/PassportTest.java",
+      "sha256": "476fc3142d7c6f3f7d33782df5a780506481cb8e90dddc0d90372f4b55a69bad"
+    },
+    {
+      "git_blob_oid": "ce6b06a83b77a465396586931cc1eff36b4745b5",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/src/org/jmrtd/test/api/cert/CSCAMasterListTest.java",
+      "sha256": "3b7438d7d440fa8311fcf8007016a59563784bb6eb3c498c5f66886cdf68e9f9"
+    },
+    {
+      "git_blob_oid": "59360af57585b5febf96ff423221d058caf70715",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/src/org/jmrtd/test/api/cert/CSCAStoreGenerator.java",
+      "sha256": "b316c50e59b1c8a4fba49800b5f9c844fc59398cb3539ae6bce27b238aac8cd1"
+    },
+    {
+      "git_blob_oid": "2367e7d773449de9b160cf153cc31018008493e6",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/src/org/jmrtd/test/api/cert/CVCAStoreGenerator.java",
+      "sha256": "c55de60b71a71514d6db89c76ddb72d8dd4485300e2218102a64f2d3609bb020"
+    },
+    {
+      "git_blob_oid": "963faf5eed13b8024e6b342d8e8abadb6e4e01c3",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/src/org/jmrtd/test/api/cert/CVCertificateTest.java",
+      "sha256": "10563919847c39d6f7e65bc7a0f556fefe41871e603905b9d468975b89a16e63"
+    },
+    {
+      "git_blob_oid": "a2fe436407691a98c8019b47677b9b83e667510a",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/src/org/jmrtd/test/api/cert/CertStoreTest.java",
+      "sha256": "122caf064df1f65c7df6d8e2f09706e554c33fcf2ea2eb0a2b2c7f6386388375"
+    },
+    {
+      "git_blob_oid": "cd4915076b66b7b2eb17e6c9778705f7ff0ef9e1",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/src/org/jmrtd/test/api/lds/COMFileTest.java",
+      "sha256": "5991c7ca290040b83f3c0dc76a3855e7fbfb093ff88b594420130fa9e8a82356"
+    },
+    {
+      "git_blob_oid": "521a0f3b867afd6b958044bd70c568e0c9fbc86f",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/src/org/jmrtd/test/api/lds/CVCAFileTest.java",
+      "sha256": "30913fb087fba639efd28634bd4896388440724862461c28520473fe9ba97af4"
+    },
+    {
+      "git_blob_oid": "7763f9e8f567f22bea08d176d06811b6592dbd0c",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/src/org/jmrtd/test/api/lds/CountryTest.java",
+      "sha256": "6f84d62b71531770648cb4a58d784d4d604f6175e045272869dddd832379f549"
+    },
+    {
+      "git_blob_oid": "696335db5316568092ba131760f89a1ec2a98f7d",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/src/org/jmrtd/test/api/lds/DG11FileTest.java",
+      "sha256": "c59344baf985034854e462669ce388c74bab1ac16e55b6c91044bdd0b2f39b12"
+    },
+    {
+      "git_blob_oid": "f5abdc3abb0109a0e33a1f2dd15fe13403c9077f",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/src/org/jmrtd/test/api/lds/DG12FileTest.java",
+      "sha256": "1242f4cbe93ec71a0eb04a171160255be5f84b6cbde45e904f995b992c8c289b"
+    },
+    {
+      "git_blob_oid": "6bcf8f19a6ceb8b3a9432a7a10d856614ee51606",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/src/org/jmrtd/test/api/lds/DG14FileTest.java",
+      "sha256": "391cf33a23f5cc17285771142b9cb5550e1f0112a77751e585ddcafa992f3802"
+    },
+    {
+      "git_blob_oid": "e26740bc63432e42303244080d05cb6ae5f1f302",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/src/org/jmrtd/test/api/lds/DG15FileTest.java",
+      "sha256": "2113678915b0c2251e021d60a6b6d410100491610136eba13ddc25ecf354e251"
+    },
+    {
+      "git_blob_oid": "ad61580953415f69367c54f132ab97fe7f47b2e2",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/src/org/jmrtd/test/api/lds/DG1FileTest.java",
+      "sha256": "1ee761410687aa7d699fdadd7333d3423416736add552be0db5421efa3ca3294"
+    },
+    {
+      "git_blob_oid": "728f59e6e8e3b0bca6f6b5f39be7ac9ef29b2f5d",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/src/org/jmrtd/test/api/lds/DG2FileTest.java",
+      "sha256": "f1a7c3519259610322dc7258a63e4916270cbda4d7b5fb55ce09d5960d198802"
+    },
+    {
+      "git_blob_oid": "41731589d782c453d77bc83c1a8e011341fa354f",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/src/org/jmrtd/test/api/lds/DG3FileTest.java",
+      "sha256": "0137f71466cef940e80e9957d6f45a7e5182f500c56ab87581649cf59e679e0c"
+    },
+    {
+      "git_blob_oid": "4ea5e6c93d5b0d02221d8534649b8a8d89ccba5f",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/src/org/jmrtd/test/api/lds/DG4FileTest.java",
+      "sha256": "2781156158cbe2f8841236b2c72bde8af87d00d9494eb661997f8f40af7b2f20"
+    },
+    {
+      "git_blob_oid": "66854523fe5bdb2791fb09d867c2c33bf864a5b0",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/src/org/jmrtd/test/api/lds/DG7FileTest.java",
+      "sha256": "d58cb64c690d494d953c5851a026569ee0b637b5bd5984db848c4f5838550b8e"
+    },
+    {
+      "git_blob_oid": "f07c5b2b864d880baba8390ad621a93b1d68ea80",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/src/org/jmrtd/test/api/lds/DisplayedImageInfoTest.java",
+      "sha256": "f3b4c6030f5211d0fcb0fdb6008da21610ac8b69022e87dbbdf4fc33ef1f4239"
+    },
+    {
+      "git_blob_oid": "fc197237689b92ab2532c9909ef884484d2f65e3",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/src/org/jmrtd/test/api/lds/FaceImageInfoTest.java",
+      "sha256": "173a1ea3b40662197382f0a3b2a0fd0ff3cf19e877402ad0aee276d365114fdb"
+    },
+    {
+      "git_blob_oid": "24f12485ab2e093becc0abee959d76908843dc04",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/src/org/jmrtd/test/api/lds/FaceInfoTest.java",
+      "sha256": "612139e9894e3dbe1847a8e5c84e353220ee358bb8f33edbe7ce4d3311d45556"
+    },
+    {
+      "git_blob_oid": "63b5500e3f7f7625fbd7ad120f9a1482e80a2fe1",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/src/org/jmrtd/test/api/lds/FileUtil.java",
+      "sha256": "0e14895cbd2bb696bc27c6175dad92ac8187e034f738b616fc288a159612f150"
+    },
+    {
+      "git_blob_oid": "9289aa497a6c135a646099c313c944ba475b7b13",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/src/org/jmrtd/test/api/lds/FingerImageInfoTest.java",
+      "sha256": "cdee64c83bbf1c10af344be007f3a69e1fc03bb92a6762eb4390fa439bcebfc6"
+    },
+    {
+      "git_blob_oid": "d568eb409a0592e59fdd942a2a7e8da22746707f",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/src/org/jmrtd/test/api/lds/FingerInfoTest.java",
+      "sha256": "045533574a6f13780454d331ada3ba0b339c4779dfa14a1d4063d73e33ad0e0c"
+    },
+    {
+      "git_blob_oid": "03384a11a995924e410fc0ddc7f572897da55e70",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/src/org/jmrtd/test/api/lds/ImageUtil.java",
+      "sha256": "d658079a65f1ccfc039908985e831c9902f9df9798ec56c395ae232d86876a26"
+    },
+    {
+      "git_blob_oid": "0acec11112f9d65cf811a2c3cb28e67d1931f47a",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/src/org/jmrtd/test/api/lds/IrisBiometricSubtypeInfoTest.java",
+      "sha256": "e963e38b4199707cf741b278182026db785e1b9a7ebd14bbf13acbf84a4c06fe"
+    },
+    {
+      "git_blob_oid": "fe544f2f0b93a0c1914b979ed5ab8cb55c3f2ad6",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/src/org/jmrtd/test/api/lds/IrisImageInfoTest.java",
+      "sha256": "3022bbe90b6e5d5c199880fb7642df70cd56bcd47b199bb69007eeb75850c7d7"
+    },
+    {
+      "git_blob_oid": "a6d340a9b5840c59b3867cd3492c22de479027ce",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/src/org/jmrtd/test/api/lds/IrisInfoTest.java",
+      "sha256": "2bb7623d5aade87dfe4e042b41ed0a9255755798682b731be7167eda1b982093"
+    },
+    {
+      "git_blob_oid": "7c7d9916c001fd7a45e88679d27751bf582d35ac",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/src/org/jmrtd/test/api/lds/MRZInfoTest.java",
+      "sha256": "01d25e777ccbdb4439587522bed437bcadb3e9b0e371d7d5e62348760fe1e2f1"
+    },
+    {
+      "git_blob_oid": "c7322116cf2d4704f17a8905de41c5312bc6cc4d",
+      "mode": "100644",
+      "path": "abandoned/passporthostapi-test/src/org/jmrtd/test/api/lds/SODFileTest.java",
+      "sha256": "28f1b182511dcb9ec908ba6c388268ea09815dc279008150f22bf17ad60303ea"
+    },
+    {
+      "git_blob_oid": "18c4e1c6448b8cf6d3ab3a4601a10cdf694ede1d",
+      "mode": "100644",
+      "path": "abandoned/passporttester/.classpath",
+      "sha256": "0ac5717f9a9a134adce804ed7e7863f4002c5023996b7a01305bc4786ade7104"
+    },
+    {
+      "git_blob_oid": "996d4ebc98765576c7d366ccf9f882153a4d5b9e",
+      "mode": "100644",
+      "path": "abandoned/passporttester/.project",
+      "sha256": "4a6260c70038d839cd15b5c769464fb3ad422db42f0b2b3971ecc93f58d6078d"
+    },
+    {
+      "git_blob_oid": "e828c9307b4227f003cb058e6b19d493312c89d9",
+      "mode": "100644",
+      "path": "abandoned/passporttester/src/sos/mrtd/evil/EvilInterface.java",
+      "sha256": "7b77656a483a1e803fd88c22abb3b18757f197ea6da5116d9f49ecc53e25884e"
+    },
+    {
+      "git_blob_oid": "d7cfcb66070444226b1e4c97c6b31eac068a1cc8",
+      "mode": "100644",
+      "path": "abandoned/passporttester/src/sos/mrtd/evil/EvilService.java",
+      "sha256": "15369cde758ea37bf5161bab10c6098b6526f232e934ddf77b760afdfd505046"
+    },
+    {
+      "git_blob_oid": "8277d19ae5f1efbe83d1221a8af04cface931b68",
+      "mode": "100644",
+      "path": "abandoned/passporttester/src/sos/mrtd/sample/AAPanel.java",
+      "sha256": "e5920c574e38c28716c70409c0f842cf01d3bbfc9fc5ac1053ad98152d2fa8f0"
+    },
+    {
+      "git_blob_oid": "56cc56d4f6891c749014645acbfe916581059993",
+      "mode": "100644",
+      "path": "abandoned/passporttester/src/sos/mrtd/sample/APDULogPanel.java",
+      "sha256": "4213dc74cf223d34e4888e5d94c2bcfa290d2597e1e4d97cfa1f406d5e0ef83a"
+    },
+    {
+      "git_blob_oid": "1693686fba27d548c91f88b667427978b54f6608",
+      "mode": "100644",
+      "path": "abandoned/passporttester/src/sos/mrtd/sample/APDUSenderPanel.java",
+      "sha256": "03d80aa5fce73662fc06b0e84baa2c1ec9fde53b8a7c162c83a25f4d285211a6"
+    },
+    {
+      "git_blob_oid": "dcde4e8be2161adff5b741a062e56094ef40d6c7",
+      "mode": "100644",
+      "path": "abandoned/passporttester/src/sos/mrtd/sample/BACKeyPanel.java",
+      "sha256": "586459dd0b60836b7a5e9539ab8bfa43fff1ad03fe0871c5ad5d5c981cd1ba36"
+    },
+    {
+      "git_blob_oid": "dda4c68b1e3dea9bba9754de3493afd5e0ede34e",
+      "mode": "100644",
+      "path": "abandoned/passporttester/src/sos/mrtd/sample/BACPanel.java",
+      "sha256": "64320f643fbb79a2d72cc3fc19437545cb596deaaef88b78cc9609201ab4280a"
+    },
+    {
+      "git_blob_oid": "2cbe2e829b7ed2f49b1761f3e821409c3b6db95a",
+      "mode": "100644",
+      "path": "abandoned/passporttester/src/sos/mrtd/sample/BACStore.java",
+      "sha256": "b720623d67d28f763cb88898a4291a112ea37e9edd5800e017188f5877571b64"
+    },
+    {
+      "git_blob_oid": "74c52ae38e4805442143f8cf96686e061a4bce76",
+      "mode": "100644",
+      "path": "abandoned/passporttester/src/sos/mrtd/sample/CommandAPDUField.java",
+      "sha256": "534c715c5c215fa11dda893e598055bf0118b7952ce9f095e64049a3097f272d"
+    },
+    {
+      "git_blob_oid": "4232e97159734d5dd2d3f3f4cf21a4cab83ec42b",
+      "mode": "100644",
+      "path": "abandoned/passporttester/src/sos/mrtd/sample/CopyAndBurnPanel.java",
+      "sha256": "054bbfdf2751426b3ea78f914c2bd249c38d11da52ead42248406f6a85a72863"
+    },
+    {
+      "git_blob_oid": "2cf9bbc693c5cbe98c5d831733dd0879e2a9b798",
+      "mode": "100644",
+      "path": "abandoned/passporttester/src/sos/mrtd/sample/EvilPanel.java",
+      "sha256": "e9b841c35639998eff0fc2276bbfaa15a979df3ed9b2572fcd83487a39c4b8e4"
+    },
+    {
+      "git_blob_oid": "8f3e3cc5648482229250eb3a9f1d476c771e8f78",
+      "mode": "100644",
+      "path": "abandoned/passporttester/src/sos/mrtd/sample/FacePanel.java",
+      "sha256": "be689e52df2c5e4106444a3b3ffe6c839b9e65775cb258a43bff944811a06947"
+    },
+    {
+      "git_blob_oid": "9466228d839e906646e41eba4ab2f193618eb991",
+      "mode": "100644",
+      "path": "abandoned/passporttester/src/sos/mrtd/sample/LDSPanel.java",
+      "sha256": "5291fc169b242ba77bd8735ed6ce2679218ef2e06e3eeb53c18fd1a33067fd4f"
+    },
+    {
+      "git_blob_oid": "dc3ad4babac19e1d904e8e39e60178ce5a6aa1eb",
+      "mode": "100644",
+      "path": "abandoned/passporttester/src/sos/mrtd/sample/MRZPanel.java",
+      "sha256": "eb5cccef0444a5d2a81a8f8222d56a4d2d951ec2a13fcb42fdcdac2a613e5a71"
+    },
+    {
+      "git_blob_oid": "a35c66aeb481adfdb1726c11037422d39b2720f0",
+      "mode": "100644",
+      "path": "abandoned/passporttester/src/sos/mrtd/sample/ManualBACPanel.java",
+      "sha256": "ae03c1c9de28104251f39c7d6dffc10d3371d3709ec89f7c502f44934539f6f0"
+    },
+    {
+      "git_blob_oid": "df985311b9276a02aeb1d4135737a65f21fb4d49",
+      "mode": "100644",
+      "path": "abandoned/passporttester/src/sos/mrtd/sample/PAPanel.java",
+      "sha256": "3b431b25e5ab177a2de54e82d2d83510e7fc5595c05e815e04784c2a137b3c3a"
+    },
+    {
+      "git_blob_oid": "9cf575b7038c6db5a851651cc41c33462c331bda",
+      "mode": "100644",
+      "path": "abandoned/passporttester/src/sos/mrtd/sample/PassportGUI.java",
+      "sha256": "ebf9c5d1f15e71e31e7228b8eec694b430e7c704334d2af2b9f78e0fbee0ce3b"
+    },
+    {
+      "git_blob_oid": "eb269c3bb55c91e44b6416d6eac0cecbfb2177e8",
+      "mode": "100644",
+      "path": "abandoned/passporttester/src/sos/mrtd/sample/PassportTester.java",
+      "sha256": "6dbff84864e32c902416b900076b4e71d41b124d84db41e15516b01ef5e9c655"
+    },
+    {
+      "git_blob_oid": "82cb9ed41224ea6adf12d6820e40f4bbc54fdce3",
+      "mode": "100644",
+      "path": "abandoned/passporttester/src/sos/mrtd/sample/PersoPanel.java",
+      "sha256": "6f62c399288ffb258f081ddde2fe24f769620a74401b3ac9ecba30274dabc1c8"
+    },
+    {
+      "git_blob_oid": "ed70bb5982d0f9931fc4309eeb13f0e6bd2e9e8a",
+      "mode": "100644",
+      "path": "abandoned/passporttester/src/sos/mrtd/sample/apdutest/APDUTestPanel.java",
+      "sha256": "67d978ae934f801b1afa7f0fb490782a3c2e4f85b6b9a0f8bf7a3fecbf93d739"
+    },
+    {
+      "git_blob_oid": "2147aaed63dfacc39060f7d0e290d058b374161f",
+      "mode": "100644",
+      "path": "abandoned/passporttester/src/sos/mrtd/sample/apdutest/DrawImage.java",
+      "sha256": "0a2dcdbd2f12d42459c6f66ce3b1af9b8dcd19ba0aee2285b18d4d2cf7c1fe88"
+    },
+    {
+      "git_blob_oid": "ea3c38b0b832200cde1eed7b19572bfa45d45f1b",
+      "mode": "100644",
+      "path": "abandoned/passporttester/src/sos/mrtd/sample/apdutest/FileCompare.java",
+      "sha256": "9d1756b6b39e3fd052827600d7da9280cbf91891cb6efa30f5908403868e1cbc"
+    },
+    {
+      "git_blob_oid": "16822bd7710e0cc6e2bb44b44503084be4e63aa8",
+      "mode": "100644",
+      "path": "abandoned/passporttester/src/sos/mrtd/sample/clone/ClonePanel.java",
+      "sha256": "f64203631a1b9f42bafcf368becc483416603a71d57dd4a73f0922964d1aef8d"
+    },
+    {
+      "git_blob_oid": "18d70f02cb8eeded3bb20b75f0cd29bb66157990",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/.classpath",
+      "sha256": "83b9f33435aeade695d3ec6b59cd1c2e3c1d4444e5c3cc4bb86766936393b910"
+    },
+    {
+      "git_blob_oid": "ef4123931e39107a417efd02913a1dae9ac7410f",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/.project",
+      "sha256": "96f5f1d159778965fd18f7fd1c2ffeb9257b9891525df85b5aa7497849354c38"
+    },
+    {
+      "git_blob_oid": "2ba4ff582794809f674b9ee2cadc72a2b5576d9b",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/.settings/org.eclipse.jdt.core.prefs",
+      "sha256": "787d2b486ba7abed042f3f6a7bc62aea2fbb634062623b615b450c4c9adadbd0"
+    },
+    {
+      "git_blob_oid": "9175e90dd08789994d12aae74bca6de6b3ad937a",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/TODO.txt",
+      "sha256": "184c5bd904aeae404953872eee1215592c821c2d8385edc20069eba6f05ebaa5"
+    },
+    {
+      "git_blob_oid": "95144acce3380ac68ca2645b6a786f67c8b5b39f",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/build.xml",
+      "sha256": "781c6000db067334a49309d915a1f59f29ba1c2493d49c1acd37eeb1c067fe26"
+    },
+    {
+      "git_blob_oid": "99de47b8df4ab838b1ca0478aa2902722c0669c3",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/j2wsq/Makefile",
+      "sha256": "805b137f7c70b3259805ad931df3d7278998131c2f97d830cef01228216dc562"
+    },
+    {
+      "git_blob_oid": "4497d643837e7efbbd362562255e667e0fb4d9ba",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/j2wsq/Makefile.linux",
+      "sha256": "61d31b3d3116f713251d06bc06fe7564dc6e0158d4040ae03c2e458052e76b8d"
+    },
+    {
+      "git_blob_oid": "736c92d8b898a8b4819a0add293e9a6976d48b9a",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/j2wsq/Makefile.win32",
+      "sha256": "1e1bc595693422b1443647cad200c788a1fd3c0cc66ad653520fd8ee36429265"
+    },
+    {
+      "git_blob_oid": "020c84b982ee876168a0be60ba7293fbef97da59",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/j2wsq/Makefile.win64",
+      "sha256": "e15cdb95702836791a2de8b6a5109842254fd1aced635f5c252d8de121f07f8e"
+    },
+    {
+      "git_blob_oid": "560314822128c272a04caa5be754784fd9a2c3c5",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/j2wsq/allocfet.c",
+      "sha256": "5c959a177ba3d968a97b97bab66c4ef8206381ad6479c0d60efef81f29db8b75"
+    },
+    {
+      "git_blob_oid": "2f3b7ab95de177f25965f8eae3c4d2ea981cb907",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/j2wsq/computil.c",
+      "sha256": "1951c69be54f39784849823f146de40c475dc00fefcbfee562654b95e42900f0"
+    },
+    {
+      "git_blob_oid": "a14b0f104eb576ca039f64ab4bedc1dd3ac455d3",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/j2wsq/computil.h",
+      "sha256": "498d32c503e83b2d4fb3484a4cbb5fa4ede908ca835f2b28ee777aa02933ca0d"
+    },
+    {
+      "git_blob_oid": "b8473a95a7f186323a67a5d952a6b82824ac366f",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/j2wsq/config.h",
+      "sha256": "699766f76c79c137cdf1e79c0f1f88e8969740b1f41dd1b2c7b529b1dbd59aee"
+    },
+    {
+      "git_blob_oid": "4f0e45298aaa3f762433d88ca6ef6def43617c4d",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/j2wsq/dataio.c",
+      "sha256": "5cd0f339fdc08f85fb46b9b4027d99ba48f3deba51ed78d3c869470c4c47854d"
+    },
+    {
+      "git_blob_oid": "f36b23d963784e2780904350719d7ee4aa18997e",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/j2wsq/dataio.h",
+      "sha256": "978562cddd4fa08d7a2cc19bf4082a7c1233803cb07d8731ccbf557fb97348ef"
+    },
+    {
+      "git_blob_oid": "cdae70afeb4668bc3ebac674ae6be5792ca684dd",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/j2wsq/defs.h",
+      "sha256": "b71179ac61f22036e01557f44f3a779e410c23b5f4b1f6bee5f6bb908d9fcde6"
+    },
+    {
+      "git_blob_oid": "a79a2dc5e5977ea9501d8001c2072b022ded78c9",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/j2wsq/delfet.c",
+      "sha256": "5894d6936f7066d1471f7ed001568d28eff973db5d28fd3eb3de9584c29f66ea"
+    },
+    {
+      "git_blob_oid": "d8487459a9266a6dad4ebee02e214a81c315c02e",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/j2wsq/extrfet.c",
+      "sha256": "ae0d7eb2abc73307a5c8884fcbdffe9ddd65519c8bfddd5835ca7d52919fe4ae"
+    },
+    {
+      "git_blob_oid": "052c84d0691018aafeb919c8ba5f46d23c94d742",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/j2wsq/fatalerr.c",
+      "sha256": "6a9a084bb66eb4ecb1e3d186f9df2ccc17a351ed02c054251adb0b61adcde9d1"
+    },
+    {
+      "git_blob_oid": "e0b00aa777df05d8db4c5d45faa5e59e9da2637b",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/j2wsq/fet.h",
+      "sha256": "dea898ff4140f74f622728a26e4836d8082cef739caa7364477d4626c1630995"
+    },
+    {
+      "git_blob_oid": "dbcb7e5a55aba3c3cb2bd01b4c91bde00735c577",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/j2wsq/freefet.c",
+      "sha256": "ba4aafb8bf24a2bbb260a445b62069e5702d33598e1a56d72ed0ee29b3199bc0"
+    },
+    {
+      "git_blob_oid": "770c2f5909f4e35ac54c239154ae63ad5e4542cd",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/j2wsq/huff.c",
+      "sha256": "e0657f0f43811a859f0bd275cc1a34a55d2b080b51d1011cb6a9d0bc575dc3b7"
+    },
+    {
+      "git_blob_oid": "4c86b224dd0d93adf3db0bd46ca1c66477d9ea3f",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/j2wsq/ioutil.h",
+      "sha256": "3fd4590b47c972f3354f6107ed6547750b54c95361b57f731ad1537809223030"
+    },
+    {
+      "git_blob_oid": "9dc3ff1ae9eca955cd6d6ebdc5a39129e1f15a73",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/j2wsq/j2wsq.c",
+      "sha256": "eb8ea2cfc87695aab27a9175e1c79c61305819ec5a58e48911c8f291147e0908"
+    },
+    {
+      "git_blob_oid": "5528807e29b6e774ff570b85f35d9ecfe8cc75b2",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/j2wsq/lkupfet.c",
+      "sha256": "be81d5dfef827118040f920cf9f7567dccee41f72d04e08c07f6e32ea37f02b4"
+    },
+    {
+      "git_blob_oid": "a72019c946bf1e5cc6386e6b84391a2d88b3564b",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/j2wsq/nistcom.c",
+      "sha256": "e47d64a4b3e0873411f3142fb055cdf075c14a9b7cef558d7cdf20475f67e61c"
+    },
+    {
+      "git_blob_oid": "d70240b663db7b025154a608a6ce658773331bb8",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/j2wsq/nistcom.h",
+      "sha256": "49a42f334517e69462380bc5997ac8f12589e8d8a6a85b402cc5af779e4ee8db"
+    },
+    {
+      "git_blob_oid": "344c8a2d631b188e14ab2db854fd06af6f47bf14",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/j2wsq/strfet.c",
+      "sha256": "70b521438f148b766baafa5ae87f1903d064aaeb47ded5e50219782b8a480a75"
+    },
+    {
+      "git_blob_oid": "c9de32d6bbc46f15169b2a9c853ee9af957e8776",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/j2wsq/swap.h",
+      "sha256": "b2117e729be57f8f8ec6c23079533da24a62033ed24ea950de2aa0b757be461e"
+    },
+    {
+      "git_blob_oid": "e3d91ddac992384a738e4aff1cc88ca41647b896",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/j2wsq/syserr.c",
+      "sha256": "00d8dd5d84d06a3935d44781a5ced564e99f5c2372ca477a88f23b4734c13b9f"
+    },
+    {
+      "git_blob_oid": "2d09110b31a24f628798d8eae9c72584c189660c",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/j2wsq/updatfet.c",
+      "sha256": "1a1acb9f8e0e9958f0f5659f0edbef932cdb7a1fdde4c4e949051c1161ed30dd"
+    },
+    {
+      "git_blob_oid": "16f4f852ab857f33171e98494f895afb962ad197",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/j2wsq/util.h",
+      "sha256": "0c253b86854449e7fb481590680d7156186b29919a1d96e21dd783621b678078"
+    },
+    {
+      "git_blob_oid": "53d7fd50a9b2af9d96074734c0262df8c8359a4f",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/j2wsq/wsq.h",
+      "sha256": "a6034cf4db31b4e2bbea1938d07b8edaf4fe68dd7f5e5acdf8ae9ca28d437e64"
+    },
+    {
+      "git_blob_oid": "1d6638aa1b0b518159c47989a491a7cffbddc4a0",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/j2wsq/wsq_decoder.c",
+      "sha256": "a81dc6bdc51a9eae72dd40746c081fb4d2c3ca487c6f7dec880f20281472585e"
+    },
+    {
+      "git_blob_oid": "22b634a90bd4e811ffe3a4bd716a5a3f79b6019c",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/j2wsq/wsq_encoder.c",
+      "sha256": "98f0d8b73f8912aa55535f0159db33a607169420bef454bcf5dc1ee1e9a449af"
+    },
+    {
+      "git_blob_oid": "647a6aaa61a22cc17202c9fb406e7e9628097658",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/j2wsq/wsq_globals.c",
+      "sha256": "360b17f18dc6465faf7393437e23fe543e1bc2903312adfb60161338038abe7d"
+    },
+    {
+      "git_blob_oid": "cc7c2aef6fd67918558cd522f7e05fe1237d5fa9",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/j2wsq/wsq_huff.c",
+      "sha256": "ffd976abe4b9e5b49fcb1a4d247bc56f41b8986ba75b5c09b2628b61587dbd9f"
+    },
+    {
+      "git_blob_oid": "63d3e3ab10608ab3838f7b9f890e441179a7ac42",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/j2wsq/wsq_ppi.c",
+      "sha256": "59511f8457c1c2024d69b0f5a2c96109c262b95c00e961fb077feb3796a2db19"
+    },
+    {
+      "git_blob_oid": "e502af95b2007211f9475fa0ea45fbf6a6ea2833",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/j2wsq/wsq_tableio.c",
+      "sha256": "a45b05f4bce41ad5383b2e1ec418b67889e0b427d01c98e8503daa5137b6ab54"
+    },
+    {
+      "git_blob_oid": "c01b03dad07e4343a651b1894e0c04907dcb9639",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/j2wsq/wsq_tree.c",
+      "sha256": "110f0f8dfa28b660f6b4b69a97d03a9a955bdc2dc6434f649a7034b297952092"
+    },
+    {
+      "git_blob_oid": "7049d34c9ec3443853eac5d60a01392a9f2c51b1",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/j2wsq/wsq_util.c",
+      "sha256": "9feae26a0cf5037330dc52895cd079b4b8b97544ff8378ea078b91a1ddb6393c"
+    },
+    {
+      "git_blob_oid": "af485062b2d81a580cfbc70f24cb6f5ed4f383e9",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/src/org/jmrtd/imageio/WSQImageReader.java",
+      "sha256": "68bbade05fde86f6b6063a8673c71e9e172fc9c0554b1033106bcfa98251bea0"
+    },
+    {
+      "git_blob_oid": "9c2cad3a6201242b9422b9072578c1793a423ae6",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/src/org/jmrtd/imageio/WSQImageReaderSpi.java",
+      "sha256": "98857b3f1da6eb32e77e501d38be812bf9a8c40731d70bb060a217f5419a62bb"
+    },
+    {
+      "git_blob_oid": "481d6ff6d14a824dfb6d01306ce77cde336ea962",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/src/org/jmrtd/imageio/WSQImageWriteParam.java",
+      "sha256": "aa75c4bd2fcdf9aed28aad4b386dd27bd1dd4c586f3f0a74cfbfc12417a7977a"
+    },
+    {
+      "git_blob_oid": "2dee49313f87d3a1a0ce599439f5d094144a2c29",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/src/org/jmrtd/imageio/WSQImageWriter.java",
+      "sha256": "fbaf5ade169d7e65b0c770a4fa970eca04b40e5b264f31360818418d21445093"
+    },
+    {
+      "git_blob_oid": "26fff4440bbd7fb07a616697b021114d5b27093d",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/src/org/jmrtd/imageio/WSQImageWriterSpi.java",
+      "sha256": "707164b381f7547d1e0af28768a04150f8b971d45c7ef9098211b8d0e53eb666"
+    },
+    {
+      "git_blob_oid": "de8a8f895baa2107ff7efe645b9818d0d597c000",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/src/org/jmrtd/imageio/WSQMetadata.java",
+      "sha256": "dc154fb963726463f48d5ea6a0668612cff9e1ab0a7d0c250d239fb35b56faf4"
+    },
+    {
+      "git_blob_oid": "4501232d0ea9f62a64b240a6b5166e7b0718d839",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/src/org/jmrtd/imageio/WSQMetadataFormat.java",
+      "sha256": "51f68767494a631a999a248debb3985dba060e9865cb769fbb54a410e9037f36"
+    },
+    {
+      "git_blob_oid": "fd7502fbfa5395cadce0385394978caa2bb8abd0",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/src/org/jmrtd/imageio/WSQUtil.java",
+      "sha256": "30114e2aadcd6dd9d4ee4c44c8c35964409519d899c75e519d64b3dea47e0197"
+    },
+    {
+      "git_blob_oid": "98211d80c00850d39e8c6ed382c9628cd3bb8b72",
+      "mode": "100644",
+      "path": "abandoned/wsq_imageio_jni/src/org/jmrtd/imageio/test/WSQTest.java",
+      "sha256": "1cefceb53ce1ad7ae2a96f13355d01cb15a5d71f6c15a69e121dce1ddf69bb94"
+    },
+    {
+      "git_blob_oid": "61ef9f20140713ff8aa713b0334418376d896c40",
+      "mode": "100644",
+      "path": "docs/IP_SHIELD_GITHUB.md",
+      "sha256": "33dcbb120bd146be225a62b6b764dc76f603d7bae4274ba840bddca679aa0001"
+    },
+    {
+      "git_blob_oid": "f0e1fc7efd7c9ae3d3303b9bdebbcd0a574fda8e",
+      "mode": "100644",
+      "path": "jj2000_imageio/.classpath",
+      "sha256": "34a5b61a9a65b54a8b414dbc1b1071d18dabc8046fa29412957399849e4c58e4"
+    },
+    {
+      "git_blob_oid": "c6664c9e0222df65d71008a075605b6e8f03803c",
+      "mode": "100644",
+      "path": "jj2000_imageio/.externalToolBuilders/jj2000_imageio build.xml [Builder].launch",
+      "sha256": "8aec690a0066e2bb48fd2aaf0a2a78359dc1a570efe7fbbb476f8aaedd921261"
+    },
+    {
+      "git_blob_oid": "e3b53e0540784bb18bc47abfaf661ac194d3ffe7",
+      "mode": "100644",
+      "path": "jj2000_imageio/.project",
+      "sha256": "83c448e9ff7e28415750c699ce977d42e3c6dca7537f7fdc8bac40cae7ebee12"
+    },
+    {
+      "git_blob_oid": "ec61e73f39d4a068967016ae0d3e6a8a9c07634c",
+      "mode": "100644",
+      "path": "jj2000_imageio/build.xml",
+      "sha256": "c10bcba72bd3b2f279edcc875a41feb07dadcc355ae1295495461c5445ebc2ca"
+    },
+    {
+      "git_blob_oid": "4e25f29bca8bc876d4484a218c039e7006bc4757",
+      "mode": "100644",
+      "path": "jj2000_imageio/build_android.xml",
+      "sha256": "9ad2a9d073fd47a036fea0433b22139939f10f89726c7996ce1a10dd89cea235"
+    },
+    {
+      "git_blob_oid": "a9aa14ad48ce912b7cea5ed37e1a71d0cb05631e",
+      "mode": "100644",
+      "path": "jj2000_imageio/src/org/jmrtd/imageio/ImageInputStreamAdapter.java",
+      "sha256": "567f408206ac5f3fcc46e45e52a48f1b4e0d9f6254a75e355a790ba47632434b"
+    },
+    {
+      "git_blob_oid": "94ca1f82484cd6be9a1a07c702cfe7287d202020",
+      "mode": "100644",
+      "path": "jj2000_imageio/src/org/jmrtd/imageio/ImageOutputStreamAdapter.java",
+      "sha256": "f961b16ef7720f98c8f277201ec4d1594a2a568fca2982a51eaa8a5a9346967f"
+    },
+    {
+      "git_blob_oid": "7cc447e8c400e53fe34be4683cd98d30e4bf99d1",
+      "mode": "100644",
+      "path": "jj2000_imageio/src/org/jmrtd/imageio/JJ2000ImageReader.java",
+      "sha256": "98bbc1d02390379f753962b83c289fc38b3f8addfaf843daf4a36bb7fb0cf731"
+    },
+    {
+      "git_blob_oid": "d08a4292b70d51a96c44e5671a788ff8df5e7a99",
+      "mode": "100644",
+      "path": "jj2000_imageio/src/org/jmrtd/imageio/JJ2000ImageReaderSpi.java",
+      "sha256": "60894b3108a3eed727b0695a42274789b8ef676f6f774fd0ee210d23731078e4"
+    },
+    {
+      "git_blob_oid": "c208b502a9f4610deae4fe3f61a7f325486a389f",
+      "mode": "100644",
+      "path": "jj2000_imageio/src/org/jmrtd/imageio/JJ2000ImageWriteParam.java",
+      "sha256": "3d458155200265745ae2078115641c10622e00fbd28877cde3bc4fcb05831cf9"
+    },
+    {
+      "git_blob_oid": "97223ad17f5790fd5e54b0ca685fb9ecaab2200c",
+      "mode": "100644",
+      "path": "jj2000_imageio/src/org/jmrtd/imageio/JJ2000ImageWriter.java",
+      "sha256": "1459dd96a910041c540b728eadcf0d08bc1b62148cacc9dd57e748db1d57eeeb"
+    },
+    {
+      "git_blob_oid": "aa9ef9065afce166c764fe68a61a5f06da96b6b3",
+      "mode": "100644",
+      "path": "jj2000_imageio/src/org/jmrtd/imageio/JJ2000ImageWriterSpi.java",
+      "sha256": "1f814eaf205fe03588fc27638b9e135c57db429b6e0b5757ad69fc3b602f71bf"
+    },
+    {
+      "git_blob_oid": "7b348211fbf2d02989489e2922342fc24372974b",
+      "mode": "100644",
+      "path": "jj2000_imageio/src/org/jmrtd/imageio/JJ2000Metadata.java",
+      "sha256": "9852b715d4cd942168768816237caf8583041541d35961cb66e3799d02e1f126"
+    },
+    {
+      "git_blob_oid": "0b8669cdd7dc6c16436de2ae6525ffecfb3715fc",
+      "mode": "100644",
+      "path": "jj2000_imageio/src/org/jmrtd/imageio/JJ2000MetadataFormat.java",
+      "sha256": "8fee3a6e68e7fe4ad626d7b0f7b101b0bc816ea585d1b63c4cc5afd292dc9d68"
+    },
+    {
+      "git_blob_oid": "264e8a23a1a48db28d000878b23407a26c85f2dc",
+      "mode": "100644",
+      "path": "jj2000_imageio/src/org/jmrtd/jj2000/Bitmap.java",
+      "sha256": "f3ea48f74fc0cfbaa153d9b2c42f4fc333ded42d953ba17d8d571ebe41238a8a"
+    },
+    {
+      "git_blob_oid": "5af9a4cf2ebf7054d1f19e8a917666072b0f6345",
+      "mode": "100644",
+      "path": "jj2000_imageio/src/org/jmrtd/jj2000/BitmapDataSrc.java",
+      "sha256": "627c62d1413d8dc2877a9a75cb0e289d72af946b15ab66a70026a4fd5fbc5c48"
+    },
+    {
+      "git_blob_oid": "c12874514a17891523b9598b65db94a047a2e91b",
+      "mode": "100644",
+      "path": "jj2000_imageio/src/org/jmrtd/jj2000/JJ2000Decoder.java",
+      "sha256": "6e533fc3b18059000f130cde221f6fa916c2fe16338a637cec82ed350fd4e0f0"
+    },
+    {
+      "git_blob_oid": "33c56fbe314a7cc4786f281720a5f1b29637ca0b",
+      "mode": "100644",
+      "path": "jj2000_imageio/src/org/jmrtd/jj2000/JJ2000Encoder.java",
+      "sha256": "fc2cd737ce932e31e61465ea3f1fa9b732114b6d656f7ecf1734417fed562f29"
+    },
+    {
+      "git_blob_oid": "ec576041a8d93bf804acf15fa3b6fef50d8f74db",
+      "mode": "100644",
+      "path": "jj2000_imageio/src/org/jmrtd/jj2000/JJ2000Util.java",
+      "sha256": "d8f23ea4dfe4041a1571239cc0f81b32b7ae9e84f23cd5e587b3d2d8686e0330"
+    },
+    {
+      "git_blob_oid": "85da1f4aec91782b5fe6abb1a28324975b54a85f",
+      "mode": "100644",
+      "path": "jj2000_imageio/src/org/jmrtd/jj2000/MyFileFormatWriter.java",
+      "sha256": "c4c5b95dbd1da269991f54e86ea580f651daeadf8610167c61c21f48084d2443"
+    },
+    {
+      "git_blob_oid": "006f795ca289872275b570ccfc866ca109162818",
+      "mode": "100644",
+      "path": "jmrtd/.classpath",
+      "sha256": "3232e9611a9c4234d23e9f9b91faab398cc62b47dfd50d498b0dcc55aca8d0e7"
+    },
+    {
+      "git_blob_oid": "ebb04ff3c30aba55eb51b1f3b9542ebcc5a7a234",
+      "mode": "100644",
+      "path": "jmrtd/.fbprefs",
+      "sha256": "440443e05be64b55dadf57db204a4e8c3238320871e7a1cef2f87b467a6e3f5a"
+    },
+    {
+      "git_blob_oid": "4dd2a2f9906d0ad4080b1d0e4a411a7e2b1affb6",
+      "mode": "100644",
+      "path": "jmrtd/.project",
+      "sha256": "3b8f902c0d3bdcd9dab2dad089d4c5a03d12d7ee51d1671db2e0e68053a29f40"
+    },
+    {
+      "git_blob_oid": "a6c329bb4709df03d10aa8320b3d856279e9355d",
+      "mode": "100644",
+      "path": "jmrtd/.settings/edu.umd.cs.findbugs.plugin.eclipse.prefs",
+      "sha256": "71560a82ffefb3ff3e070b512f814c669398fafb0c4c652bbebb048875d37877"
+    },
+    {
+      "git_blob_oid": "01892b3e6c5059ab4d1745077db161b2f1cab86b",
+      "mode": "100644",
+      "path": "jmrtd/.settings/org.eclipse.jdt.ui.prefs",
+      "sha256": "6acc38f488f1948a00e8161675fc74f894575a9125c77c2d408bd96c7285d76c"
+    },
+    {
+      "git_blob_oid": "ba9610808bcb8e6fc0bfc959d2074eeb453b0fb5",
+      "mode": "100644",
+      "path": "jmrtd/.settings/org.eclipse.ltk.core.refactoring.prefs",
+      "sha256": "f82539d82e38a65352aecef54764aa76789b8bbf1b65713c2872bad33915cc1a"
+    },
+    {
+      "git_blob_oid": "2797e89f1ca411f937eb20e5574eb235d2f56fae",
+      "mode": "100644",
+      "path": "jmrtd/.settings/org.eclipse.wst.validation.prefs",
+      "sha256": "d915c1fde5a737a1ec044211e1843be6277edf08491d6a87ed7e80a5e30ead71"
+    },
+    {
+      "git_blob_oid": "b87303c39a7b176c5077c9122d6d00c1746a8ad1",
+      "mode": "100644",
+      "path": "jmrtd/LICENSE",
+      "sha256": "319917f5ccd09878db6f67c9a77dee846055644ca49eb535628b9e020a87261e"
+    },
+    {
+      "git_blob_oid": "d41338afdcb9659e470ceb79238cbabdc583b574",
+      "mode": "100644",
+      "path": "jmrtd/build.xml",
+      "sha256": "2c2b290b50f6b79d33cfc7ac2ce972bf12a02a007c5beb498f10c0e5893a1885"
+    },
+    {
+      "git_blob_oid": "f0d298faa9069cc1bb2074a1d239f0d2a426ae9b",
+      "mode": "100644",
+      "path": "jmrtd/pom.xml",
+      "sha256": "23a1b664a6dabd0e511e2aebc9340af600b41258187a8e5cbf74ef310ffa751a"
+    },
+    {
+      "git_blob_oid": "40dd0b98ec145e84fa955f7f8b5309e3f141a56d",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/AESSecureMessagingWrapper.java",
+      "sha256": "38b70730760edd45b894baa39fdec96ca08a1a01eabdfa962b657f28dcebef63"
+    },
+    {
+      "git_blob_oid": "b8d415113a1e0774bd867be709197e8e7d967c0b",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/BACDeniedException.java",
+      "sha256": "0f5bc25b6d6b39c5f72cec52822aded9eea0b8244eeeb5052ead4a0776a51e95"
+    },
+    {
+      "git_blob_oid": "397ea6d3ee0e8a64f50d3c1d95592099f37972f1",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/BACKey.java",
+      "sha256": "5607736d824a6fae819cba303c712351ab4291c944f8035f8bdff6252f5b08d3"
+    },
+    {
+      "git_blob_oid": "4ae16727476268037265e2c924ff953b088899e4",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/BACKeySpec.java",
+      "sha256": "ec342b880507d66b574a08e6101db5813042bb11e745c8389b9c7d4d79aed6fe"
+    },
+    {
+      "git_blob_oid": "d8cbcea13e752c3e41c2ad4b755921a92f2a9bed",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/ChipAuthenticationResult.java",
+      "sha256": "f2540c6760a899dfb329f4dbd5bab1ea4528d47c97d0f7db222bc52a8aedaefb"
+    },
+    {
+      "git_blob_oid": "9ed7d31526be55e05bb59806494966c5070f2b32",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/DESedeSecureMessagingWrapper.java",
+      "sha256": "456f6a12be0fb39c2f1dc0d562282056d22c7d02b46f58abd330e05ba9589aa9"
+    },
+    {
+      "git_blob_oid": "2343dd246a3fcf823b9c14e78c7423b488bfa72c",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/JMRTDSecurityProvider.java",
+      "sha256": "7d601cd6bef276fd2d3be518a6e7e52ed2b8dbd23d0605a8ab931d72f6cc517b"
+    },
+    {
+      "git_blob_oid": "8776821ded4c8d7703429f2d6074679e52c70603",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/MRTDFileSystem.java",
+      "sha256": "91b743d202e23c88511e71cf47a8cdff179408ebd9ad5cbdd914d9066b8983b1"
+    },
+    {
+      "git_blob_oid": "8bc4c84bd1bc785e28a07bb538c04a7f66da9248",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/PACEException.java",
+      "sha256": "f98a4aced433c10e47939368fba4fcf1eddaab24fe4e3fc17a1d07fe95bbdf37"
+    },
+    {
+      "git_blob_oid": "c8385f68dd6b577f8c4e96ece9c58beba9b112f5",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/PassportApduService.java",
+      "sha256": "fc4ade1983b4c3b488a0aac10b425c1d3f79c7f3d812dd64c8aaf7d688e70920"
+    },
+    {
+      "git_blob_oid": "029679545df0a2e91049331163abf1eae46fe546",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/PassportService.java",
+      "sha256": "e03f798c145515f19401658fee29aed3bba6af3e04949e98510bfb15d0165c85"
+    },
+    {
+      "git_blob_oid": "b9a276271361cbb1937047228da5600ab5f91bdf",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/SecureMessagingWrapper.java",
+      "sha256": "8ddb529ad13e008ab98a69c559bf81700dc9782c3effb240e5bdc2478ce8a10e"
+    },
+    {
+      "git_blob_oid": "f3157aff7f146132e313b1da1c03b8724671c5f1",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/TerminalAuthenticationResult.java",
+      "sha256": "0bace046fc066fbba2d9ffb42f2b6c94740c16d8049febd2c946731f503c1913"
+    },
+    {
+      "git_blob_oid": "809f673b254774b3e8fea2f44225fddddfd25b3e",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/Util.java",
+      "sha256": "b99116d7d2690075486b4b8eb132f4cddb472c727f73c81a1f09e97e6590415d"
+    },
+    {
+      "git_blob_oid": "d22c81a691b6b8442e667fdfac188cc7841f11b2",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/cbeff/BiometricDataBlock.java",
+      "sha256": "1fbb8420892f963d83913f134c8cbd18c4b11006db193a8e283a3156d248bcd4"
+    },
+    {
+      "git_blob_oid": "281b2584c3fe74f2fa34564aefa8c4b8b380f591",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/cbeff/BiometricDataBlockDecoder.java",
+      "sha256": "01742e1a5ad65e273e7d617541a8304adbf445147c03e7c00e63c3e8a4cc94d3"
+    },
+    {
+      "git_blob_oid": "7d7921c91f56d24651114496e276a9b58a423ad2",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/cbeff/BiometricDataBlockEncoder.java",
+      "sha256": "9ab86f977ed6b16b4e10aa3f40d0bf7e2b3bccc2be5e251c1ba2ffc116f14cae"
+    },
+    {
+      "git_blob_oid": "19ff5681aaa5d358a767cd3710674043518b7c63",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/cbeff/CBEFFInfo.java",
+      "sha256": "f45c76dec27322638de8098988a778e66b2a0020040c27fe486d12d90a1cab94"
+    },
+    {
+      "git_blob_oid": "81f06362b64d83630f085bf587b1d4492fd2743c",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/cbeff/ComplexCBEFFInfo.java",
+      "sha256": "a4ab8e0a8c925cb23b88244dd6f064f5a7a8bacf5a0e77be851429ce67d4a095"
+    },
+    {
+      "git_blob_oid": "043c33afde6dac77e19603fdb53d2943add487d8",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/cbeff/ISO781611.java",
+      "sha256": "1dd16b5787930a02ce7e2f1bc967a0e2d9e005514acf44d2e48c338d5e6efe36"
+    },
+    {
+      "git_blob_oid": "f92fc35a774afe9577939f25ce1107be5c5a43c0",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/cbeff/ISO781611Decoder.java",
+      "sha256": "1b798f70d1ec309b2ddeb7c565cfc2967ad131a977ea0d4debf42fb24fc7c4a1"
+    },
+    {
+      "git_blob_oid": "efd871c6c8dbaca41161c27be7ba6ae673049216",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/cbeff/ISO781611Encoder.java",
+      "sha256": "b87d6e2ec59ad17d5726d0f6c69e241abd0fbb0fd6b130d6b2bd92283e3572e0"
+    },
+    {
+      "git_blob_oid": "5c748d88433a0dd63078d3770e004ad96f9838ee",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/cbeff/SimpleCBEFFInfo.java",
+      "sha256": "0c1712566c1027a17ed9020b1a1168c3ff12ddcff4ed7bf0347c638cece26639"
+    },
+    {
+      "git_blob_oid": "c44d13a85381a342f7054ce8a0dd307295180b5b",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/cbeff/StandardBiometricHeader.java",
+      "sha256": "04e3c47f99bac06a0ab011c58b3824a915b91f5e480eba568239779cbe8b2e3d"
+    },
+    {
+      "git_blob_oid": "d3c9bf0fadf67769613f49d1beb130ee33ffbadc",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/cert/CVCAuthorizationTemplate.java",
+      "sha256": "272afe3f33e06727a59588e9c1c06ba05b028a60eaa74229bd99f6eb5284927b"
+    },
+    {
+      "git_blob_oid": "525b36cd0fd83221a3ca92e4d72739966ee9774e",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/cert/CVCPrincipal.java",
+      "sha256": "59bff6c373074bac7deb127b371b64aeb95177c24256f233b296c417fc6d5f03"
+    },
+    {
+      "git_blob_oid": "ef9862e265ab7edb4ca02724d3f1ce9261563139",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/cert/CVCertificateBuilder.java",
+      "sha256": "03bb7c4b9be40d783e6ec0e190cb64f6279988341a1862bd37e0dbc8613d41b1"
+    },
+    {
+      "git_blob_oid": "c521b5b6b0cf15daafa0229f24937154ef6c2df5",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/cert/CVCertificateFactorySpi.java",
+      "sha256": "f008af93da16eb49672a5b23cc18c47b1b7e08f339b227bd0a96bbf00f347e8a"
+    },
+    {
+      "git_blob_oid": "e54ad64d4150db556fded7ce7e343e5cd46dbae3",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/cert/CardVerifiableCertificate.java",
+      "sha256": "72cab352387e0af9d2ebb8ac391919cbb34daf98983a469a7a4f4eeecf3e13fe"
+    },
+    {
+      "git_blob_oid": "dd878d0968fe5b2111b646d462635bea06a17feb",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/io/FragmentBuffer.java",
+      "sha256": "49e189e461fcb1b9dbd88428d3e63bda03414194f38d2d080f6dd0001e943ac9"
+    },
+    {
+      "git_blob_oid": "3ea5504abbaf5774feb6772f89a59e3eae1fbced",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/io/InputStreamBuffer.java",
+      "sha256": "c13023c34b4c786503bb5a1ae2baee716d339ce1183da20a2f4f09f17dab3003"
+    },
+    {
+      "git_blob_oid": "24ddd4b1fb574ba2371246bfa13f253a21d7b658",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/io/PositionInputStream.java",
+      "sha256": "82f6d0b5c03a658298bc194a9ac3decf977e9fa7ba7e9ce2d41b4516f1835348"
+    },
+    {
+      "git_blob_oid": "b919bb5043a0f44d5e11ba062ad7f07ff5811368",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/io/SplittableInputStream.java",
+      "sha256": "09fb7d2a41c1b88bd64c9c1de0ca668cb042507e534feaf6f134965fc664f8d7"
+    },
+    {
+      "git_blob_oid": "5ef7712880fc08acd19fd78d1b0c7760eea0d2de",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/lds/AbstractImageInfo.java",
+      "sha256": "449e5b62c38a737684ea450e51c8df56d7f39d5d00e4b7d3f68352a5bfd7302f"
+    },
+    {
+      "git_blob_oid": "e210c489a759a3fc4a9010015a9adbaf214db9b3",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/lds/AbstractLDSFile.java",
+      "sha256": "82584f34ac848c30f9070eca6493f15a9014e39033e93ac9eadb37aad89fe713"
+    },
+    {
+      "git_blob_oid": "c6e9f098ea1b3d1bb4b466bdba2dd4bfc119f49f",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/lds/AbstractLDSInfo.java",
+      "sha256": "e54e7607dbbd7ec5bb64ffccc259955a6949418dc862b3c96222e22ff91a98c5"
+    },
+    {
+      "git_blob_oid": "e1200fb3a409429a9dde20d05a55ba98dd4dbb2c",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/lds/AbstractListInfo.java",
+      "sha256": "5889cc3c4fd609b62f651c4ad83c4ce9dbc16f5b67563f763b0a737acc669398"
+    },
+    {
+      "git_blob_oid": "aadaf10d548d9034a85c5375a52870e42f8232ba",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/lds/ActiveAuthenticationInfo.java",
+      "sha256": "0ec22e6991e958fbdf61e9e620f5ab4a23bf465794bb5a56cb52215e9956ddbc"
+    },
+    {
+      "git_blob_oid": "8bbf40acd2b558e7c13503e46b6d01107eb58214",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/lds/CBEFFDataGroup.java",
+      "sha256": "2b073f3519fbfc9d9dc598cbb2b2e3363b23c468620d8cc6a1e8108d13dab9d2"
+    },
+    {
+      "git_blob_oid": "d548bb97ea4a98f771c82d74cc92018930465e55",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/lds/COMFile.java",
+      "sha256": "051a313219c260e53cf6217d8fd30566b16854638a64963a055534527de62b76"
+    },
+    {
+      "git_blob_oid": "dd57673cce679cc850636e6840562182a021fcb9",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/lds/CVCAFile.java",
+      "sha256": "1cd15b3e5e755bfa9d7c8a9d84fb3af7f15a63f624d35a8f135833f0718883a0"
+    },
+    {
+      "git_blob_oid": "e6680f1d1599b9533e3c29f8cc56d16bf790e850",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/lds/CardAccessFile.java",
+      "sha256": "c6e197622fb960c35d5320da07f116efa188bd8227aa8f9c7bf3ce190939a4cb"
+    },
+    {
+      "git_blob_oid": "84b6d615b767eb459ffcfed65cfb674de894dce8",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/lds/ChipAuthenticationInfo.java",
+      "sha256": "be25e4e866ef977a3f9972d6f0da012a7fdc535443cdafa7f6850802ff75ae8f"
+    },
+    {
+      "git_blob_oid": "f15a443a1fd1bf0e00e4b30a1ca17452561970a3",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/lds/ChipAuthenticationPublicKeyInfo.java",
+      "sha256": "8a8bb8f5ca5c204776f481be296419049a0cb88119bf9f8ff76bca81121ce1ce"
+    },
+    {
+      "git_blob_oid": "8af1264e1f3b9d4a3818322f911ad0f8f16c2452",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/lds/DG11File.java",
+      "sha256": "3ff92159b40e1d37394c010cfc136f7bd1c8c2771d0af5a42183ded01d7821d9"
+    },
+    {
+      "git_blob_oid": "590c618132b394dc977839247ca5ba4d47ef8524",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/lds/DG12File.java",
+      "sha256": "7c1d570858434c62859294a5485fa1ad6a241888e10e8bf84893b79ecc3d72f3"
+    },
+    {
+      "git_blob_oid": "f33a732d050d5bdca30832f39e346935f31fce26",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/lds/DG14File.java",
+      "sha256": "ed108c6ff01705e30519bf3bcc338f18580ad2c887d4fd332088505376370cc7"
+    },
+    {
+      "git_blob_oid": "0b3e2375db08385b2997686dc591695226535176",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/lds/DG15File.java",
+      "sha256": "f796173d526e1dbd33cfc06e038ec1004d35bd5b6a90417c203f5f38b5c2df88"
+    },
+    {
+      "git_blob_oid": "5c668d21f94bb2b403ea33b2e6e53dc94e8adc4a",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/lds/DG1File.java",
+      "sha256": "3ae34310f41750b0863b1011aa40c48eee5de4d76311d5737f746eade8576570"
+    },
+    {
+      "git_blob_oid": "47b6f30196d2b07062e40d2390f0a89d0bd03966",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/lds/DG2File.java",
+      "sha256": "581051a6ecbf67f8ac0f4fdfbb9382bdabf56e5450b73273f9b5c5a8a950c340"
+    },
+    {
+      "git_blob_oid": "02e627f8df4a3246802856e72bf729a9efa02d42",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/lds/DG3File.java",
+      "sha256": "a53c03477c61680cbc28d21e07738443c34ea6e9257c978f22ac33a182510f3c"
+    },
+    {
+      "git_blob_oid": "27679e181bbec4be4c67b0636f9dab04c6910483",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/lds/DG4File.java",
+      "sha256": "ab66dac46f23c1b6d651476c2a8ffbadf3e9271c27f395d9ce5d700457f95b87"
+    },
+    {
+      "git_blob_oid": "6902dd9b9e69215b2d5310b504e5a84ee2efe9a3",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/lds/DG5File.java",
+      "sha256": "9a80fbd8f3aa618f577aaf5eaeb88901688b716cb8bd2ca270d7031cdd54ed73"
+    },
+    {
+      "git_blob_oid": "129143608596f00a44690f9ad775db009d57a3b0",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/lds/DG6File.java",
+      "sha256": "7de409a930072003cadac352897e56ad47a741f3be20b010cfebc8ff14866b70"
+    },
+    {
+      "git_blob_oid": "f5875913566765f80c372378b188dff2fe7dff3d",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/lds/DG7File.java",
+      "sha256": "e7a68b5bb5e4723beb3f5ce019f3a636836a808a2632f99a9000e75bb69686f5"
+    },
+    {
+      "git_blob_oid": "76006001f60dae52f82c50051e07ac03ad582dcf",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/lds/DataGroup.java",
+      "sha256": "222080b7a30f1532d0e27c97c0c3151049ab7f66f47d98a8572911b19bf476c9"
+    },
+    {
+      "git_blob_oid": "0946820aa54c31b8db37bf378aa910518bab34e9",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/lds/DisplayedImageDataGroup.java",
+      "sha256": "9c8badb45f1763366db04b7ce372b01d6f5d359e041e348809ddb434061a9f9c"
+    },
+    {
+      "git_blob_oid": "ee29de7c011beb1359143db32f884f412c7e0e02",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/lds/DisplayedImageInfo.java",
+      "sha256": "5eac8b2ccf024808afee3a0b211dffc18a765b6b3823da090c6800cb981ed731"
+    },
+    {
+      "git_blob_oid": "76c1b6c805e59b971b13acae96f6258e1b14d16f",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/lds/FaceImageInfo.java",
+      "sha256": "9b8051cc55c46b54260d58fc8c8638640276f9482d8fc72a9506fd01bdc97a09"
+    },
+    {
+      "git_blob_oid": "d32522e3f1b041ea3f7cec915d6cf6da7c53ffec",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/lds/FaceInfo.java",
+      "sha256": "b96d56d34e22bbdc6762f80486df70069e99baac02172e4bb2ab7f38c6b974d2"
+    },
+    {
+      "git_blob_oid": "d0da808aa933c5f5ac5c3ba86f1958e9104e697e",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/lds/FingerImageInfo.java",
+      "sha256": "c715f9e9f8ce841c026f3ccf9cd3624f350a11a53e5a4bb884c360f3ed2a3131"
+    },
+    {
+      "git_blob_oid": "7d99fe75783fa5562e66a2eb78be68bdc3562606",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/lds/FingerInfo.java",
+      "sha256": "03f3e29abbfae608a53a583b6027ba4be359a38e8357663585d4e3ec216d3ae1"
+    },
+    {
+      "git_blob_oid": "2832f8aeea0a1bb8ec14eaf1bb42832ab010b898",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/lds/ICAOCountry.java",
+      "sha256": "4285b3ffd2f50fe4665e618930c096ab6d4502bfc7878d583e96ca6590a07848"
+    },
+    {
+      "git_blob_oid": "41ce5ca6457d5f129eb341d09d456eaac3784464",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/lds/ImageInfo.java",
+      "sha256": "b9f3e87acfd2bd248db3c2bf8d05a440bac12713d1f5d3613fcb1461dc67995a"
+    },
+    {
+      "git_blob_oid": "bd297b79d14eec7c912aafebf7562c0a6b623d24",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/lds/IrisBiometricSubtypeInfo.java",
+      "sha256": "cc22ad91ac5a62a2d730d6dabf74f41f65bb9c74ccf95ec2ccee7ead845b4ac1"
+    },
+    {
+      "git_blob_oid": "09a7e886e1a51e4424680d6454b3d31b2a08aa1a",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/lds/IrisImageInfo.java",
+      "sha256": "b107a634d702a29e6246e23cca595a4a240d5560f1a128146b214df0d07d3dd6"
+    },
+    {
+      "git_blob_oid": "cfc2306fc653e1a85d606dcb8c438a7faa141f04",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/lds/IrisInfo.java",
+      "sha256": "8d15ebffc8490fa6a73c8188c01ec31f5b7ebcb9ae29a9d7f3ba7a841e8259a7"
+    },
+    {
+      "git_blob_oid": "e93628db505d605ef079c0086c904c3bcabdbdb8",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/lds/LDS.java",
+      "sha256": "98e4b406bc67c347e953bbbe78f232f551e1edf432c5138d97c7349603e5790d"
+    },
+    {
+      "git_blob_oid": "14abe59308f740488e1072732217723c4f1501a6",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/lds/LDSElement.java",
+      "sha256": "aeb464fe26c63ecb97c2b0a4b9d30be1be665dc674009a15dccb9008343dd7fe"
+    },
+    {
+      "git_blob_oid": "0186da033a70681bb0f7b11a60479e03905911d1",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/lds/LDSFile.java",
+      "sha256": "74fee4614c737f19edc68bedeb321607aea063155e77eac05b937a6f004b0854"
+    },
+    {
+      "git_blob_oid": "51ee6e38349b59df6d39623475cefabcb1a61aab",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/lds/LDSFileUtil.java",
+      "sha256": "53872b6514446f5a608d9b8c6b96fcd8167dc42267862c139e77a41d6fb210b7"
+    },
+    {
+      "git_blob_oid": "b229b4099c589571e32f659466e29373b498d08c",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/lds/MRZFieldTransformer.java",
+      "sha256": "64110857a23d5f87ffeb1b0d500de5ec8ed7cc1f0020d29575227e12373882ae"
+    },
+    {
+      "git_blob_oid": "f9d171e3455432bcb4def9f38461e4db62f90aae",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/lds/MRZInfo.java",
+      "sha256": "3daa0914c71f5850c9c9aa7046665e066c7f0c54f2db73a1c04df5d0031a3a8f"
+    },
+    {
+      "git_blob_oid": "8233609c8042c534a799dc7a8ddf78ed580cee7d",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/lds/PACEDomainParameterInfo.java",
+      "sha256": "a9acfe3bec30560c6b893ad1d32352d177bb12f2339c05b601d14b7ad8fc4d9a"
+    },
+    {
+      "git_blob_oid": "facbc266454dc980b71af19a2e08f50e20a59d8a",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/lds/PACEInfo.java",
+      "sha256": "60e84fcd42a6b07e3b482bdcdc43b85b4a1026a5a8d1eb999dfe62383bc3d10c"
+    },
+    {
+      "git_blob_oid": "142c54a0cc589467bec2d8f8ae363f0d63752fb4",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/lds/SODFile.java",
+      "sha256": "491d94694b39a97b26af0a7c60394874e2d4dad1f81f5762989ac1db8763ed94"
+    },
+    {
+      "git_blob_oid": "5fe21880e3046a3201b759eb8b88e830f2baa64e",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/lds/SecurityInfo.java",
+      "sha256": "500da85d9f4ca0d7129941859e127f91230ef6d294da640b26966c95ddee0caf"
+    },
+    {
+      "git_blob_oid": "96fcace9e6190307b0c70706ea5434d56d307142",
+      "mode": "100644",
+      "path": "jmrtd/src/org/jmrtd/lds/TerminalAuthenticationInfo.java",
+      "sha256": "937ae031f1b437747a440f7b544309cec5ae61e6c18204fd6f395c5111d4017c"
+    },
+    {
+      "git_blob_oid": "b87303c39a7b176c5077c9122d6d00c1746a8ad1",
+      "mode": "100755",
+      "path": "passportapplet/LICENSE",
+      "sha256": "319917f5ccd09878db6f67c9a77dee846055644ca49eb535628b9e020a87261e"
+    },
+    {
+      "git_blob_oid": "b4176f0605e1906c592610b8db6c9743ded6024d",
+      "mode": "100644",
+      "path": "passportapplet/Makefile",
+      "sha256": "97c71a54a997eb80ee2d1de8de2b035dffda2f52890a7bfe1bcf4632d5f3693d"
+    },
+    {
+      "git_blob_oid": "9804dabcc328033d90af12e9418e6245e9b7013c",
+      "mode": "100644",
+      "path": "passportapplet/README",
+      "sha256": "fa65c5e43e5b962fc29cc279227d6e5b2414fdb5d432d6ce7dab5fbb9bd5fe0c"
+    },
+    {
+      "git_blob_oid": "3afd0582f8e069d2ca26ffb0863a6509aca6f9b3",
+      "mode": "100644",
+      "path": "passportapplet/applet.gpsh",
+      "sha256": "29edcea7e7217511e737ae1155fbeb0bbcda5cab20ee6e57f83323282aa68241"
+    },
+    {
+      "git_blob_oid": "96077d9c8aa49b3344fc59672bb9dd9b37522d65",
+      "mode": "100644",
+      "path": "passportapplet/src/sos/passportapplet/ATRGlobal.java",
+      "sha256": "0deba0ae326d43e9a73212d0d538534139d52ab9309fc90a84542cf58f40155b"
+    },
+    {
+      "git_blob_oid": "31deb6ffde1b77c7584f78bed4a40ad62ebfa10e",
+      "mode": "100644",
+      "path": "passportapplet/src/sos/passportapplet/BERTLVScanner.java",
+      "sha256": "0375a2843831756a411352286502f7dcf60455bfc338a1b92d83ffc8dd587442"
+    },
+    {
+      "git_blob_oid": "d3a6454827fa7e00c1cb2988d7e06026537d9c0d",
+      "mode": "100644",
+      "path": "passportapplet/src/sos/passportapplet/CREFPassportCrypto.java",
+      "sha256": "cb0c8aa4a2c81c0a1e59f732c0a38198f855cd69d3edd9dc112fb1980389285d"
+    },
+    {
+      "git_blob_oid": "6030e41c1853ec441f9fc45edd170b450376667a",
+      "mode": "100644",
+      "path": "passportapplet/src/sos/passportapplet/CVCertificate.java",
+      "sha256": "701a7d42c1c8678043eafea45307436feb9c5a8ac710b2d7a34f0ee39a4e32db"
+    },
+    {
+      "git_blob_oid": "fa3daacd01d35e00e877072aa585b26c0dae298e",
+      "mode": "100644",
+      "path": "passportapplet/src/sos/passportapplet/EvilInterface.java",
+      "sha256": "594c53bf16851ffd9b8521287b5b0556ca54c5b841508debd2b028042b89858a"
+    },
+    {
+      "git_blob_oid": "5923d7e4ec522f4d3af98d7284e62e8949199172",
+      "mode": "100644",
+      "path": "passportapplet/src/sos/passportapplet/EvilPassportApplet.java",
+      "sha256": "4143b6a3ffa57a85b80c15a9fe7ce96011d6bbd9953b6942102f8c87cec4b7c4"
+    },
+    {
+      "git_blob_oid": "80c65789df7a860270a8e07159c754b76405bde7",
+      "mode": "100644",
+      "path": "passportapplet/src/sos/passportapplet/FileSystem.java",
+      "sha256": "aad50bafdd6049d243d16b9fdda64d49bf90390609c64a052026ee01d13ceb1b"
+    },
+    {
+      "git_blob_oid": "36d6734c7b5d676a7d0794ab67f6b02c7fe9cd70",
+      "mode": "100644",
+      "path": "passportapplet/src/sos/passportapplet/JCOP41PassportCrypto.java",
+      "sha256": "071429690bc08988553309afe5a89976073f82d740400a079ee8e203b3762912"
+    },
+    {
+      "git_blob_oid": "bfbddf5d90490b3bb3b35f3215e17795defa4006",
+      "mode": "100644",
+      "path": "passportapplet/src/sos/passportapplet/KeyStore.java",
+      "sha256": "16519d68c3ac6161e5f3612765305633f60ffcaadc5a0a72e0b1a48a5070f45b"
+    },
+    {
+      "git_blob_oid": "ff1ea8cd423d3954ed2963852f994dbeb04f8056",
+      "mode": "100644",
+      "path": "passportapplet/src/sos/passportapplet/Log.java",
+      "sha256": "2ff5d13f6b9029ff2d053582f7f9eb4651e435aa770fc6cc308e26cff783d00b"
+    },
+    {
+      "git_blob_oid": "f6b09506f4e035dac32a94aeb39a339ba0f80253",
+      "mode": "100644",
+      "path": "passportapplet/src/sos/passportapplet/PassportApplet.java",
+      "sha256": "fcb8946830047b841bcc934665929e7a94ad246ea22f375eb0aa1cc59f675eaf"
+    },
+    {
+      "git_blob_oid": "57924fcdc0dd596d374cf5ee163c42836da420b1",
+      "mode": "100644",
+      "path": "passportapplet/src/sos/passportapplet/PassportCrypto.java",
+      "sha256": "dbdc4ca0bb1b4fc07fed6f79275a94715a39bae19ac19f3599ab51d302b8f620"
+    },
+    {
+      "git_blob_oid": "cc28afff19c37701f8b2cf49deb360a1425ca62b",
+      "mode": "100644",
+      "path": "passportapplet/src/sos/passportapplet/PassportInit.java",
+      "sha256": "0c87dbfc37e5ce0d68eadeb2d5b1cd240bee3ee6bde45270da75ee11e9a1ac04"
+    },
+    {
+      "git_blob_oid": "264e0bfffc78f7be34ed42dff21e4c4df545173b",
+      "mode": "100644",
+      "path": "passportapplet/src/sos/passportapplet/PassportUtil.java",
+      "sha256": "47bf90a85628ba9e25fc5134cd29223118ea3a0085080812520fe804c84c4ca0"
+    },
+    {
+      "git_blob_oid": "91ee9a52f41aee18aed30bed727ecfde0eef0be4",
+      "mode": "100644",
+      "path": "wsq_imageio/.classpath",
+      "sha256": "221a8c7b24c7fadfd6b71afe34fe81d5fe466a92f043aec7261610ed433e900d"
+    },
+    {
+      "git_blob_oid": "430fbc6ba797d7dcacd0a3d616a092fb13de41b5",
+      "mode": "100644",
+      "path": "wsq_imageio/.project",
+      "sha256": "defe3dd69b4cb969f04d2e492dd01aff9542cbecb2cbcf493823689f826a2bf2"
+    },
+    {
+      "git_blob_oid": "838bd9d69424290f7e947b867a3b4381e756dad8",
+      "mode": "100644",
+      "path": "wsq_imageio/.settings/org.eclipse.jdt.core.prefs",
+      "sha256": "3049e729a04dbcbd64e286d5906a994158f2084cff203d02ee1fd4d2cf5fbe7d"
+    },
+    {
+      "git_blob_oid": "01542d0ad141d53db2eda8b65c8a2765d501f004",
+      "mode": "100644",
+      "path": "wsq_imageio/build.xml",
+      "sha256": "eb6218fba033df61a4c266fed34d3ee31dda33f7bb10c42e5da5a1311b56cc8d"
+    },
+    {
+      "git_blob_oid": "5e9c1872d23724c4191090928bca907a52f8f0fc",
+      "mode": "100644",
+      "path": "wsq_imageio/src/org/jnbis/Bitmap.java",
+      "sha256": "196a04ea49796af37ca5dd1499f7961439953ec01b465f45bae2166546ff637a"
+    },
+    {
+      "git_blob_oid": "d584ddd3a9ffc4be37b4fc58c6e60e3882e12e12",
+      "mode": "100644",
+      "path": "wsq_imageio/src/org/jnbis/BitmapWithMetadata.java",
+      "sha256": "6a9191ff595411bc29970ce34a36c3ef1cb98bdcc8f249415332a12c1b965215"
+    },
+    {
+      "git_blob_oid": "5ce53c3ce775fcd4c380408bc482e9b03746cb31",
+      "mode": "100644",
+      "path": "wsq_imageio/src/org/jnbis/NISTConstants.java",
+      "sha256": "323079982ae340e2aa7e23d11426cdab2ae632dff3036e3b36bc0299254851d8"
+    },
+    {
+      "git_blob_oid": "0555b295d0c3336fd1de247266397522051c0d24",
+      "mode": "100644",
+      "path": "wsq_imageio/src/org/jnbis/WSQConstants.java",
+      "sha256": "33ac084b3c335438f102b8f4b3615e94874a1dbb9655f96652a5d9fc9295d372"
+    },
+    {
+      "git_blob_oid": "6793539aa7455c9bdb8f637549582e4191fd5283",
+      "mode": "100644",
+      "path": "wsq_imageio/src/org/jnbis/WSQDecoder.java",
+      "sha256": "898e920adfcbbf4a3f012e2032d79d070153b4da131b0dcc99711b81a109346f"
+    },
+    {
+      "git_blob_oid": "edc1e945abfec1258f07285c7b3e6ceec1d6d029",
+      "mode": "100644",
+      "path": "wsq_imageio/src/org/jnbis/WSQEncoder.java",
+      "sha256": "ccfa9a2eabdc90a3881027937fe8b0020ffa308995f45f2a70182b12f01fb7f7"
+    },
+    {
+      "git_blob_oid": "4bc82e6fbc8e65ddc4df07efe91cdd6c0c25fabf",
+      "mode": "100644",
+      "path": "wsq_imageio/src/org/jnbis/WSQHelper.java",
+      "sha256": "bc2ebc3cda192c8b8acce1186b14ec07f998f84bfc91e36eddac6d846c8e72a8"
+    },
+    {
+      "git_blob_oid": "592f44dd7dc4ff3eada366ac7e5358e298d33e45",
+      "mode": "100644",
+      "path": "wsq_imageio/src/org/jnbis/imageio/ImageInputStreamAdapter.java",
+      "sha256": "232d46cbf1b48a7c68d4a6a4e6b26cb5780406d217e52a1133d942ef422650bf"
+    },
+    {
+      "git_blob_oid": "72cc68e436dc9fb0f449ae632c5249df645cbb35",
+      "mode": "100644",
+      "path": "wsq_imageio/src/org/jnbis/imageio/ImageOutputStreamAdapter.java",
+      "sha256": "820112db5a4d82e25263fbedad62c55f17ac1e9969bd4e1e99bb8bd15f76978e"
+    },
+    {
+      "git_blob_oid": "20729595890890717646abf5db30e23e2688c220",
+      "mode": "100644",
+      "path": "wsq_imageio/src/org/jnbis/imageio/WSQImageReader.java",
+      "sha256": "a6548557cb708847956c31aea6181c0ad85ff000c22cd7ccba2b79c7fa16b412"
+    },
+    {
+      "git_blob_oid": "f16769e5dc4620b70fa4f2efd415241503517e03",
+      "mode": "100644",
+      "path": "wsq_imageio/src/org/jnbis/imageio/WSQImageReaderSpi.java",
+      "sha256": "1d8cf3c728de3e6f84f4bdc3152d0400aeaab1f81624a3d8785147f2d509978c"
+    },
+    {
+      "git_blob_oid": "684a2cd19495d4cd39f9ff74587f50b02480fc69",
+      "mode": "100644",
+      "path": "wsq_imageio/src/org/jnbis/imageio/WSQImageWriteParam.java",
+      "sha256": "4ef4dbb5d2c129ecfccf665edfa896bb659b589ceaa9c685c7887a85fc3a411b"
+    },
+    {
+      "git_blob_oid": "cea1b47b198533d7affc126a6b68cc55fff3a9bb",
+      "mode": "100644",
+      "path": "wsq_imageio/src/org/jnbis/imageio/WSQImageWriter.java",
+      "sha256": "6cd4127074a92df0a43f47632927e2cbc6af33c3e9d6e0dc25861f40cf4026ba"
+    },
+    {
+      "git_blob_oid": "64095c1fcab28ccc6cb81ef492a065b215ab6561",
+      "mode": "100644",
+      "path": "wsq_imageio/src/org/jnbis/imageio/WSQImageWriterSpi.java",
+      "sha256": "dd25a2c96bbcde61b590c16756933b9a6dcc4cc71e21fac1256e9c8bd334bf0b"
+    },
+    {
+      "git_blob_oid": "e47dd1b1584d5672bffdd5b8d53fd87ce2d2cf57",
+      "mode": "100644",
+      "path": "wsq_imageio/src/org/jnbis/imageio/WSQMetadata.java",
+      "sha256": "d4835bb650b4bfe427412ffb6d2491d3ed5ce055c05613c2e0729c7ffb63aea5"
+    },
+    {
+      "git_blob_oid": "3c044e496d2efc8c5ef84a659e53ed2a8fa93236",
+      "mode": "100644",
+      "path": "wsq_imageio/src/org/jnbis/imageio/WSQMetadataFormat.java",
+      "sha256": "404dabcaea6c43fed9e27e039257341a7a5bd8859e0805379f25b16f1e3d39d3"
+    },
+    {
+      "git_blob_oid": "4626162eb04cd1d562eefa6b9a57184d7e50bfa2",
+      "mode": "100644",
+      "path": "wsq_imageio/src/org/jnbis/imageio/test/WSQTest.java",
+      "sha256": "d41f6e6797cfde50398b55f7b2374383f92f07032ea370f20b7041dbd796ef91"
+    },
+    {
+      "git_blob_oid": "65fb67f451a0d4a5db6bedc6c5fe2f8686999dab",
+      "mode": "100644",
+      "path": "wsq_imageio/src/org/jnbis/test/WSQTest.java",
+      "sha256": "615d953a11108a1c7783e95f2156767ba6ddeea929d02c9d21226d7e3c370281"
+    }
+  ],
+  "generated_at_utc_runner_clock": "2026-11-13T19:04:15.755874+00:00",
+  "limits": [
+    "Git author and timestamp fields are declared metadata, not verified identity or trusted time.",
+    "Hashes identify recorded bytes; they do not prove authorship, originality, ownership or infringement.",
+    "The report contains paths and hashes, not source-file contents.",
+    "The runner clock is not a trusted timestamp authority.",
+    "Third-party and joint contributions retain applicable rights and licenses.",
+    "The ledger branch is versioned evidence, not immutable storage.",
+    "Only this repository and triggered refs are covered."
+  ],
+  "manifest_type": "AEGIS_GITHUB_IP_SHIELD_PROVENANCE",
+  "manifest_version": "1.0",
+  "ref": "refs/heads/aegis/ip-shield-bootstrap-2026-11-13",
+  "ref_name": "aegis/ip-shield-bootstrap-2026-11-13",
+  "repository": "irstabyjorge/JMRTD",
+  "tree": "d2507f1bb3b49eec3d14200c111c6c01c334ff0f",
+  "workflow_run_attempt": "1",
+  "workflow_run_id": "43487675869"
+}
